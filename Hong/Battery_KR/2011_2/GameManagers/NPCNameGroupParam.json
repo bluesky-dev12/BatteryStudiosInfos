@@ -1,0 +1,887 @@
+[
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "쿠우우 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Eternal Song"
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "핑키 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "iBot "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "eBot "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Bottery "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Mr.Cha "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "흑수선 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "케이준 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "알렉쉘 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "루파스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "배터리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "충전 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Parksimus "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "bini "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "jayunis "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "전투봇전 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "combatant "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "AI "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "ROB "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Char "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "wall-e "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "케이티 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "sgt, panda "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "판다병장 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Legend "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "비밀병기8호 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "장병장 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "잉여 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "울프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "말년병장 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "무명스나 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "쿨가이 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "페인킬러 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "찬느님 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "해적왕 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "원샷원킬 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "까마귀 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "드록신 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "또치상병 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "둘리병장 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "도우너이병 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "마이콜장군 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "원스타 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "재떨이중사 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "카이사르 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "셀 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "베네딕트 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "베드리히 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "브루투스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "바쿠스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "네로 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "막시무스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "알렉산더 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "치크치크 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "John Pedersen "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Shawn Alderton "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Daniel Vane "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "George O'Brien "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Andrei Basov "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Nikolai Kurkov "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Igor Nabokov "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Vladimir Radulov "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "김선생님 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "바바바바바 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "봇의눈물 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Rafucky "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "진봇개 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "봇이고개 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "파라노이드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "안드로이드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "드로이드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "포루프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "이프널 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "폴트케이스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "RPG의위엄  "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "봇이왠성화 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "브라이언 코벤 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "존 베일 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "리논 아타클린 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Victor "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "니콜라이 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "하르세츠메다이 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "잭슨 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "제리코 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "스웨거 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "데이비드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "조 헨더슨 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "바르살리크 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Gordon "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "헤이든 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "에브게니아 이반 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "이바노비치 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "잭 스위프트 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "James Morrison "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "맥클로스키 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "페트로프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "리처드 필립 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "맥 모건 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "케빈 스틸리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "니콜라예비치 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "폴 그레헴 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "베르치에코프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "바실리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "하인츠 구데리안 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "이바노브비치 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Michle Phinbel "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "더글러스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "더스틴 밴스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "라이 커슨 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "로버트E 리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Allen Yoon "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "존웨이커 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "블레이스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "체렌코프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "로만 젠소프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "샘 마일즈 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "루슬란 예니게프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "데이비드 맥켐벨 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "안드라이 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "카를 구스타프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "글라도스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "칼리시코프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "판필로프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "도스먼 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Carl Gustav "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "비존"
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "알렉세이 브로닌 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "포자르스키 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "유진 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "드레이크 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "니콜라이 샤샤 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "밀러 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "존 페이버 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "James Nolan "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "빈토레즈 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "체라니드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "테일러 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "앤드류 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "마그라노프.K "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "플초 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "데니스 제네로 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "M.알렉스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "에스코프키 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "스티븐 다니엘 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "리퍼 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Hank Irvine "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "제니스 몰리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Joe Lewis "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Heinz Guderian "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "안토리아 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "첸코프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "자니 블레이드 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "제임스.KM "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "저스틴 위슬리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "니키타 미할코프 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "마이클 헤스키 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "스미스 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "리틀.J "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "볼프만 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "차도프 이반 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "로스케 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "크로스 킹 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "멜니크 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "배터리충전 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "한니발 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "크라즈니 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "토르센 얀코 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "스칼라치 헤릭슨 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "네이츠 홀즈 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "크렌더 휘버 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "빌 세르던 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "알버트에이브럼 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "크리스토퍼 핸리 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "쿠노 에벨라 "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 1,
+    "NickName": "Nicholas Hoult "
+  },
+  {
+    "GroupID": 10,
+    "NickName_Type": 2,
+    "NickName": "제라드 빅 "
+  }
+]

@@ -1,0 +1,32 @@
+class RocketSmokeRing extends wEmitter;
+
+defaultproperties
+{
+    mSpawningType=7
+    mRegen=false
+    mStartParticles=15
+    mMaxParticles=15
+    mLifeRange[0]=1.3000000
+    mLifeRange[1]=1.7000000
+    mRegenRange[0]=0.0000000
+    mRegenRange[1]=0.0000000
+    mPosDev=(X=20.0000000,Y=20.0000000,Z=20.0000000)
+    mSpeedRange[0]=100.0000000
+    mSpeedRange[1]=100.0000000
+    mPosRelative=true
+    mAirResistance=1.9000000
+    mRandOrient=true
+    mSpinRange[0]=-50.0000000
+    mSpinRange[1]=50.0000000
+    mSizeRange[0]=20.0000000
+    mSizeRange[1]=30.0000000
+    mGrowthRate=40.0000000
+    mAttenKa=0.0000000
+    mAttenKb=0.5000000
+    mAttenFunc=2
+    mRandTextures=true
+    mNumTileColumns=4
+    mNumTileRows=4
+    Skins[0]=Texture'XEffects_Decompressed.SmokeAlphab_t'
+    Style=5
+}

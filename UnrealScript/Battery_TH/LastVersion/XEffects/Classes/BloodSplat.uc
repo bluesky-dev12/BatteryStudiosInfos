@@ -1,0 +1,1 @@
+class BloodSplat extends wEmitter;

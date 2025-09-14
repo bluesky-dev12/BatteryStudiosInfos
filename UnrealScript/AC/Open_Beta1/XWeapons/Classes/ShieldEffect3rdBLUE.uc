@@ -1,0 +1,1 @@
+class ShieldEffect3rdBLUE extends ShieldEffect3rd;

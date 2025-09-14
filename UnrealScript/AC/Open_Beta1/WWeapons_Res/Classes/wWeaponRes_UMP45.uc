@@ -1,0 +1,29 @@
+class wWeaponRes_UMP45 extends wWeaponRes_Base;
+
+defaultproperties
+{
+    szClass_Shell="Xeffects.ShellSpewer_9"
+    szClass_Shell_3rd="Xeffects.ShellSpewer_9_3rd"
+    fTracerPop=0.5000000
+    szClass_Muzz_1st="Xeffects.SMG_MuzFlash_02_1RD"
+    szClass_Muzz_3rd="Xeffects.SMG_MuzFlash_02_3RD"
+    szClass_Smoke_1st="XEffects.AssaultMuzzleSmoke"
+    szClass_Smoke_3rd="Xeffects.SMG_MuzFlash_smoke_3rd"
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_SMG_UMP45"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=128,Y=104,W=128,H=32)
+    szType_DisplayAmmo="ammo50"
+    sound_Fire=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_fire'
+    sound_Fire_Stereo=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_fire_s'
+    sound_Fire_Silencer=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_fire_silencer'
+    sound_Fire_Silencer_Stereo=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_fire_silencer_s'
+    sound_Fire_Shell=SoundGroup'Warfare_Sound_Weapon.shell.shell_9mm'
+    sound_Fire_Empty=Sound'Warfare_Sound_Weapon.dryfire.weapon_smg_fire_nobullet'
+    sound_Melee_Ok=SoundGroup'Warfare_Sound_Weapon.buttplate.weapon_melee_buttplate_attack'
+    sound_Melee_Miss=SoundGroup'Warfare_Sound_Weapon.buttplate.weapon_melee_buttplate_miss'
+    sound_Reload=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_reload'
+    sound_ReloadEmpty=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_reload_empty'
+    sound_Select=Sound'Warfare_Sound_Weapon.UMP45.weapon_ump45_select'
+    sound_Pickup=SoundGroup'Warfare_Sound_Char.GetItem.char_getitem_weapon'
+    sound_Select_New=Sound'Warfare_Sound_Weapon.UMP45.weapon_UMP45_select_n'
+}

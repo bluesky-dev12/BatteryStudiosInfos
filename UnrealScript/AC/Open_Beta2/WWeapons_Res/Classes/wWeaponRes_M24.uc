@@ -1,0 +1,32 @@
+class wWeaponRes_M24 extends wWeaponRes_Base;
+
+defaultproperties
+{
+    szClass_Shell="Xeffects.ShellSpewer_127"
+    szClass_Shell_3rd="Xeffects.ShellSpewer_127_3rd"
+    fTracerPop=1.0000000
+    szClass_Muzz_1st="Xeffects.SR_MuzFlash_01_1RD"
+    szClass_Muzz_3rd="Xeffects.SR_MuzFlash_01_3RD"
+    szClass_Smoke_1st="XEffects.AssaultMuzzleSmoke"
+    szClass_Smoke_3rd="Xeffects.SR_MuzFlash_smoke_3rd"
+    effect_Melee_Attack1=Class'XEffects.HitEffect_Stock_Meleeattack'
+    effect_Melee_Attack2=Class'XEffects.HitEffect_Stock_Meleeattack'
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_SR_M24"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=256,Y=240,W=128,H=32)
+    szType_DisplayAmmo="ammoSniper"
+    fsound_Fire="Warfare_Sound_Weapon/SR/m24/fire"
+    fsound_Fire_Stereo="Warfare_Sound_Weapon/SR/m24/fire_s"
+    fsound_Fire_Shell="Warfare_Sound_Weapon/ETC/shell/shell_762mm"
+    fsound_Fire_Empty="Warfare_Sound_Weapon/ETC/dryfire/weapon_sr_fire_nobullet"
+    fsound_Melee_Ok="Warfare_Sound_Weapon/ETC/buttplate/weapon_melee_buttplate_attack"
+    fsound_Melee_Miss="Warfare_Sound_Weapon/ETC/buttplate/weapon_melee_buttplate_miss"
+    fsound_Rechamber="Warfare_Sound_Weapon/SR/CheyTac/rechamber"
+    fsound_Reload="Warfare_Sound_Weapon/SR/m24/reload_loop"
+    fsound_ReloadEmpty="Warfare_Sound_Weapon/SR/m24/reload_empty"
+    fsound_ReloadBegin="Warfare_Sound_Weapon/SR/m24/reload_start"
+    fsound_ReloadEnd="Warfare_Sound_Weapon/SR/m24/reload_end"
+    fsound_Select="Warfare_Sound_Weapon/SR/m24/select"
+    fsound_Pickup="Warfare_Sound_Char/GetItem/char_getitem_weapon"
+    fsound_Select_New="Warfare_Sound_Weapon/SR/m24/select_n"
+}

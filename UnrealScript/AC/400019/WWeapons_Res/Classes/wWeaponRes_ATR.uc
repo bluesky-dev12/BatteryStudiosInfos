@@ -1,0 +1,36 @@
+class wWeaponRes_ATR extends wWeaponRes_Base;
+
+defaultproperties
+{
+    stProj=StaticMesh'WPS_HW.ATR_Warhead'
+    szClass_Muzz_1st="Xeffects.RPG_MuzFlash_1RD"
+    szClass_Muzz_3rd="XEffects.RPG_MuzFlash_smoke_F_3RD"
+    szClass_Smoke_1st="XEffects.RPG_MuzzleSmoke_1RD"
+    effect_Explosion=Class'XEffects.XWFX_Grenade_explosion'
+    effect_Explosion_dirt=Class'XEffects.XWFX_Grenade_explosion_dirt'
+    effect_Explosion_grass=Class'XEffects.XWFX_Grenade_explosion_grass'
+    effect_Explosion_metal=Class'XEffects.XWFX_Grenade_explosion_metal'
+    effect_Explosion_snow=Class'XEffects.XWFX_Grenade_explosion_snow'
+    effect_Explosion_water=Class'XEffects.XWFX_Grenade_explosion_water'
+    effect_Explosion_wood=Class'XEffects.XWFX_Grenade_explosion_wood'
+    Proj_Smoke=Class'XEffects.WFX_RocketTrailSmoke'
+    Proj_ExplosionDecal=Class'XEffects.RocketMark'
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_HW_AT4"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=128,Y=2,W=128,H=32)
+    szType_DisplayAmmo="ammoRPG"
+    fsound_Fire="Warfare_Sound_Weapon/SP/RPG7/fire"
+    fsound_Fire_Stereo="Warfare_Sound_Weapon/SP/RPG7/fire_s"
+    fsound_Fire_Shell="Warfare_Sound_Weapon/ETC/shell/shell_762mm"
+    fsound_Fire_Empty="Warfare_Sound_Weapon/ETC/dryfire/weapon_ar_fire_nobullet"
+    fsound_Explosion="Warfare_Sound_Weapon/SP/RPG7/explosion"
+    fsound_Melee_Ok="Warfare_Sound_Weapon/ETC/Knife/weapon_melee_knife_attack"
+    fsound_Melee_Miss="Warfare_Sound_Weapon/ETC/Knife/weapon_melee_knife_miss"
+    fsound_Reload="Warfare_Sound_Weapon/SP/ATR/reload"
+    fsound_Select="Warfare_Sound_Weapon/SP/RPG7/select"
+    fsound_Pickup="Warfare_Sound_Char/GetItem/char_getitem_weapon"
+    fsound_Bullet_Move="Warfare_Sound_Weapon/SP/RPG7/projectile"
+    fsound_Select_New="Warfare_Sound_Weapon/SP/RPG7/select_n"
+    bDelayedDamage=true
+    Use2ndAni=true
+}

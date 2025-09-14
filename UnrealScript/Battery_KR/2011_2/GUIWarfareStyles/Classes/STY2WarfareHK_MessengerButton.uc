@@ -1,0 +1,30 @@
+class STY2WarfareHK_MessengerButton extends GUI2Styles
+    instanced;
+
+defaultproperties
+{
+    KeyName="STY2WarfareHK_MessengerButton"
+    FontSizes[0]=11
+    FontSizes[1]=11
+    FontSizes[2]=11
+    FontSizes[3]=11
+    FontSizes[4]=11
+    FontColors[0]=(R=164,G=164,B=164,A=255)
+    FontColors[1]=(R=255,G=168,B=3,A=255)
+    FontColors[2]=(R=255,G=168,B=3,A=255)
+    FontColors[3]=(R=33,G=33,B=33,A=255)
+    FontColors[4]=(R=33,G=33,B=33,A=255)
+    FontShadowColor[3]=(R=222,G=222,B=222,A=255)
+    FontShadowColor[4]=(R=222,G=222,B=222,A=255)
+    FontShadowOffset[0]=1
+    FontShadowOffset[1]=1
+    FontShadowOffset[2]=1
+    FontShadowOffset[3]=1
+    FontShadowOffset[4]=1
+    ImgColors[4]=(R=255,G=255,B=255,A=255)
+    Images[0]=Texture'Warfare_UI_UI.Common.tap_n'
+    Images[1]=Texture'Warfare_UI_UI.Common.tap_on'
+    Images[2]=Texture'Warfare_UI_UI.Common.tap_foc'
+    Images[3]=Texture'Warfare_UI_UI.Common.tap_cli'
+    Images[4]=Texture'Warfare_UI_UI.Common.tap_dis'
+}

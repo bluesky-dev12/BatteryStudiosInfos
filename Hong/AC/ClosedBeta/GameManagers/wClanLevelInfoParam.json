@@ -1,0 +1,218 @@
+[
+  {
+    "Level": 0,
+    "LevelName_Type": 0,
+    "LevelName": "",
+    "AccumExp": 0
+  },
+  {
+    "Level": 1,
+    "LevelName_Type": 1,
+    "LevelName": "F5",
+    "AccumExp": 950
+  },
+  {
+    "Level": 2,
+    "LevelName_Type": 1,
+    "LevelName": "F4",
+    "AccumExp": 2100
+  },
+  {
+    "Level": 3,
+    "LevelName_Type": 1,
+    "LevelName": "F3",
+    "AccumExp": 3530
+  },
+  {
+    "Level": 4,
+    "LevelName_Type": 1,
+    "LevelName": "F2",
+    "AccumExp": 5230
+  },
+  {
+    "Level": 5,
+    "LevelName_Type": 1,
+    "LevelName": "F1",
+    "AccumExp": 7210
+  },
+  {
+    "Level": 6,
+    "LevelName_Type": 1,
+    "LevelName": "E5",
+    "AccumExp": 9460
+  },
+  {
+    "Level": 7,
+    "LevelName_Type": 1,
+    "LevelName": "E4",
+    "AccumExp": 12030
+  },
+  {
+    "Level": 8,
+    "LevelName_Type": 1,
+    "LevelName": "E3",
+    "AccumExp": 14960
+  },
+  {
+    "Level": 9,
+    "LevelName_Type": 1,
+    "LevelName": "E2",
+    "AccumExp": 18300
+  },
+  {
+    "Level": 10,
+    "LevelName_Type": 1,
+    "LevelName": "E1",
+    "AccumExp": 22080
+  },
+  {
+    "Level": 11,
+    "LevelName_Type": 1,
+    "LevelName": "D5",
+    "AccumExp": 26350
+  },
+  {
+    "Level": 12,
+    "LevelName_Type": 1,
+    "LevelName": "D4",
+    "AccumExp": 31180
+  },
+  {
+    "Level": 13,
+    "LevelName_Type": 1,
+    "LevelName": "D3",
+    "AccumExp": 36590
+  },
+  {
+    "Level": 14,
+    "LevelName_Type": 1,
+    "LevelName": "D2",
+    "AccumExp": 42650
+  },
+  {
+    "Level": 15,
+    "LevelName_Type": 1,
+    "LevelName": "D1",
+    "AccumExp": 49380
+  },
+  {
+    "Level": 16,
+    "LevelName_Type": 1,
+    "LevelName": "C5",
+    "AccumExp": 56850
+  },
+  {
+    "Level": 17,
+    "LevelName_Type": 1,
+    "LevelName": "C4",
+    "AccumExp": 65140
+  },
+  {
+    "Level": 18,
+    "LevelName_Type": 1,
+    "LevelName": "C3",
+    "AccumExp": 74260
+  },
+  {
+    "Level": 19,
+    "LevelName_Type": 1,
+    "LevelName": "C2",
+    "AccumExp": 84300
+  },
+  {
+    "Level": 20,
+    "LevelName_Type": 1,
+    "LevelName": "C1",
+    "AccumExp": 95240
+  },
+  {
+    "Level": 21,
+    "LevelName_Type": 1,
+    "LevelName": "B5",
+    "AccumExp": 107160
+  },
+  {
+    "Level": 22,
+    "LevelName_Type": 1,
+    "LevelName": "B4",
+    "AccumExp": 120040
+  },
+  {
+    "Level": 23,
+    "LevelName_Type": 1,
+    "LevelName": "B3",
+    "AccumExp": 133950
+  },
+  {
+    "Level": 24,
+    "LevelName_Type": 1,
+    "LevelName": "B2",
+    "AccumExp": 148840
+  },
+  {
+    "Level": 25,
+    "LevelName_Type": 1,
+    "LevelName": "B1",
+    "AccumExp": 164770
+  },
+  {
+    "Level": 26,
+    "LevelName_Type": 1,
+    "LevelName": "A5",
+    "AccumExp": 181820
+  },
+  {
+    "Level": 27,
+    "LevelName_Type": 1,
+    "LevelName": "A4",
+    "AccumExp": 200070
+  },
+  {
+    "Level": 28,
+    "LevelName_Type": 1,
+    "LevelName": "A3",
+    "AccumExp": 219590
+  },
+  {
+    "Level": 29,
+    "LevelName_Type": 1,
+    "LevelName": "A2",
+    "AccumExp": 240470
+  },
+  {
+    "Level": 30,
+    "LevelName_Type": 1,
+    "LevelName": "A1",
+    "AccumExp": 263020
+  },
+  {
+    "Level": 31,
+    "LevelName_Type": 1,
+    "LevelName": "S5",
+    "AccumExp": 287370
+  },
+  {
+    "Level": 32,
+    "LevelName_Type": 1,
+    "LevelName": "S4",
+    "AccumExp": 313670
+  },
+  {
+    "Level": 33,
+    "LevelName_Type": 1,
+    "LevelName": "S3",
+    "AccumExp": 342080
+  },
+  {
+    "Level": 34,
+    "LevelName_Type": 1,
+    "LevelName": "S2",
+    "AccumExp": 372760
+  },
+  {
+    "Level": 35,
+    "LevelName_Type": 1,
+    "LevelName": "S1",
+    "AccumExp": 999999999
+  }
+]

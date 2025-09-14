@@ -1,0 +1,30 @@
+class RegenCrosses extends wEmitter;
+
+defaultproperties
+{
+    mSpawningType=6
+    mStartParticles=0
+    mMaxParticles=20
+    mLifeRange[0]=2.0000000
+    mLifeRange[1]=2.0000000
+    mRegenRange[0]=10.0000000
+    mRegenRange[1]=10.0000000
+    mPosDev=(X=35.0000000,Y=35.0000000,Z=45.0000000)
+    mSpeedRange[0]=0.0000000
+    mSpeedRange[1]=0.0000000
+    mMassRange[0]=-0.1000000
+    mMassRange[1]=-0.1000000
+    mAirResistance=2.0000000
+    mOwnerVelocityFactor=1.0000000
+    mSizeRange[0]=6.0000000
+    mSizeRange[1]=6.0000000
+    mAttenKa=0.5000000
+    mAttenFunc=1
+    bTrailerSameRotation=true
+    bNetTemporary=false
+    bReplicateMovement=false
+    Physics=10
+    RemoteRole=2
+    LifeSpan=60.0000000
+    Style=6
+}

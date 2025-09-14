@@ -1,0 +1,31 @@
+class wWeaponRes_MP5Custom extends wWeaponRes_Base;
+
+defaultproperties
+{
+    szClass_Shell="Xeffects.ShellSpewer_9"
+    szClass_Shell_3rd="Xeffects.ShellSpewer_9_3rd"
+    fTracerPop=0.5000000
+    szClass_Muzz_1st="Xeffects.SMG_MuzFlash_01_1RD"
+    szClass_Muzz_3rd="Xeffects.SMG_MuzFlash_01_3RD"
+    szClass_Smoke_1st="XEffects.AssaultMuzzleSmoke"
+    szClass_Smoke_3rd="Xeffects.SMG_MuzFlash_smoke_3rd"
+    effect_Melee_Attack1=Class'XEffects.HitEffect_knife_Meleeattack'
+    effect_Melee_Attack2=Class'XEffects.HitEffect_knife_Meleeattack'
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_SMG_MP5Custom"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=128,Y=954,W=128,H=32)
+    szType_DisplayAmmo="ammo50"
+    fsound_Fire="Warfare_Sound_Weapon/SMG/MP5Custom/fire"
+    fsound_Fire_Stereo="Warfare_Sound_Weapon/SMG/MP5Custom/fire_s"
+    fSound_Fire_Silencer="Warfare_Sound_Weapon/SMG/MP5Custom/fire_silencer"
+    fsound_Fire_Silencer_Stereo="Warfare_Sound_Weapon/SMG/MP5Custom/fire_silencer_s"
+    fsound_Fire_Shell="Warfare_Sound_Weapon/ETC/shell/shell_9mm"
+    fsound_Fire_Empty="Warfare_Sound_Weapon/ETC/dryfire/weapon_smg_fire_nobullet"
+    fsound_Melee_Ok="Warfare_Sound_Weapon/ETC/buttplate/weapon_melee_buttplate_attack"
+    fsound_Melee_Miss="Warfare_Sound_Weapon/ETC/buttplate/weapon_melee_buttplate_miss"
+    fsound_Reload="Warfare_Sound_Weapon/SMG/MP5Custom/reload"
+    fsound_ReloadEmpty="Warfare_Sound_Weapon/SMG/MP5Custom/reload_empty"
+    fsound_Select="Warfare_Sound_Weapon/SMG/MP5Custom/select"
+    fsound_Pickup="Warfare_Sound_Char/GetItem/char_getitem_weapon"
+    fsound_Select_New="Warfare_Sound_Weapon/SMG/MP5Custom/select_n"
+}

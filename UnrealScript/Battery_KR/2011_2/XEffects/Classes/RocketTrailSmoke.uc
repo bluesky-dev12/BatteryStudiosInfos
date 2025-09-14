@@ -1,0 +1,29 @@
+class RocketTrailSmoke extends wEmitter;
+
+defaultproperties
+{
+    mStartParticles=0
+    mMaxParticles=150
+    mLifeRange[0]=1.2500000
+    mLifeRange[1]=1.2500000
+    mRegenRange[0]=90.0000000
+    mRegenRange[1]=90.0000000
+    mSpeedRange[0]=0.0000000
+    mSpeedRange[1]=0.0000000
+    mMassRange[0]=-0.0300000
+    mMassRange[1]=-0.0100000
+    mRandOrient=true
+    mSpinRange[0]=-75.0000000
+    mSpinRange[1]=75.0000000
+    mSizeRange[0]=15.0000000
+    mSizeRange[1]=20.0000000
+    mGrowthRate=13.0000000
+    mColorRange[1]=(R=255,G=210,B=210,A=255)
+    mAttenFunc=1
+    mRandTextures=true
+    mNumTileColumns=4
+    mNumTileRows=4
+    CullDistance=10000.0000000
+    Physics=10
+    Style=5
+}

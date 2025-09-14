@@ -1,0 +1,145 @@
+[
+  {
+    "PaintingID": 0,
+    "PaintingGroupID_Type": 0,
+    "PaintingGroupID": "",
+    "PaintingNum": 0,
+    "PaintingItemID": 0,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 0,
+    "strUI_Icon": ""
+  },
+  {
+    "PaintingID": 1001,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 0,
+    "PaintingItemID": 0,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_blank"
+  },
+  {
+    "PaintingID": 1002,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 1,
+    "PaintingItemID": 22005,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_desert"
+  },
+  {
+    "PaintingID": 1003,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 2,
+    "PaintingItemID": 22006,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_digital"
+  },
+  {
+    "PaintingID": 1004,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 3,
+    "PaintingItemID": 22007,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_woodland"
+  },
+  {
+    "PaintingID": 1005,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 4,
+    "PaintingItemID": 22008,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_multicam"
+  },
+  {
+    "PaintingID": 1006,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Base_1",
+    "PaintingNum": 5,
+    "PaintingItemID": 22009,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_snow"
+  },
+  {
+    "PaintingID": 1021,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 0,
+    "PaintingItemID": 0,
+    "RepairCost": 0.0,
+    "UI_Durability": 0,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_blank"
+  },
+  {
+    "PaintingID": 1022,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 1,
+    "PaintingItemID": 22005,
+    "RepairCost": 0.8,
+    "UI_Durability": 1,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_desert"
+  },
+  {
+    "PaintingID": 1023,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 2,
+    "PaintingItemID": 22006,
+    "RepairCost": 0.8,
+    "UI_Durability": 1,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_digital"
+  },
+  {
+    "PaintingID": 1024,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 3,
+    "PaintingItemID": 22007,
+    "RepairCost": 0.8,
+    "UI_Durability": 1,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_woodland"
+  },
+  {
+    "PaintingID": 1025,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 4,
+    "PaintingItemID": 22008,
+    "RepairCost": 0.8,
+    "UI_Durability": 1,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_multicam"
+  },
+  {
+    "PaintingID": 1026,
+    "PaintingGroupID_Type": 1,
+    "PaintingGroupID": "MW_Shop_1",
+    "PaintingNum": 5,
+    "PaintingItemID": 22009,
+    "RepairCost": 0.8,
+    "UI_Durability": 1,
+    "strUI_Icon_Type": 1,
+    "strUI_Icon": "Warfare_UI_Item.ShopIcon.item_item_CF_snow"
+  }
+]

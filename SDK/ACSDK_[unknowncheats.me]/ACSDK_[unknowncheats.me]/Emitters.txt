@@ -1,0 +1,141 @@
+BG_FX_dust_sand_large DM-mirage.BG_FX_dust_sand_large2 :
+	SpriteEmitter DM-mirage.SpriteEmitter1 [][smoke05]
+BG_FX_dust_sand_large DM-mirage.BG_FX_dust_sand_large1 :
+	SpriteEmitter DM-mirage.SpriteEmitter8 [][smoke05]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire0 :
+	SpriteEmitter DM-mirage.SpriteEmitter7 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter9 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter10 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire1 :
+	SpriteEmitter DM-mirage.SpriteEmitter14 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter15 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter16 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire2 :
+	SpriteEmitter DM-mirage.SpriteEmitter20 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter21 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter22 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire3 :
+	SpriteEmitter DM-mirage.SpriteEmitter26 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter27 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter28 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire5 :
+	SpriteEmitter DM-mirage.SpriteEmitter32 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter33 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter34 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire9 :
+	SpriteEmitter DM-mirage.SpriteEmitter4 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter6 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter11 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire7 :
+	SpriteEmitter DM-mirage.SpriteEmitter47 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter48 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter49 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire8 :
+	SpriteEmitter DM-mirage.SpriteEmitter53 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter54 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter55 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire4 :
+	SpriteEmitter DM-mirage.SpriteEmitter39 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter40 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter41 [][smoke_far]
+BG_FX_bonfire DM-mirage.BG_FX_bonfire6 :
+	SpriteEmitter DM-mirage.SpriteEmitter38 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter42 [][flamethrower_down_fire03]
+	SpriteEmitter DM-mirage.SpriteEmitter43 [][smoke_far]
+BG_FX_dust_sand_large DM-mirage.BG_FX_dust_sand_large0 :
+	SpriteEmitter DM-mirage.SpriteEmitter5 [][smoke05]
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter4345 [][Warfare_Tracer]
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter4240 [][Warfare_Tracer]
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter4304 [][Strobo_light_Blue]
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter3637 [][Warfare_Tracer]
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter4407 [][Warfare_Tracer]
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+HitEffect_Dirt_hit DM-mirage.HitEffect_Dirt_hit :
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter99 [][Strobo_light_Blue]
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+XWFX_Grenade_smoke DM-mirage.XWFX_Grenade_smoke :
+	SpriteEmitter DM-mirage.SpriteEmitter3460 [][exp7_frames]
+	SpriteEmitter DM-mirage.SpriteEmitter3461 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter3462 [][flank_bullet]
+	SpriteEmitter DM-mirage.SpriteEmitter3463 [][explo_sm_a]
+	SpriteEmitter DM-mirage.SpriteEmitter3464 [][explo_particle]
+	SpriteEmitter DM-mirage.SpriteEmitter3465 [][explo_particle]
+	SpriteEmitter DM-mirage.SpriteEmitter3466 [][smke_gren]
+	SpriteEmitter DM-mirage.SpriteEmitter3467 [][smke_gren]
+	SpriteEmitter DM-mirage.SpriteEmitter3468 [][explo_sub_smoke_no]
+	SpriteEmitter DM-mirage.SpriteEmitter3469 [][explo_sub_smoke_no]
+	SpriteEmitter DM-mirage.SpriteEmitter3470 [][explo_sub_smoke_no]
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter3694 [][Strobo_light_Blue]
+HitEffect_Dirt_hit DM-mirage.HitEffect_Dirt_hit :
+HitEffect_blood_headshot_hit DM-mirage.HitEffect_blood_headshot_hit :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+HitEffect_blood_headshot_hit DM-mirage.HitEffect_blood_headshot_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter4151 [][Strobo_light_Blue]
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter3927 [][Warfare_Tracer]
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+HitEffect_rock_hit DM-mirage.HitEffect_rock_hit :
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter4542 [][Strobo_light_Blue]
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :
+HitEffect_Dirt_hit DM-mirage.HitEffect_Dirt_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter575 [][Strobo_light_Blue]
+Warfare_Tracer DM-mirage.Warfare_Tracer :
+	SpriteEmitter DM-mirage.SpriteEmitter4325 [][Warfare_Tracer]
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+HitEffect_Concrete_hit DM-mirage.HitEffect_Concrete_hit :
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+HitEffect_rock_hit DM-mirage.HitEffect_rock_hit :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+HitEffect_brick_hit DM-mirage.HitEffect_brick_hit :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+AR_MuzFlash_smoke_3RD DM-mirage.AR_MuzFlash_smoke_3RD :
+XWFX_Grenade_smoke DM-mirage.XWFX_Grenade_smoke :
+	SpriteEmitter DM-mirage.SpriteEmitter4566 [][exp7_frames]
+	SpriteEmitter DM-mirage.SpriteEmitter4567 [][Laser_Flare_s]
+	SpriteEmitter DM-mirage.SpriteEmitter4568 [][flank_bullet]
+	SpriteEmitter DM-mirage.SpriteEmitter4569 [][explo_sm_a]
+	SpriteEmitter DM-mirage.SpriteEmitter4570 [][explo_particle]
+	SpriteEmitter DM-mirage.SpriteEmitter4571 [][explo_particle]
+	SpriteEmitter DM-mirage.SpriteEmitter4572 [][smke_gren]
+	SpriteEmitter DM-mirage.SpriteEmitter4573 [][smke_gren]
+	SpriteEmitter DM-mirage.SpriteEmitter4574 [][explo_sub_smoke_no]
+	SpriteEmitter DM-mirage.SpriteEmitter4575 [][explo_sub_smoke_no]
+	SpriteEmitter DM-mirage.SpriteEmitter4576 [][explo_sub_smoke_no]
+HitEffect_Dirt_hit DM-mirage.HitEffect_Dirt_hit :
+HitEffect_Blood_hit DM-mirage.HitEffect_Blood_hit :
+HitEffect_Wood_hit DM-mirage.HitEffect_Wood_hit :
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter4171 [][Strobo_light_Blue]
+Charater_FX_Strobo_light_Blue DM-mirage.Charater_FX_Strobo_light_Blue :
+	SpriteEmitter DM-mirage.SpriteEmitter4265 [][Strobo_light_Blue]
+Pistol_MuzFlash_smoke_3RD DM-mirage.Pistol_MuzFlash_smoke_3RD :

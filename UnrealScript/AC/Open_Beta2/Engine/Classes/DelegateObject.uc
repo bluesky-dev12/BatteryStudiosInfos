@@ -1,0 +1,1 @@
+class DelegateObject extends Object;

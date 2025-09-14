@@ -1,0 +1,78 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path Editor\Classes\TetrahedronBuilder.uc
+ * Package Imports:
+ *	Editor
+ *	Core
+ *
+ * Stats:
+ *	Properties:3
+ *	Functions:3
+ *
+ *******************************************************************************/
+class TetrahedronBuilder extends BrushBuilder;
+
+var() float Radius;
+var() int SphereExtrapolation;
+var() name GroupName;
+
+function Extrapolate(int A, int B, int C, int Count, float Radius)
+{
+    local int ab, bc, ca;
+
+    // End:0x11d
+    if(Count > 1)
+    {
+        ab = Vertexv(Radius * Normal(GetVertex(A) + GetVertex(B)));
+        bc = Vertexv(Radius * Normal(GetVertex(B) + GetVertex(C)));
+        ca = Vertexv(Radius * Normal(GetVertex(C) + GetVertex(A)));
+        Extrapolate(A, ab, ca, Count - 1, Radius);
+        Extrapolate(B, bc, ab, Count - 1, Radius);
+        Extrapolate(C, ca, bc, Count - 1, Radius);
+        Extrapolate(ab, bc, ca, Count - 1, Radius);
+    }
+    // End:0x133
+    else
+    {
+        Poly3i(1, A, B, C);
+    }
+}
+
+function BuildTetrahedron(float R, int SphereExtrapolation)
+{
+    Vertex3f(R, 0.0, 0.0);
+    Vertex3f(-R, 0.0, 0.0);
+    Vertex3f(0.0, R, 0.0);
+    Vertex3f(0.0, -R, 0.0);
+    Vertex3f(0.0, 0.0, R);
+    Vertex3f(0.0, 0.0, -R);
+    Extrapolate(2, 1, 4, SphereExtrapolation, Radius);
+    Extrapolate(1, 3, 4, SphereExtrapolation, Radius);
+    Extrapolate(3, 0, 4, SphereExtrapolation, Radius);
+    Extrapolate(0, 2, 4, SphereExtrapolation, Radius);
+    Extrapolate(1, 2, 5, SphereExtrapolation, Radius);
+    Extrapolate(3, 1, 5, SphereExtrapolation, Radius);
+    Extrapolate(0, 3, 5, SphereExtrapolation, Radius);
+    Extrapolate(2, 0, 5, SphereExtrapolation, Radius);
+}
+
+event bool Build()
+{
+    // End:0x21
+    if(Radius <= float(0) || SphereExtrapolation <= 0)
+    {
+        return BadParameters();
+    }
+    BeginBrush(false, GroupName);
+    BuildTetrahedron(Radius, SphereExtrapolation);
+    return EndBrush();
+}
+
+defaultproperties
+{
+    Radius=256.0
+    SphereExtrapolation=1
+    GroupName=Tetrahedron
+    BitmapFilename="BBSphere"
+    ToolTip="Tetrahedron (Sphere)"
+}

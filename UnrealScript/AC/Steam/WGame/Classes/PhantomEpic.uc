@@ -1,0 +1,21 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path WGame\Classes\PhantomEpic.uc
+ * Package Imports:
+ *	WGame
+ *	UnrealGame
+ *	Engine
+ *	Core
+ *
+ * 
+ *******************************************************************************/
+class PhantomEpic extends UT2K4PhantomRoster
+    hidecategories(Movement,Collision,Lighting,LightColor,Karma,Force);
+
+defaultproperties
+{
+    TeamDescription="1991? ???? ??(Epic)? ???? ??? PC ??, ??? ???? ??, ???? ?? ????? ??? ??? ??? ?????. ? ???(Tim Sweeney) (Jill of the Jungle, Unreal)? ???? ????? ??? ?? ??(Mark Rein) (VP of Marketing)? ??? ???(James Schmalz) (Epic Pinball, Extreme Pinball, Unreal), ??? ?????(Cliff Bleszinski) (Jazz Jackrabbit, Unreal)? ??????."
+    TeamLevel=999
+    TeamSymbolName="NvidiaLogo_T.Logos.Epic_Logo"
+    TeamName="Epic Games, Inc."
+}

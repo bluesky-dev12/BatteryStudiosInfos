@@ -1,0 +1,2074 @@
+[
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 8,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 11,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 28,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 1,
+    "WeaponID1": 32,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 8,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 11,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 24,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 28,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 2,
+    "WeaponID1": 32,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 5,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 3,
+    "WeaponID1": 50,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 3,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 6,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 9,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 12,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 15,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 18,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 21,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 24,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 27,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 4,
+    "WeaponID1": 30,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 45,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 5,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 45,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 50,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 6,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 30,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 7,
+    "WeaponID1": 45,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 901,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 5,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 45,
+    "WeaponID2": 3,
+    "WeaponID3": 901,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 50,
+    "WeaponID2": 3,
+    "WeaponID3": 902,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 3,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 8,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 3,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 6,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 18,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 15,
+    "WeaponID2": 3,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 20,
+    "WeaponID2": 3,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 45,
+    "WeaponID2": 3,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 50,
+    "WeaponID2": 3,
+    "WeaponID3": 904,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 9,
+    "WeaponID1": 50,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 5
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 902,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 5,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 905,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 906,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 905,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 906,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 905,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 50,
+    "WeaponID2": 2,
+    "WeaponID3": 906,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 15,
+    "WeaponID2": 3,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 25,
+    "WeaponID2": 3,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 905,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 10,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 905,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 903,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 904,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 905,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 906,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 903,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 905,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 906,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 50,
+    "WeaponID2": 2,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 904,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 905,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 45,
+    "WeaponID2": 3,
+    "WeaponID3": 906,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 11,
+    "WeaponID1": 40,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 3,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 7,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 5,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 8,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 14,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 18,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 27,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 23,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 25,
+    "WeaponID2": 3,
+    "WeaponID3": 909,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 28,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 909,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 12,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 3,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 8,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 16,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 20,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 24,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 30,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 34,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 20,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 30,
+    "WeaponID2": 3,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 8
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 40,
+    "WeaponID2": 3,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 45,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 13,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 8,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 2,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 18,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 12,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 28,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 38,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 48,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 32,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 10,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 15,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 25,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 30,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 35,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 40,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 50,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 45,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 35,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 25,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 20,
+    "WeaponID2": 3,
+    "WeaponID3": 908,
+    "WeaponID4": 3
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 5,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 15,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 25,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 14,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 3,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 45,
+    "WeaponID2": 1,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 49,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 47,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 50,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 51,
+    "WeaponID2": 2,
+    "WeaponID3": 909,
+    "WeaponID4": 2
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 49,
+    "WeaponID2": 3,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 55,
+    "WeaponID2": 1,
+    "WeaponID3": 907,
+    "WeaponID4": 7
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 55,
+    "WeaponID2": 2,
+    "WeaponID3": 907,
+    "WeaponID4": 6
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 52,
+    "WeaponID2": 2,
+    "WeaponID3": 908,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 48,
+    "WeaponID2": 3,
+    "WeaponID3": 909,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 52,
+    "WeaponID2": 3,
+    "WeaponID3": 908,
+    "WeaponID4": 4
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 10,
+    "WeaponID2": 1,
+    "WeaponID3": 910,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 35,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 45,
+    "WeaponID2": 1,
+    "WeaponID3": 911,
+    "WeaponID4": 1
+  },
+  {
+    "GroupID": 30,
+    "WeaponID0": 15,
+    "WeaponID1": 65,
+    "WeaponID2": 3,
+    "WeaponID3": 912,
+    "WeaponID4": 1
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Signature": "0x3FC9B2A1",
+    "PackageVersion": 134,
+    "LicenseeMode": 0,
+    "OverrideLicenseeMode": 39,
+    "PackageFlags": "AllowDownload",
+    "NameCount": 10,
+    "NameOffset": "0x40",
+    "ExportCount": 2,
+    "ExportOffset": "0x192E53",
+    "ImportCount": 3,
+    "ImportOffset": "0x192E3E",
+    "Guid": "53B56ED0D72D5340881ADD243DB5AE6B",
+    "GenerationCount": 1
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "byDifficulty": 1,
+    "bEnable": true,
+    "fAddNpcHP": 1.0,
+    "fAddNpcDamage": 1.0,
+    "fAddNpcDefence": 0.0
+  },
+  {
+    "byDifficulty": 2,
+    "bEnable": true,
+    "fAddNpcHP": 1.2,
+    "fAddNpcDamage": 1.5,
+    "fAddNpcDefence": 0.0
+  },
+  {
+    "byDifficulty": 3,
+    "bEnable": true,
+    "fAddNpcHP": 1.5,
+    "fAddNpcDamage": 2.0,
+    "fAddNpcDefence": 0.0
+  },
+  {
+    "byDifficulty": 4,
+    "bEnable": true,
+    "fAddNpcHP": 1.8,
+    "fAddNpcDamage": 3.0,
+    "fAddNpcDefence": 0.0
+  }
+]

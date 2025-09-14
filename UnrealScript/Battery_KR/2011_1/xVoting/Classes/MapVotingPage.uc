@@ -1,0 +1,240 @@
+class MapVotingPage extends VotingPage
+    editinlinenew
+    instanced;
+
+var() automated MapVoteMultiColumnListBox lb_MapListBox;
+var() automated MapVoteCountMultiColumnListBox lb_VoteCountListBox;
+var() automated moComboBox co_GameType;
+var() automated GUILabel l_Mode;
+var() automated GUIImage i_MapListBackground;
+var() automated GUIImage i_MapCountListBackground;
+var localized string lmsgMapVotingDisabled;
+var localized string lmsgReplicationNotFinished;
+var localized string lmsgMapDisabled;
+var localized string lmsgTotalMaps;
+var localized string lmsgMode[8];
+
+function InternalOnOpen()
+{
+    local int i, D;
+
+    // End:0xA4
+    if((MVRI == none) || (MVRI != none) && !MVRI.bMapVote)
+    {
+        Controller.OpenMenu("GUI2K4.GUI2K4QuestionPage");
+        GUIQuestionPage(Controller.TopPage()).SetupQuestion(lmsgMapVotingDisabled, 1, 1);
+        GUIQuestionPage(Controller.TopPage()).__OnButtonClick__Delegate = OnOkButtonClick;
+        return;
+    }
+    // End:0x160
+    if((MVRI.GameConfig.Length < MVRI.GameConfigCount) || MVRI.MapList.Length < MVRI.MapCount)
+    {
+        Controller.OpenMenu("GUI2K4.GUI2K4QuestionPage");
+        GUIQuestionPage(Controller.TopPage()).SetupQuestion(lmsgReplicationNotFinished, 1, 1);
+        GUIQuestionPage(Controller.TopPage()).__OnButtonClick__Delegate = OnOkButtonClick;
+        return;
+    }
+    i = 0;
+    J0x167:
+
+    // End:0x1BA [Loop If]
+    if(i < MVRI.GameConfig.Length)
+    {
+        co_GameType.AddItem(MVRI.GameConfig[i].GameName, none, string(i));
+        i++;
+        // [Loop Continue]
+        goto J0x167;
+    }
+    co_GameType.MyComboBox.List.SortList();
+    t_WindowTitle.Caption = ((t_WindowTitle.Caption @ "(") $ lmsgMode[int(MVRI.Mode)]) $ ")";
+    lb_MapListBox.LoadList(MVRI);
+    MapVoteCountMultiColumnList(lb_VoteCountListBox.List).LoadList(MVRI);
+    lb_VoteCountListBox.List.__OnDblClick__Delegate = MapListDblClick;
+    lb_VoteCountListBox.List.bDropTarget = true;
+    lb_MapListBox.List.__OnDblClick__Delegate = MapListDblClick;
+    lb_MapListBox.List.bDropSource = true;
+    co_GameType.__OnChange__Delegate = GameTypeChanged;
+    f_Chat.__OnSubmit__Delegate = Submit;
+    D = co_GameType.MyComboBox.List.FindExtra(string(MVRI.CurrentGameConfig));
+    // End:0x340
+    if(D > -1)
+    {
+        co_GameType.SetIndex(D);
+    }
+    //return;    
+}
+
+function Submit()
+{
+    SendVote(none);
+    //return;    
+}
+
+function GameTypeChanged(GUIComponent Sender)
+{
+    local int GameTypeIndex;
+
+    GameTypeIndex = int(co_GameType.GetExtra());
+    // End:0x57
+    if(GameTypeIndex > -1)
+    {
+        lb_MapListBox.ChangeGameType(GameTypeIndex);
+        lb_MapListBox.List.__OnDblClick__Delegate = MapListDblClick;
+    }
+    //return;    
+}
+
+function OnOkButtonClick(byte bButton)
+{
+    Controller.CloseMenu(true);
+    //return;    
+}
+
+function UpdateMapVoteCount(int UpdatedIndex, bool bRemoved)
+{
+    MapVoteCountMultiColumnList(lb_VoteCountListBox.List).UpdatedVoteCount(UpdatedIndex, bRemoved);
+    //return;    
+}
+
+function bool MapListDblClick(GUIComponent Sender)
+{
+    SendVote(Sender);
+    return true;
+    //return;    
+}
+
+function SendVote(GUIComponent Sender)
+{
+    local int MapIndex, GameConfigIndex;
+
+    // End:0xD6
+    if(Sender == lb_VoteCountListBox.List)
+    {
+        MapIndex = MapVoteCountMultiColumnList(lb_VoteCountListBox.List).GetSelectedMapIndex();
+        // End:0xD3
+        if(MapIndex > -1)
+        {
+            GameConfigIndex = MapVoteCountMultiColumnList(lb_VoteCountListBox.List).GetSelectedGameConfigIndex();
+            // End:0xC1
+            if(MVRI.MapList[MapIndex].bEnabled || PlayerOwner().PlayerReplicationInfo.bAdmin)
+            {
+                MVRI.SendMapVote(MapIndex, GameConfigIndex);                
+            }
+            else
+            {
+                PlayerOwner().ClientMessage(lmsgMapDisabled);
+            }
+        }        
+    }
+    else
+    {
+        MapIndex = MapVoteMultiColumnList(lb_MapListBox.List).GetSelectedMapIndex();
+        // End:0x185
+        if(MapIndex > -1)
+        {
+            GameConfigIndex = int(co_GameType.GetExtra());
+            // End:0x173
+            if(MVRI.MapList[MapIndex].bEnabled || PlayerOwner().PlayerReplicationInfo.bAdmin)
+            {
+                MVRI.SendMapVote(MapIndex, GameConfigIndex);                
+            }
+            else
+            {
+                PlayerOwner().ClientMessage(lmsgMapDisabled);
+            }
+        }
+    }
+    //return;    
+}
+
+function bool AlignBK(Canvas C)
+{
+    i_MapCountListBackground.WinWidth = lb_VoteCountListBox.MyList.ActualWidth();
+    i_MapCountListBackground.WinHeight = lb_VoteCountListBox.MyList.ActualHeight();
+    i_MapCountListBackground.WinLeft = lb_VoteCountListBox.MyList.ActualLeft();
+    i_MapCountListBackground.WinTop = lb_VoteCountListBox.MyList.ActualTop();
+    i_MapListBackground.WinWidth = lb_MapListBox.MyList.ActualWidth();
+    i_MapListBackground.WinHeight = lb_MapListBox.MyList.ActualHeight();
+    i_MapListBackground.WinLeft = lb_MapListBox.MyList.ActualLeft();
+    i_MapListBackground.WinTop = lb_MapListBox.MyList.ActualTop();
+    return false;
+    //return;    
+}
+
+defaultproperties
+{
+    // Reference: MapVoteMultiColumnListBox'xVoting_Decompressed.MapVotingPage.MapListBox'
+    begin object name="MapListBox" class=xVoting_Decompressed.MapVoteMultiColumnListBox
+        HeaderColumnPerc=/* Array type was not detected. */
+        bVisibleWhenEmpty=true
+        OnCreateComponent=MapListBox.InternalOnCreateComponent
+        StyleName="ServerBrowserGrid"
+        WinTop=0.3710200
+        WinLeft=0.0200000
+        WinWidth=0.9600000
+        WinHeight=0.2931040
+        bBoundToParent=true
+        bScaleToParent=true
+        OnRightClick=MapListBox.InternalOnRightClick
+    end object
+    lb_MapListBox=MapListBox
+    // Reference: MapVoteCountMultiColumnListBox'xVoting_Decompressed.MapVotingPage.VoteCountListBox'
+    begin object name="VoteCountListBox" class=xVoting_Decompressed.MapVoteCountMultiColumnListBox
+        HeaderColumnPerc=/* Array type was not detected. */
+        bVisibleWhenEmpty=true
+        OnCreateComponent=VoteCountListBox.InternalOnCreateComponent
+        WinTop=0.0529300
+        WinLeft=0.0200000
+        WinWidth=0.9600000
+        WinHeight=0.2237700
+        bBoundToParent=true
+        bScaleToParent=true
+        OnRightClick=VoteCountListBox.InternalOnRightClick
+    end object
+    lb_VoteCountListBox=VoteCountListBox
+    // Reference: moComboBox'xVoting_Decompressed.MapVotingPage.GameTypeCombo'
+    begin object name="GameTypeCombo" class=XInterface.moComboBox
+        CaptionWidth=0.3500000
+        Caption="?? ?? ?????: "
+        OnCreateComponent=GameTypeCombo.InternalOnCreateComponent
+        WinTop=0.3343090
+        WinLeft=0.1992190
+        WinWidth=0.7578090
+        WinHeight=0.0375000
+        bScaleToParent=true
+    end object
+    co_GameType=GameTypeCombo
+    // Reference: GUIImage'xVoting_Decompressed.MapVotingPage.MapListBackground'
+    begin object name="MapListBackground" class=XInterface.GUIImage
+        ImageStyle=1
+        WinTop=0.3710200
+        WinLeft=0.0100000
+        WinWidth=0.9800000
+        WinHeight=0.3165420
+    end object
+    i_MapListBackground=MapListBackground
+    // Reference: GUIImage'xVoting_Decompressed.MapVotingPage.MapCountListBackground'
+    begin object name="MapCountListBackground" class=XInterface.GUIImage
+        ImageStyle=1
+        WinTop=0.0529300
+        WinLeft=0.0100000
+        WinWidth=0.9800000
+        WinHeight=0.2237700
+        OnDraw=MapVotingPage.AlignBK
+    end object
+    i_MapCountListBackground=MapCountListBackground
+    lmsgMapVotingDisabled="?? ???? ? ??? ????? ???????!"
+    lmsgReplicationNotFinished="? ??? ???? ?. ??? ?? ?????."
+    lmsgMapDisabled="??? ?? ??? ? ????."
+    lmsgTotalMaps="%mapcount% ?? ?"
+    lmsgMode[0]="?? ??"
+    lmsgMode[1]="?? ??? ?? ??"
+    lmsgMode[2]="?? ??"
+    lmsgMode[3]="?? ??? ?? ??"
+    lmsgMode[4]="?? ??? ?? ??"
+    lmsgMode[5]="?? ??, ?? ??, ?? ??"
+    lmsgMode[6]="?? ??? ?? ??"
+    lmsgMode[7]="?? ??, ?? ??, ?? ??"
+    WindowName="Map Voting"
+    OnOpen=MapVotingPage.InternalOnOpen
+}

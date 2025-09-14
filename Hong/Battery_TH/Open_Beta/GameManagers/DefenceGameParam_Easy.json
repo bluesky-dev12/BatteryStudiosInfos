@@ -1,0 +1,110 @@
+[
+  {
+    "nMapID": 22,
+    "nDelayTime": 1,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 901,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 2,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 902,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 3,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 903,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 4,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 904,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 5,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 905,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 6,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 906,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 7,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 907,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 8,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 908,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 9,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 909,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 10,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 910,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 11,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 911,
+    "nUnit": 1,
+    "nLevel": 0
+  },
+  {
+    "nMapID": 22,
+    "nDelayTime": 12,
+    "nGrade": 1,
+    "nRound": 1,
+    "nRegenLoc": 912,
+    "nUnit": 1,
+    "nLevel": 0
+  }
+]

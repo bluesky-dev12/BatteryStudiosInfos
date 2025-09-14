@@ -1,0 +1,98 @@
+[
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 0,
+    "RewardNeedNum": 5,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 1,
+    "RewardNeedNum": 10,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 2,
+    "RewardNeedNum": 30,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 3,
+    "RewardNeedNum": 50,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 4,
+    "RewardNeedNum": 100,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 0,
+    "RewardUniqueIndex": 5,
+    "RewardNeedNum": 200,
+    "Reward_ID": 17500
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 0,
+    "RewardNeedNum": 10,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 1,
+    "RewardNeedNum": 20,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 2,
+    "RewardNeedNum": 30,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 3,
+    "RewardNeedNum": 40,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 4,
+    "RewardNeedNum": 50,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 5,
+    "RewardNeedNum": 60,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 6,
+    "RewardNeedNum": 70,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 7,
+    "RewardNeedNum": 80,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 8,
+    "RewardNeedNum": 90,
+    "Reward_ID": 17600
+  },
+  {
+    "rewardType": 1,
+    "RewardUniqueIndex": 9,
+    "RewardNeedNum": 100,
+    "Reward_ID": 17600
+  }
+]

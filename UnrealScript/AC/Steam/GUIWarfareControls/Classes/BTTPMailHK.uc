@@ -1,0 +1,543 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path GUIWarfareControls\Classes\BTTPMailHK.uc
+ * Package Imports:
+ *	GUIWarfareControls
+ *	XInterface
+ *	Core
+ *
+ * Stats:
+ *	Properties:17
+ *	Functions:12
+ *
+ *******************************************************************************/
+class BTTPMailHK extends GUITabPanel
+    editinlinenew
+    instanced;
+
+var array<export editinline BTOwnerDrawCaptionButtonHK> Buttons;
+var array<export editinline BTAutoColumnListHK> ACLMail;
+var export editinline TabControlMocker TabControl;
+var export editinline BTOwnerDrawCaptionButtonHK TopButton[5];
+var export editinline BTOwnerDrawImageHK TopImage[5];
+var FloatBox fbTopButton[5];
+var FloatBox fbTopButton2[5];
+var localized string strPoint;
+var localized string strCash;
+var localized string strTopButton[6];
+var localized string strSendMail;
+var localized string strRecvMail;
+var localized string strCashItemMail;
+var localized string strUndefine;
+var localized string strDay;
+var localized string strHour;
+var localized string strEmpty;
+
+function TabControl_OnChangedTab(int CurrentIndex, int PrevIndex)
+{
+    // End:0x5f
+    if(CurrentIndex == 2)
+    {
+        UpdateTopButtons2();
+        TopButton[0].SetVisibility(false);
+        TopButton[4].SetVisibility(false);
+        TopImage[0].SetVisibility(false);
+        TopImage[3].SetVisibility(false);
+    }
+    // End:0xaf
+    else
+    {
+        UpdateTopButtons();
+        TopButton[0].SetVisibility(true);
+        TopButton[4].SetVisibility(true);
+        TopImage[0].SetVisibility(true);
+        TopImage[3].SetVisibility(true);
+    }
+}
+
+function AddMail(int Panel, int MemoType, int idx, string senddate, string Sender, string Content, int leftdate, int Status, BtrDouble ItemUID, int ItemID, int StackCount, optional int WZStoreSeq, optional int WZStoreItemSeq, optional int WZStoreItemType, optional int Value)
+{
+    local int i;
+    local wGameManager GameMgr;
+    local BTAutoColumnListDataHK Data;
+    local array<string> arrStr;
+    local wMatchMaker MM;
+
+    MM = Controller.ViewportOwner.Actor.Level.GetMatchMaker();
+    Data = new class'BTAutoColumnListDataHK';
+    Data.Init(8);
+    i = 0;
+    J0x57:
+    // End:0x189 [While If]
+    if(i < 3)
+    {
+        Data.DataPerColumn[0].Text[i].FontSize = 9;
+        Data.DataPerColumn[1].Text[i].FontSize = 9;
+        Data.DataPerColumn[2].Text[i].FontSize = 9;
+        Data.DataPerColumn[3].Text[i].FontSize = 9;
+        Data.DataPerColumn[4].Text[i].FontSize = 9;
+        Data.DataPerColumn[0].Text[i].FontDrawType = 4;
+        Data.DataPerColumn[1].Text[i].FontDrawType = 3;
+        Data.DataPerColumn[2].Text[i].FontDrawType = 3;
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x57;
+    }
+    Data.DataPerColumn[0].strValue = senddate;
+    Data.DataPerColumn[0].IntValue = idx;
+    Data.DataPerColumn[1].IntValue = MemoType;
+    Data.DataPerColumn[1].strValue = Sender;
+    Data.DataPerColumn[2].strValue = class'BTCustomDrawHK'.static.Get_0x0A_RemoveString(Content);
+    Data.DataPerColumn[2].IntValue = ItemUID.dummy_1_DO_NOT_USE;
+    Data.DataPerColumn[2].tempValue = ItemUID.dummy_2_DO_NOT_USE;
+    Data.DataPerColumn[3].IntValue = ItemID;
+    // End:0x2a8
+    if(MemoType == 1)
+    {
+        Data.DataPerColumn[3].strValue = strEmpty;
+    }
+    // End:0x642
+    else
+    {
+        // End:0x31a
+        if(MemoType == 2)
+        {
+            GameMgr = Controller.ViewportOwner.Actor.Level.GameMgr;
+            Data.DataPerColumn[3].strValue = GameMgr.FindUIItem(ItemID).ItemName;
+        }
+        // End:0x642
+        else
+        {
+            // End:0x345
+            if(MemoType == 4)
+            {
+                Data.DataPerColumn[3].strValue = strPoint;
+            }
+            // End:0x642
+            else
+            {
+                // End:0x500
+                if(MemoType == 5)
+                {
+                    Split(Content, "|", arrStr);
+                    Log("CYH_TEST_CLAN arrStr[0]=" $ arrStr[0]);
+                    Log("CYH_TEST_CLAN arrStr[1]=" $ arrStr[1]);
+                    Log("CYH_TEST_CLAN arrStr[2]=" $ arrStr[2]);
+                    // End:0x41b
+                    if(Panel == 1)
+                    {
+                        Data.DataPerColumn[7].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(83, MM.kUserName, arrStr[1]);
+                    }
+                    // End:0x44f
+                    else
+                    {
+                        Data.DataPerColumn[7].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(83, Sender, arrStr[1]);
+                    }
+                    Data.DataPerColumn[6].strValue = arrStr[1];
+                    Data.DataPerColumn[6].IntValue = int(arrStr[0]);
+                    Data.DataPerColumn[2].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(140);
+                    // End:0x4e4
+                    if(arrStr.Length >= 2)
+                    {
+                        Data.DataPerColumn[5].strValue = arrStr[2];
+                    }
+                    // End:0x4fd
+                    else
+                    {
+                        Data.DataPerColumn[5].strValue = "";
+                    }
+                }
+                // End:0x642
+                else
+                {
+                    // End:0x5f5
+                    if(MemoType == 6)
+                    {
+                        Split(Content, "|", arrStr);
+                        // End:0x55f
+                        if(Panel == 1)
+                        {
+                            Data.DataPerColumn[7].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(85, MM.kUserName);
+                        }
+                        // End:0x58c
+                        else
+                        {
+                            Data.DataPerColumn[7].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(85, Sender);
+                        }
+                        Data.DataPerColumn[6].IntValue = int(arrStr[0]);
+                        Data.DataPerColumn[6].strValue = arrStr[1];
+                        Data.DataPerColumn[2].strValue = class'BTWindowDefineInfoHK'.static.GetFormatString(141);
+                    }
+                    // End:0x642
+                    else
+                    {
+                        // End:0x642
+                        if(MemoType == 7)
+                        {
+                            Data.DataPerColumn[3].strValue = string(Value) @ strCash;
+                            Data.DataPerColumn[3].IntValue = Value;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // End:0x67a
+    if(leftdate > 48)
+    {
+        Data.DataPerColumn[4].strValue = string(leftdate / 24) $ strDay;
+    }
+    // End:0x69f
+    else
+    {
+        Data.DataPerColumn[4].strValue = string(leftdate) $ strHour;
+    }
+    // End:0x6e8
+    if(Status == 0)
+    {
+        Data.DataPerColumn[4].strValue = strUndefine $ "(" $ Data.DataPerColumn[4].strValue $ ")";
+    }
+    Data.DataPerColumn[4].IntValue = leftdate;
+    Data.DataPerColumn[4].floatValue = float(Status);
+    Data.DataPerColumn[6].tempValue = StackCount;
+    Data.DataPerColumn[0].tempValue = WZStoreSeq;
+    Data.DataPerColumn[1].tempValue = WZStoreItemSeq;
+    Data.DataPerColumn[3].tempValue = WZStoreItemType;
+    Data.DataPerColumn[4].tempValue = Value;
+    // End:0x7e8
+    if(WZStoreItemType != 0)
+    {
+        Data.DataPerColumn[0].strValue = "";
+        Data.DataPerColumn[4].strValue = "";
+    }
+    ACLMail[Panel].AddRow(Data);
+}
+
+function ReverseList(int Panel)
+{
+    local int rowcount, i;
+    local BTAutoColumnListDataHK tempBuffer;
+
+    rowcount = ACLMail[Panel].ACLRowList.Length;
+    i = 0;
+    J0x22:
+    // End:0xc8 [While If]
+    if(i < rowcount / 2)
+    {
+        tempBuffer = ACLMail[Panel].ACLRowList[rowcount - 1 - i];
+        ACLMail[Panel].ACLRowList[rowcount - 1 - i] = ACLMail[Panel].ACLRowList[i];
+        ACLMail[Panel].ACLRowList[i] = tempBuffer;
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x22;
+    }
+}
+
+function ChangeReadStatus(int Index)
+{
+    local int i;
+    local BTAutoColumnListDataHK Data;
+
+    i = 0;
+    J0x07:
+    // End:0xf9 [While If]
+    if(i < ACLMail[0].ACLRowList.Length)
+    {
+        Data = ACLMail[0].ACLRowList[i];
+        // End:0xef
+        if(Data.DataPerColumn[0].IntValue == Index)
+        {
+            // End:0xb7
+            if(Data.DataPerColumn[4].IntValue > 48)
+            {
+                Data.DataPerColumn[4].strValue = string(Data.DataPerColumn[4].IntValue / 24) $ strDay;
+            }
+            // End:0xed
+            else
+            {
+                Data.DataPerColumn[4].strValue = string(Data.DataPerColumn[4].IntValue) $ strHour;
+            }
+            return;
+        }
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x07;
+    }
+}
+
+function RemoveAll(int Panel)
+{
+    ACLMail[Panel].RemoveAll();
+}
+
+function UpdateTopButtons()
+{
+    local int i;
+
+    i = 0;
+    J0x07:
+    // End:0xf2 [While If]
+    if(i < 4)
+    {
+        TopImage[i].AWinPos.X1 = fbTopButton[i].X2 - float(2);
+        TopImage[i].AWinPos.Y1 = fbTopButton[i].Y1 + float(5);
+        TopImage[i].AWinPos.X2 = fbTopButton[i].X2 + float(2);
+        TopImage[i].AWinPos.Y2 = fbTopButton[i].Y2 - float(5);
+        TopImage[i].ApplyAWinPos();
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x07;
+    }
+    TopImage[4].AWinPos.X1 = fbTopButton[0].X1;
+    TopImage[4].AWinPos.Y1 = fbTopButton[0].Y1;
+    TopImage[4].AWinPos.X2 = fbTopButton[4].X2;
+    TopImage[4].AWinPos.Y2 = fbTopButton[4].Y2;
+    TopImage[4].ApplyAWinPos();
+    i = 0;
+    J0x199:
+    // End:0x1e4 [While If]
+    if(i < 5)
+    {
+        TopButton[i].AWinPos = fbTopButton[i];
+        TopButton[i].ApplyAWinPos();
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x199;
+    }
+}
+
+function UpdateTopButtons2()
+{
+    local int i;
+
+    i = 0;
+    J0x07:
+    // End:0xf2 [While If]
+    if(i < 4)
+    {
+        TopImage[i].AWinPos.X1 = fbTopButton2[i].X2 - float(2);
+        TopImage[i].AWinPos.Y1 = fbTopButton2[i].Y1 + float(5);
+        TopImage[i].AWinPos.X2 = fbTopButton2[i].X2 + float(2);
+        TopImage[i].AWinPos.Y2 = fbTopButton2[i].Y2 - float(5);
+        TopImage[i].ApplyAWinPos();
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x07;
+    }
+    TopImage[4].AWinPos.X1 = fbTopButton2[1].X1;
+    TopImage[4].AWinPos.Y1 = fbTopButton2[1].Y1;
+    TopImage[4].AWinPos.X2 = fbTopButton2[3].X2;
+    TopImage[4].AWinPos.Y2 = fbTopButton2[3].Y2;
+    TopImage[4].ApplyAWinPos();
+    i = 0;
+    J0x199:
+    // End:0x1e4 [While If]
+    if(i < 5)
+    {
+        TopButton[i].AWinPos = fbTopButton2[i];
+        TopButton[i].ApplyAWinPos();
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x199;
+    }
+}
+
+function InitTopButtons()
+{
+    local int i;
+    local Image img, onImg, cliImg;
+
+    img = class'BTCustomDrawHK'.static.MakeImage(4, 16, 15, texture'img_list_divid');
+    i = 0;
+    J0x27:
+    // End:0x189 [While If]
+    if(i < 4)
+    {
+        TopImage[i] = new class'BTOwnerDrawImageHK';
+        TopImage[i].bUseAWinPos = true;
+        TopImage[i].AWinPos.X1 = fbTopButton[i].X2 - float(2);
+        TopImage[i].AWinPos.Y1 = fbTopButton[i].Y1 + float(5);
+        TopImage[i].AWinPos.X2 = fbTopButton[i].X2 + float(2);
+        TopImage[i].AWinPos.Y2 = fbTopButton[i].Y2 - float(5);
+        TopImage[i].BackgroundImage = img;
+        TopImage[i].RenderWeight = 0.190;
+        TopImage[i].InitComponent(Controller, self);
+        AppendComponent(TopImage[i]);
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x27;
+    }
+    img = class'BTCustomDrawHK'.static.MakeImage(8, 26, 15, texture'butt_list_n');
+    TopImage[4] = new class'BTOwnerDrawImageHK';
+    TopImage[4].bUseAWinPos = true;
+    TopImage[4].AWinPos.X1 = fbTopButton[0].X1;
+    TopImage[4].AWinPos.Y1 = fbTopButton[0].Y1;
+    TopImage[4].AWinPos.X2 = fbTopButton[4].X2;
+    TopImage[4].AWinPos.Y2 = fbTopButton[4].Y2;
+    TopImage[4].BackgroundImage = img;
+    TopImage[4].RenderWeight = 0.10;
+    TopImage[4].InitComponent(Controller, self);
+    AppendComponent(TopImage[4]);
+    onImg = class'BTCustomDrawHK'.static.MakeImage(8, 8, 15, texture'butt_list_on');
+    cliImg = class'BTCustomDrawHK'.static.MakeImage(8, 8, 15, texture'butt_list_cli');
+    i = 0;
+    J0x2f8:
+    // End:0x43f [While If]
+    if(i < 5)
+    {
+        TopButton[i] = new class'BTOwnerDrawCaptionButtonHK';
+        TopButton[i].bUseAWinPos = true;
+        TopButton[i].AWinPos = fbTopButton[i];
+        TopButton[i].buttonImage[1] = onImg;
+        TopButton[i].buttonImage[3] = cliImg;
+        TopButton[i].RenderWeight = 0.20;
+        TopButton[i].SetDefaultListTopButtonFontColor();
+        TopButton[i].Caption = strTopButton[i];
+        TopButton[i].CaptionDrawType = 4;
+        TopButton[i].ButtonID = i;
+        TopButton[i].InitComponent(Controller, self);
+        AppendComponent(TopButton[i]);
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x2f8;
+    }
+}
+
+function InitComponent(GUIController MyController, GUIComponent myOwner)
+{
+    local export editinline BTAutoColumnListHK serverACL;
+    local export editinline BTOwnerDrawCaptionButtonHK serverButton;
+    local FloatBox fb;
+    local int i, MenuLen;
+    local wMatchMaker MM;
+
+    super(GUIPanel).InitComponent(MyController, myOwner);
+    InitTopButtons();
+    MM = Controller.ViewportOwner.Actor.Level.GetMatchMaker();
+    MenuLen = 3;
+    i = 0;
+    J0x55:
+    // End:0x451 [While If]
+    if(i < MenuLen)
+    {
+        serverButton = new class'BTOwnerDrawCaptionButtonHK';
+        serverButton.bUseAWinPos = true;
+        fb.X1 = AWinPos.X1 + float(102 * i);
+        fb.Y1 = AWinPos.Y1;
+        fb.X2 = AWinPos.X1 + float(102 * i) + float(100);
+        fb.Y2 = AWinPos.Y1 + float(23);
+        serverButton.AWinPos = fb;
+        serverButton.RenderWeight = 0.50;
+        serverButton.CaptionDrawType = 4;
+        serverButton.CaptionPadding[1] = 2;
+        serverButton.CaptionAlign = 2;
+        serverButton.SetDefaultTabButtonImage();
+        serverButton.SetDefaultTabButtonFontColor();
+        // End:0x1a3
+        if(i == 2)
+        {
+            serverButton.SetPaidItemTabButtonImage();
+            serverButton.SetPaidItemTabButtonFontColor();
+        }
+        serverButton.bBoundToParent = false;
+        serverButton.bScaleToParent = false;
+        serverButton.ButtonID = i;
+        serverButton.InitComponent(Controller, self);
+        AppendComponent(serverButton);
+        Buttons[i] = serverButton;
+        serverACL = new class'BTACLMailHK';
+        serverACL.bUseAWinPos = true;
+        fb.X1 = AWinPos.X1 + float(2);
+        fb.Y1 = AWinPos.Y1 + float(2) + float(50);
+        fb.X2 = AWinPos.X2 - float(2) - float(14) + float(1);
+        fb.Y2 = AWinPos.Y2 - float(2);
+        serverACL.AWinPos = fb;
+        serverACL.bBoundToParent = false;
+        serverACL.bScaleToParent = false;
+        serverACL.RenderWeight = 0.50;
+        serverACL.InitComponent(Controller, self);
+        AppendComponent(serverACL);
+        // End:0x334
+        if(i == 2)
+        {
+            BTACLMailHK(serverACL).ChangeNonFreeGiftColumnMode();
+        }
+        // End:0x348
+        else
+        {
+            BTACLMailHK(serverACL).ChangeMailColumnMode();
+        }
+        fb.X1 = AWinPos.X2 - float(2) - float(14) + float(1);
+        fb.Y1 = AWinPos.Y1 + float(2) + float(50);
+        fb.X2 = AWinPos.X2 - float(2) + float(1);
+        fb.Y2 = AWinPos.Y2 - float(2);
+        serverACL.MultiColumnList.MyScrollBar.AWinPos = fb;
+        serverACL.MultiColumnList.MyScrollBar.ApplyAWinPos();
+        ACLMail[i] = serverACL;
+        TabControl.BindTabButtonAndPanel(Buttons[i], ACLMail[i]);
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x55;
+    }
+    Buttons[0].__OnClick__Delegate = OnReceivedMailClick;
+    Buttons[1].__OnClick__Delegate = OnSendedMailClick;
+    Buttons[2].__OnClick__Delegate = OnCashItemMailClick;
+    Buttons[0].Caption = strRecvMail;
+    Buttons[1].Caption = strSendMail;
+    Buttons[2].Caption = strCashItemMail;
+    TabControl.__OnChangedTab__Delegate = TabControl_OnChangedTab;
+    TabControl.SetVisiblePanel(0);
+}
+
+function bool OnCashItemMailClick(GUIComponent Sender)
+{
+    TopButton[1].Caption = strTopButton[1];
+    TabControl.SetVisiblePanel(2);
+    return true;
+}
+
+function bool OnReceivedMailClick(GUIComponent Sender)
+{
+    TopButton[1].Caption = strTopButton[1];
+    TabControl.SetVisiblePanel(0);
+    return true;
+}
+
+function bool OnSendedMailClick(GUIComponent Sender)
+{
+    TopButton[1].Caption = strTopButton[5];
+    TabControl.SetVisiblePanel(1);
+    return true;
+}
+
+defaultproperties
+{
+    TabControl=mTabControl
+    fbTopButton[0]=(X1=12.0,Y1=112.0,X2=74.0,Y2=138.0)
+    fbTopButton[1]=(X1=74.0,Y1=112.0,X2=154.0,Y2=138.0)
+    fbTopButton[2]=(X1=154.0,Y1=112.0,X2=309.0,Y2=138.0)
+    fbTopButton[3]=(X1=309.0,Y1=112.0,X2=403.0,Y2=138.0)
+    fbTopButton[4]=(X1=403.0,Y1=112.0,X2=498.0,Y2=138.0)
+    fbTopButton2[0]=(X1=0.0,Y1=112.0,X2=0.0,Y2=138.0)
+    fbTopButton2[1]=(X1=12.0,Y1=112.0,X2=127.0,Y2=138.0)
+    fbTopButton2[2]=(X1=127.0,Y1=112.0,X2=381.0,Y2=138.0)
+    fbTopButton2[3]=(X1=381.0,Y1=112.0,X2=484.0,Y2=138.0)
+    fbTopButton2[4]=(X1=0.0,Y1=112.0,X2=0.0,Y2=138.0)
+    strPoint="Points"
+    strCash="Cash"
+    strTopButton[0]="Date"
+    strTopButton[1]="Sender"
+    strTopButton[2]="Text"
+    strTopButton[3]="Item"
+    strTopButton[4]="Status"
+    strTopButton[5]="Recipient"
+    strSendMail="Sent Mail"
+    strRecvMail="Inbox"
+    strCashItemMail="Gift Box"
+    strUndefine="Unread"
+    strDay="d"
+    strHour="h"
+    strEmpty="None"
+    bBoundToParent=true
+    bScaleToParent=true
+}

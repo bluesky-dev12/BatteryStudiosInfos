@@ -1,0 +1,1 @@
+class wEgyptMaleSoundGroup extends wPawnSoundGroup;

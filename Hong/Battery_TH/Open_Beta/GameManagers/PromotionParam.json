@@ -1,0 +1,314 @@
+[
+  {
+    "nLevel": 0,
+    "sAcquireItem_Type": 0,
+    "sAcquireItem": "",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "-",
+    "nPartID": 1000
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "1010",
+    "nPartID": 31
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "2000",
+    "nPartID": 1001
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "3000",
+    "nPartID": 2011
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "4020",
+    "nPartID": 3041
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "6000",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40006",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40009",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40012",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17001",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "2022",
+    "nPartID": 1141
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "3012",
+    "nPartID": 2081
+  },
+  {
+    "nLevel": 1,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "2070",
+    "nPartID": 1111
+  },
+  {
+    "nLevel": 2,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40010",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 2,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 100
+  },
+  {
+    "nLevel": 3,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40019",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 3,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 100
+  },
+  {
+    "nLevel": 4,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40011",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 4,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 100
+  },
+  {
+    "nLevel": 5,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 500
+  },
+  {
+    "nLevel": 6,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40016",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 6,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 200
+  },
+  {
+    "nLevel": 7,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40005",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 7,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 200
+  },
+  {
+    "nLevel": 8,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40013",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 8,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 300
+  },
+  {
+    "nLevel": 9,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40015",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 9,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 400
+  },
+  {
+    "nLevel": 10,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 1000
+  },
+  {
+    "nLevel": 11,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40017",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 11,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 600
+  },
+  {
+    "nLevel": 12,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 1400
+  },
+  {
+    "nLevel": 13,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17002",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 14,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40008",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 14,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 900
+  },
+  {
+    "nLevel": 15,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 2000
+  },
+  {
+    "nLevel": 16,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17009",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 17,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40007",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 17,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 1400
+  },
+  {
+    "nLevel": 18,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 3000
+  },
+  {
+    "nLevel": 19,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17010",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 20,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40021",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 21,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 2000
+  },
+  {
+    "nLevel": 22,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17008",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 23,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40014",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 23,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 2600
+  },
+  {
+    "nLevel": 24,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 6000
+  },
+  {
+    "nLevel": 25,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "17026",
+    "nPartID": 1
+  },
+  {
+    "nLevel": 26,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 7000
+  },
+  {
+    "nLevel": 27,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "40022",
+    "nPartID": 0
+  },
+  {
+    "nLevel": 27,
+    "sAcquireItem_Type": 1,
+    "sAcquireItem": "point",
+    "nPartID": 3800
+  }
+]

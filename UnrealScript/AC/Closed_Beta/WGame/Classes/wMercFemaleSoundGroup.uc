@@ -1,0 +1,1 @@
+class wMercFemaleSoundGroup extends wPawnSoundGroup;

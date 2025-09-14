@@ -1,0 +1,98 @@
+[
+  {
+    "PlayerStart_Alien_Count": [
+      1,
+      2,
+      3
+    ],
+    "PlayerStart_Hero_Count": [
+      1,
+      1,
+      1
+    ],
+    "PlayerStart_Hero_Appear_Per": [
+      100,
+      100,
+      100
+    ],
+    "PlayerStart_SuperHero_Count": [
+      0,
+      0,
+      0
+    ],
+    "fSuperAlien_KnockBackRatio": 0.0,
+    "fSuperAlien_SpeedRatio": 0.0,
+    "fSuperAlien_RemainingTime": 0.0,
+    "fGunAttackDamagePer": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      4.0,
+      1.0,
+      1.0
+    ],
+    "fAlien_Hit_Delay_Time": 0.5,
+    "fAlien_Hit_Move_Time": 0.1,
+    "fAlien_Hit_Move_Speed": 0.8,
+    "fAttackBuffValue": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "iBaseAlienMaxHP": [
+      1000,
+      2500,
+      3500
+    ],
+    "iHostAlienMaxHP": [
+      1500,
+      3000,
+      4000
+    ],
+    "iMasterAlienMaxHP": [
+      2000,
+      3500,
+      4500
+    ],
+    "AlienKnockBack_UseDamage": 1,
+    "AlienKnockBack_Time": 0.1,
+    "AlienKnockBack_Momentum": 200.0,
+    "AlienSupplyPackWeaponArray": [
+      -1,
+      90307,
+      90308,
+      6005,
+      7003,
+      2088,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AlienSupplyPackWeaponCount": 6,
+    "AlienSupplyPackDropTime": 30.0,
+    "AlienSupplyPackOneTimeCount": [
+      2,
+      3,
+      4
+    ],
+    "AlienSupplyPackDropMaxCount": [
+      10,
+      10,
+      10
+    ],
+    "AlienSupplyPackDropTryCount": [
+      6,
+      6,
+      6
+    ]
+  }
+]

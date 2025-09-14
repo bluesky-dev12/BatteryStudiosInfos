@@ -1,0 +1,682 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path Engine\Classes\wBTLoadingScreenDrawer.uc
+ * Package Imports:
+ *	Engine
+ *	Core
+ *
+ * Stats:
+ *	Structs:1
+ *	Properties:44
+ *	Functions:10
+ *
+ *******************************************************************************/
+class wBTLoadingScreenDrawer extends Object
+    native;
+
+struct native export OtherLoadingStateItem
+{
+    var LoadingMessageItem LoadingMsgItem;
+    var string strLoadingMsg;
+};
+
+var Material Mat_img_point_help;
+var Material Mat_gauge_loading;
+var Material Mat_gauge_loading_back;
+var Material Mat_img_load_pllist;
+var Material Mat_img_hud_text;
+var Material Mat_img_hud_text2;
+var Material Mat_img_help_all;
+var Material Mat_img_help_line;
+var Material Mat_img_RespawnLevelStar[5];
+var Material LoadingBackGroundImage;
+var Material MiniMapInfoImage;
+var Material Mat_img_SupplyIcon[3];
+var int TeamCountAF;
+var int TeamCountRSA;
+var localized string strSupplyIcon[3];
+var int SupplyImgNum[3];
+var FloatBox ModeHelp[11];
+var localized string strModeHelp1[11];
+var int SelectHelp;
+var array<FloatBox> ModeFB;
+var array<FloatBox> ModeFB2;
+var array<string> ModeNames;
+var array<string> ModeDescriptions;
+var string GameSubMode;
+var string GameDifficulty;
+var string GameRespawnType;
+var int MapDifficulty;
+var int MapID;
+var wMatchMaker MM;
+var array<OtherLoadingStateItem> OtherLoadingState;
+var string MyLoadingState;
+var float iProgress;
+var float iPrevProgress;
+var float Alpha;
+var bool bRefreshRender;
+var bool bFirstRender;
+var localized string szTipText[5];
+var localized string szMapInfo[5];
+var int iTipIndex;
+var int iRespawnIndex;
+var localized string CantUseSupplyLineText1;
+var localized string CantUseSupplyLineText2;
+var FloatBox fbSupplyIcon[3];
+var FloatBox fbSupplyStr[3];
+
+// Export UwBTLoadingScreenDrawer::execAddToRoot(FFrame&, void* const)
+native function AddToRoot(Material Image);
+// Export UwBTLoadingScreenDrawer::execRemoveFromRoot(FFrame&, void* const)
+native function RemoveFromRoot(Material Image);
+event Initialize()
+{
+    UpdateProgress(0);
+    UpdateMyLoadingState("");
+    ClearOtherLoadingState();
+    DestroyBackGroundImage();
+    bRefreshRender = true;
+    bFirstRender = false;
+    iTipIndex = Rand(5);
+}
+
+event bool CreateBackGroundImage(wMatchMaker MatchMaker)
+{
+    local array<GameModeInfo> GameModeInfos;
+    local int i;
+    local string strSupplyResource;
+
+    // End:0x56
+    if(MatchMaker == none)
+    {
+        Log("wBTLoadingScreenDrawer::CreateBackGroundImage() MatchMaker is none");
+        return false;
+    }
+    // End:0xd5a
+    else
+    {
+        MM = MatchMaker;
+        GameModeInfos = class'wGameSettings'.static.GetAllGameModes();
+        i = 0;
+        J0x7d:
+        // End:0xcf [While If]
+        if(i < GameModeInfos.Length)
+        {
+            ModeNames[i] = GameModeInfos[i].UserFriendlyName;
+            ModeDescriptions[i] = GameModeInfos[i].ModeDescription;
+            ++ i;
+            // This is an implied JumpToken; Continue!
+            goto J0x7d;
+        }
+        GameSubMode = class'wGameSettings'.static.GetWeaponRestrictionByIndex(MM.kGame_WeaponLimit);
+        MapID = MM.MapSettings.GetMapInfo(MM.szMapName).MapID;
+        MapDifficulty = MM.MapSettings.GetMapInfo(MM.szMapName).MapDifficulty;
+        i = 0;
+        J0x163:
+        // End:0x2b8 [While If]
+        if(i < 3)
+        {
+            strSupplyResource = MM.MapSettings.GetMapInfo(MM.szMapName).ResourceSupplyImages[i];
+            // End:0x1bc
+            if(strSupplyResource == "")
+            {
+                // This is an implied JumpToken;
+                goto J0x2b8;
+            }
+            // End:0x2ae
+            else
+            {
+                // End:0x207
+                if(strSupplyResource == "Warfare_UI_Item.SupplySkillIcon.icon_sup_heli_s")
+                {
+                    SupplyImgNum[i] = 0;
+                }
+                // End:0x2ae
+                else
+                {
+                    // End:0x252
+                    if(strSupplyResource == "Warfare_UI_Item.SupplySkillIcon.icon_sup_bomb_s")
+                    {
+                        SupplyImgNum[i] = 1;
+                    }
+                    // End:0x2ae
+                    else
+                    {
+                        // End:0x29d
+                        if(strSupplyResource == "Warfare_UI_Item.SupplySkillIcon.icon_sup_UAV_s")
+                        {
+                            SupplyImgNum[i] = 2;
+                        }
+                        // End:0x2ae
+                        else
+                        {
+                            SupplyImgNum[i] = -1;
+                        }
+                    }
+                }
+            }
+            ++ i;
+            // This is an implied JumpToken; Continue!
+            goto J0x163;
+        }
+        J0x2b8:
+        ModeFB.Length = 12;
+        ModeFB[0] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 688.0, 256.0, 752.0);
+        ModeFB[1] = class'BTCustomDrawHK'.static.MakeFloatBox(256.0, 688.0, 512.0, 752.0);
+        ModeFB[2] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 624.0, 256.0, 688.0);
+        ModeFB[3] = class'BTCustomDrawHK'.static.MakeFloatBox(256.0, 624.0, 512.0, 688.0);
+        ModeFB[4] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 752.0, 256.0, 816.0);
+        ModeFB[5] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 688.0, 256.0, 752.0);
+        ModeFB[6] = class'BTCustomDrawHK'.static.MakeFloatBox(256.0, 624.0, 512.0, 688.0);
+        ModeFB[7] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 624.0, 256.0, 688.0);
+        ModeFB[8] = class'BTCustomDrawHK'.static.MakeFloatBox(587.0, 816.0, 819.0, 891.0);
+        ModeFB[9] = class'BTCustomDrawHK'.static.MakeFloatBox(587.0, 816.0, 819.0, 891.0);
+        ModeFB[10] = class'BTCustomDrawHK'.static.MakeFloatBox(587.0, 816.0, 819.0, 891.0);
+        ModeFB[11] = class'BTCustomDrawHK'.static.MakeFloatBox(256.0, 816.0, 512.0, 880.0);
+        ModeFB2.Length = 1;
+        ModeFB2[0] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 128.0, 256.0, 192.0);
+        ModeHelp[0] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 0.0, 120.0, 74.0);
+        ModeHelp[1] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 74.0, 120.0, 148.0);
+        ModeHelp[2] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 148.0, 120.0, 222.0);
+        ModeHelp[3] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 222.0, 120.0, 296.0);
+        ModeHelp[4] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 296.0, 120.0, 370.0);
+        ModeHelp[5] = class'BTCustomDrawHK'.static.MakeFloatBox(0.0, 370.0, 120.0, 444.0);
+        ModeHelp[6] = class'BTCustomDrawHK'.static.MakeFloatBox(120.0, 0.0, 240.0, 74.0);
+        ModeHelp[7] = class'BTCustomDrawHK'.static.MakeFloatBox(120.0, 74.0, 240.0, 148.0);
+        ModeHelp[8] = class'BTCustomDrawHK'.static.MakeFloatBox(120.0, 148.0, 240.0, 222.0);
+        ModeHelp[9] = class'BTCustomDrawHK'.static.MakeFloatBox(120.0, 222.0, 240.0, 296.0);
+        ModeHelp[10] = class'BTCustomDrawHK'.static.MakeFloatBox(120.0, 296.0, 240.0, 370.0);
+        SelectHelp = Rand(11);
+        Initialize();
+        Mat_img_help_line = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_help_line", class'Material'));
+        Mat_img_hud_text = Material(DynamicLoadObject("Warfare_GP_UI_HUD.Text.img_hud_text", class'Material'));
+        Mat_img_hud_text2 = Material(DynamicLoadObject("Warfare_GP_UI_HUD.Text.img_hud_text2", class'Material'));
+        Mat_img_help_all = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_help_all", class'Material'));
+        Mat_gauge_loading = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.gauge_loading", class'Material'));
+        Mat_gauge_loading_back = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.gauge_loading_back", class'Material'));
+        Mat_img_point_help = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_point_help", class'Material'));
+        Mat_img_load_pllist = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_load_pllist", class'Material'));
+        Mat_img_SupplyIcon[0] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_supplyicon_helicopter", class'Material'));
+        Mat_img_SupplyIcon[1] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_supplyicon_bombing", class'Material'));
+        Mat_img_SupplyIcon[2] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_supplyicon_UAV", class'Material'));
+        Mat_img_RespawnLevelStar[0] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_respawnlevel_star01", class'Material'));
+        Mat_img_RespawnLevelStar[1] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_respawnlevel_star02", class'Material'));
+        Mat_img_RespawnLevelStar[2] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_respawnlevel_star03", class'Material'));
+        Mat_img_RespawnLevelStar[3] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_respawnlevel_star04", class'Material'));
+        Mat_img_RespawnLevelStar[4] = Material(DynamicLoadObject("Warfare_GP_UI_Map.LoadingImage.img_loading_respawnlevel_star05", class'Material'));
+        // End:0xbe8
+        if(Mat_img_help_line != none)
+        {
+            AddToRoot(Mat_img_help_line);
+        }
+        // End:0xbfe
+        if(Mat_img_hud_text != none)
+        {
+            AddToRoot(Mat_img_hud_text);
+        }
+        // End:0xc14
+        if(Mat_img_hud_text2 != none)
+        {
+            AddToRoot(Mat_img_hud_text2);
+        }
+        // End:0xc2a
+        if(Mat_img_load_pllist != none)
+        {
+            AddToRoot(Mat_img_load_pllist);
+        }
+        // End:0xc40
+        if(Mat_img_help_all != none)
+        {
+            AddToRoot(Mat_img_help_all);
+        }
+        // End:0xc56
+        if(Mat_gauge_loading != none)
+        {
+            AddToRoot(Mat_gauge_loading);
+        }
+        // End:0xc6c
+        if(Mat_gauge_loading_back != none)
+        {
+            AddToRoot(Mat_gauge_loading_back);
+        }
+        // End:0xc82
+        if(Mat_img_point_help != none)
+        {
+            AddToRoot(Mat_img_point_help);
+        }
+        LoadingBackGroundImage = MatchMaker.GetLoadingImage();
+        MiniMapInfoImage = MatchMaker.GetMiniMapInfoImage();
+        // End:0xd06
+        if(LoadingBackGroundImage != none)
+        {
+            AddToRoot(LoadingBackGroundImage);
+            // End:0xcdb
+            if(MiniMapInfoImage != none)
+            {
+                AddToRoot(MiniMapInfoImage);
+            }
+            // End:0xd01
+            else
+            {
+                Log(string(self) $ " GetMiniMapInfoImage is none ");
+            }
+            return true;
+        }
+        // End:0xd5a
+        else
+        {
+            Log("wBTLoadingScreenDrawer::CreateBackGroundImage() LoadingBackGroundImage is none");
+            return false;
+        }
+    }
+}
+
+event bool DestroyBackGroundImage()
+{
+    // End:0x1d
+    if(Mat_img_hud_text == none)
+    {
+        RemoveFromRoot(Mat_img_hud_text);
+        Mat_img_hud_text = none;
+    }
+    // End:0x3a
+    if(Mat_img_hud_text2 == none)
+    {
+        RemoveFromRoot(Mat_img_hud_text2);
+        Mat_img_hud_text = none;
+    }
+    // End:0x57
+    if(Mat_img_help_line == none)
+    {
+        RemoveFromRoot(Mat_img_help_line);
+        Mat_img_help_line = none;
+    }
+    // End:0x74
+    if(Mat_img_help_all == none)
+    {
+        RemoveFromRoot(Mat_img_help_all);
+        Mat_img_help_all = none;
+    }
+    // End:0x91
+    if(Mat_gauge_loading == none)
+    {
+        RemoveFromRoot(Mat_gauge_loading);
+        Mat_gauge_loading = none;
+    }
+    // End:0xae
+    if(Mat_gauge_loading_back == none)
+    {
+        RemoveFromRoot(Mat_gauge_loading_back);
+        Mat_gauge_loading_back = none;
+    }
+    // End:0xcb
+    if(Mat_img_point_help == none)
+    {
+        RemoveFromRoot(Mat_img_point_help);
+        Mat_img_point_help = none;
+    }
+    // End:0xe8
+    if(Mat_img_load_pllist == none)
+    {
+        RemoveFromRoot(Mat_img_load_pllist);
+        Mat_img_load_pllist = none;
+    }
+    // End:0x14b
+    if(LoadingBackGroundImage == none)
+    {
+        Log("wBTLoadingScreenDrawer::DestroyBackGroundImage() LoadingBackGroundImage is none");
+        return false;
+    }
+    // End:0x175
+    else
+    {
+        RemoveFromRoot(LoadingBackGroundImage);
+        // End:0x16c
+        if(MiniMapInfoImage != none)
+        {
+            RemoveFromRoot(MiniMapInfoImage);
+        }
+        LoadingBackGroundImage = none;
+        return true;
+    }
+}
+
+event bool UpdateProgress(int CurrenetProgress)
+{
+    iPrevProgress = iProgress;
+    iProgress = float(CurrenetProgress);
+    bRefreshRender = true;
+    return true;
+}
+
+event UpdateMyLoadingState(string LoadingState)
+{
+    MyLoadingState = LoadingState;
+}
+
+event UpdateOtherLoadingState(LoadingMessageItem Item, string strMsg)
+{
+    local int i;
+
+    i = 0;
+    J0x07:
+    // End:0xfe [While If]
+    if(i < OtherLoadingState.Length)
+    {
+        // End:0xf4
+        if(OtherLoadingState[i].LoadingMsgItem.UserName == Item.UserName)
+        {
+            OtherLoadingState[i].LoadingMsgItem.UserName = Item.UserName;
+            OtherLoadingState[i].LoadingMsgItem.LoadingState = Item.LoadingState;
+            OtherLoadingState[i].LoadingMsgItem.NameColor = Item.NameColor;
+            OtherLoadingState[i].LoadingMsgItem.StateColor = Item.StateColor;
+            OtherLoadingState[i].strLoadingMsg = strMsg;
+            OtherLoadingState[i].LoadingMsgItem.TeamNum = Item.TeamNum;
+        }
+        // End:0xfe
+        else
+        {
+            ++ i;
+            // This is an implied JumpToken; Continue!
+            goto J0x07;
+        }
+    }
+    // End:0x219
+    if(i == OtherLoadingState.Length)
+    {
+        OtherLoadingState.Insert(OtherLoadingState.Length, 1);
+        OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.UserName = Item.UserName;
+        OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.LoadingState = Item.LoadingState;
+        OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.NameColor = Item.NameColor;
+        OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.StateColor = Item.StateColor;
+        OtherLoadingState[OtherLoadingState.Length - 1].strLoadingMsg = strMsg;
+        OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.TeamNum = Item.TeamNum;
+        // End:0x212
+        if(OtherLoadingState[OtherLoadingState.Length - 1].LoadingMsgItem.TeamNum == 0)
+        {
+            ++ TeamCountAF;
+        }
+        // End:0x219
+        else
+        {
+            ++ TeamCountRSA;
+        }
+    }
+    bRefreshRender = true;
+}
+
+event ClearOtherLoadingState()
+{
+    OtherLoadingState.Remove(0, OtherLoadingState.Length);
+    TeamCountAF = 0;
+    TeamCountRSA = 0;
+}
+
+event DrawLoadingScreen(Canvas C)
+{
+    local int i, ModeIndex, SupplyAddCount;
+    local float ratioX, ratioY, listStepX;
+    local FloatBox fb, fbRSA;
+    local Image img;
+    local int StrLenPerOneLine;
+    local string tmpStrTip;
+    local float loadingBarWidth;
+    local Color kShadowColor;
+
+    C.Style = 5;
+    C.ColorModulate = C.default.ColorModulate;
+    ratioX = C.ClipX / float(1024);
+    ratioY = C.ClipY / float(768);
+    // End:0x7c
+    if(bFirstRender == false)
+    {
+        bFirstRender = true;
+    }
+    img = class'BTCustomDrawHK'.static.MakeImage(1024, 768, 28, LoadingBackGroundImage);
+    class'BTCustomDrawHK'.static.DrawImage(C, img, 0.0, 0.0, C.ClipX, C.ClipY);
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(27.0 * ratioX, 653.0 * ratioY, 763.0 * ratioX, 682.0 * ratioY);
+    img = class'BTCustomDrawHK'.static.MakeImage(736, 31, 28, Mat_gauge_loading_back);
+    class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, img.X, img.Y, img.X + img.width, img.Y + img.Height);
+    // End:0x209
+    if(iProgress > float(100))
+    {
+        iProgress = 100.0;
+    }
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(30.0 * ratioX, 656.0 * ratioY, 760.0 * ratioX, 679.0 * ratioY);
+    img = class'BTCustomDrawHK'.static.MakeImage(730, 23, 28, Mat_gauge_loading);
+    loadingBarWidth = img.width * iProgress / float(100);
+    class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + loadingBarWidth * ratioX, fb.Y1 + img.Height * ratioY, img.X, img.Y, img.X + loadingBarWidth, img.Y + img.Height);
+    C.DrawColor = class'Canvas'.static.MakeColorNoEmpty(byte(255), byte(255), byte(255), byte(255));
+    kShadowColor = class'Canvas'.static.MakeColorNoEmpty(0, 0, 0, byte(255));
+    class'BTCustomDrawHK'.static.DrawStringPaddingOffset(C, string(int(iProgress)) $ "%", 4, 14.0, 30.0 * ratioX, 658.0 * ratioY, 763.0 * ratioX, 679.0 * ratioY, 0, 0, 0, 0, kShadowColor, 0, false);
+    // End:0x8b9
+    if(OtherLoadingState.Length > 0)
+    {
+        listStepX = 204.0 * ratioX;
+        C.DrawColor = class'Canvas'.static.MakeColorNoEmpty(byte(255), byte(255), byte(255), byte(255));
+        fb = class'BTCustomDrawHK'.static.MakeFloatBox(28.0 * ratioX, 447.0 * ratioY, 228.0 * ratioX, 462.0 * ratioY + float(15) * ratioY * float(TeamCountAF));
+        img = class'BTCustomDrawHK'.static.MakeImage(32, 32, 15, Mat_img_load_pllist);
+        class'BTCustomDrawHK'.static.DrawImage(C, img, fb.X1, fb.Y1, fb.X2, fb.Y2);
+        fb = class'BTCustomDrawHK'.static.MakeFloatBox(28.0 * ratioX + listStepX, 447.0 * ratioY, 228.0 * ratioX + listStepX, 462.0 * ratioY + float(15) * ratioY * float(TeamCountRSA));
+        img = class'BTCustomDrawHK'.static.MakeImage(32, 32, 15, Mat_img_load_pllist);
+        class'BTCustomDrawHK'.static.DrawImage(C, img, fb.X1, fb.Y1, fb.X2, fb.Y2);
+        fb.X1 = 34.0 * ratioX;
+        fb.X2 = 225.0 * ratioX;
+        fb.Y2 = 453.0 * ratioY;
+        fbRSA = fb;
+        i = 0;
+        J0x605:
+        // End:0x8b9 [While If]
+        if(i < OtherLoadingState.Length)
+        {
+            // End:0x763
+            if(OtherLoadingState[i].LoadingMsgItem.TeamNum == 0)
+            {
+                fb.Y1 = fb.Y2;
+                fb.Y2 = fb.Y1 + float(15) * ratioY;
+                C.DrawColor = OtherLoadingState[i].LoadingMsgItem.NameColor;
+                class'BTCustomDrawHK'.static.DrawString(C, OtherLoadingState[i].LoadingMsgItem.UserName, 3, 9.0, fb.X1, fb.Y1, fb.X2, fb.Y2,,, true);
+                C.DrawColor = OtherLoadingState[i].LoadingMsgItem.StateColor;
+                class'BTCustomDrawHK'.static.DrawString(C, OtherLoadingState[i].strLoadingMsg, 5, 9.0, fb.X1, fb.Y1, fb.X2, fb.Y2,,, true);
+            }
+            // End:0x8af
+            else
+            {
+                fbRSA.Y1 = fbRSA.Y2;
+                fbRSA.Y2 = fbRSA.Y1 + float(15) * ratioY;
+                C.DrawColor = OtherLoadingState[i].LoadingMsgItem.NameColor;
+                class'BTCustomDrawHK'.static.DrawString(C, OtherLoadingState[i].LoadingMsgItem.UserName, 3, 9.0, fbRSA.X1 + listStepX, fbRSA.Y1, fbRSA.X2 + listStepX, fbRSA.Y2,,, true);
+                C.DrawColor = OtherLoadingState[i].LoadingMsgItem.StateColor;
+                class'BTCustomDrawHK'.static.DrawString(C, OtherLoadingState[i].strLoadingMsg, 5, 9.0, fbRSA.X1 + listStepX, fbRSA.Y1, fbRSA.X2 + listStepX, fbRSA.Y2,,, true);
+            }
+            ++ i;
+            // This is an implied JumpToken; Continue!
+            goto J0x605;
+        }
+    }
+    ModeIndex = MM.kGame_GameMode;
+    // End:0x96e
+    if(class'wGameSettings'.static.IsBotModeIndex(ModeIndex))
+    {
+        // End:0x912
+        if(class'wGameSettings'.static.GetModeIndex_BotDeathMatch() == ModeIndex)
+        {
+            ModeIndex = class'wGameSettings'.static.GetModeIndex_DeathMatch();
+        }
+        // End:0x940
+        if(class'wGameSettings'.static.GetModeIndex_BotDomination() == ModeIndex)
+        {
+            ModeIndex = class'wGameSettings'.static.GetModeIndex_Domination();
+        }
+        // End:0x96e
+        if(class'wGameSettings'.static.GetModeIndex_BotTeamDeath() == ModeIndex)
+        {
+            ModeIndex = class'wGameSettings'.static.GetModeIndex_TeamDeath();
+        }
+    }
+    // End:0x995
+    if(MM.BotTutorial)
+    {
+        ModeIndex = class'wGameSettings'.static.GetModeIndex_BotTutorial();
+    }
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(23.0 * ratioX, 35.0 * ratioY, 278.0 * ratioX, 99.0 * ratioY);
+    // End:0xc0f
+    if(ModeIndex < ModeFB.Length)
+    {
+        img = class'BTCustomDrawHK'.static.MakeImage(256, 64, 0, Mat_img_hud_text);
+        C.DrawColor = class'Canvas'.static.MakeColor(byte(255), byte(255), byte(255), byte(255));
+        class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, ModeFB[ModeIndex].X1, ModeFB[ModeIndex].Y1, ModeFB[ModeIndex].X2, ModeFB[ModeIndex].Y2);
+        // End:0xbaf
+        if(MM.kGame_WeaponLimit != 0)
+        {
+            class'BTCustomDrawHK'.static.DrawString(C, GameSubMode, 5, 14.0, fb.X1 + img.width * float(2) / float(3) * ratioX, fb.Y1 + img.Height + float(5) * ratioY, fb.X1 - float(25) + img.width * ratioX, fb.Y1 + img.Height + float(25) * ratioY, kShadowColor, 0, false);
+        }
+        class'BTCustomDrawHK'.static.DrawString(C, ModeDescriptions[ModeIndex], 5, 13.0, 661.0 * ratioX, 53.0 * ratioY, 999.0 * ratioX, 72.0 * ratioY, kShadowColor, 0, false);
+    }
+    // End:0xe73
+    else
+    {
+        // End:0xe73
+        if(float(ModeIndex) % float(13) < float(ModeFB.Length))
+        {
+            img = class'BTCustomDrawHK'.static.MakeImage(256, 64, 0, Mat_img_hud_text2);
+            C.DrawColor = class'Canvas'.static.MakeColor(byte(255), byte(255), byte(255), byte(255));
+            class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, ModeFB2[int(float(ModeIndex) % float(13))].X1, ModeFB2[int(float(ModeIndex) % float(13))].Y1, ModeFB2[int(float(ModeIndex) % float(13))].X2, ModeFB2[int(float(ModeIndex) % float(13))].Y2);
+            // End:0xe16
+            if(MM.kGame_WeaponLimit != 0)
+            {
+                class'BTCustomDrawHK'.static.DrawString(C, GameSubMode, 5, 14.0, fb.X1 + img.width * float(2) / float(3) * ratioX, fb.Y1 + img.Height + float(5) * ratioY, fb.X1 - float(25) + img.width * ratioX, fb.Y1 + img.Height + float(25) * ratioY, kShadowColor, 0, false);
+            }
+            class'BTCustomDrawHK'.static.DrawString(C, ModeDescriptions[ModeIndex], 5, 13.0, 661.0 * ratioX, 53.0 * ratioY, 999.0 * ratioX, 72.0 * ratioY, kShadowColor, 0, false);
+        }
+    }
+    // End:0xeed
+    if(MiniMapInfoImage != none)
+    {
+        img = class'BTCustomDrawHK'.static.MakeImage(256, 256, 28, MiniMapInfoImage);
+        class'BTCustomDrawHK'.static.DrawImage(C, img, 753.0 * ratioX, 154.0 * ratioY, 1009.0 * ratioX, 410.0 * ratioY);
+    }
+    // End:0x10ee
+    if(!MM.BotTutorial)
+    {
+        C.DrawColor = class'Canvas'.static.MakeColor(byte(255), byte(255), byte(255), byte(255));
+        fb = class'BTCustomDrawHK'.static.MakeFloatBox(715.0 * ratioX, 497.0 * ratioY, 872.0 * ratioX, 517.0 * ratioY);
+        class'BTCustomDrawHK'.static.DrawString(C, szMapInfo[0], 5, 17.0, fb.X1, fb.Y1, fb.X2, fb.Y2, kShadowColor, 0, false);
+        // End:0x101a
+        if(MM.IsSDRespawn())
+        {
+            C.DrawColor = class'Canvas'.static.MakeColor(89, 253, byte(255), byte(255));
+            GameRespawnType = class'wGameSettings'.static.GetRespawnTypeByIndex(0);
+        }
+        // End:0x105a
+        else
+        {
+            C.DrawColor = class'Canvas'.static.MakeColor(byte(255), 110, 233, byte(255));
+            GameRespawnType = class'wGameSettings'.static.GetRespawnTypeByIndex(1);
+        }
+        fb = class'BTCustomDrawHK'.static.MakeFloatBox(893.0 * ratioX, 497.0 * ratioY, 1024.0 * ratioX, 517.0 * ratioY);
+        class'BTCustomDrawHK'.static.DrawString(C, GameRespawnType, 3, 17.0, fb.X1, fb.Y1, fb.X2, fb.Y2, kShadowColor, 0, false);
+    }
+    C.DrawColor = class'Canvas'.static.MakeColor(byte(255), byte(255), byte(255), byte(255));
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(715.0 * ratioX, 530.0 * ratioY, 872.0 * ratioX, 550.0 * ratioY);
+    class'BTCustomDrawHK'.static.DrawString(C, szMapInfo[1], 5, 17.0, fb.X1, fb.Y1, fb.X2, fb.Y2, kShadowColor, 0, false);
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(890.0 * ratioX, 527.0 * ratioY, 1008.0 * ratioX, 553.0 * ratioY);
+    img = class'BTCustomDrawHK'.static.MakeImage(118, 26, 28, Mat_img_RespawnLevelStar[MapDifficulty - 1]);
+    class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, img.X, img.Y, img.X + img.width, img.Y + img.Height);
+    class'BTCustomDrawHK'.static.DrawString(C, szMapInfo[2], 3, 9.0, 19.0 * ratioX, 275.0 * ratioY, 232.0 * ratioX, 290.0 * ratioY, kShadowColor, 0, false);
+    img = class'BTCustomDrawHK'.static.MakeImage(120, 74, 28, Mat_img_help_all);
+    fb = class'BTCustomDrawHK'.static.MakeFloatBox(59.0 * ratioX, 301.0 * ratioY, 179.0 * ratioX, 375.0 * ratioY);
+    class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, ModeHelp[SelectHelp].X1, ModeHelp[SelectHelp].Y1, ModeHelp[SelectHelp].X2, ModeHelp[SelectHelp].Y2);
+    fb = class'BTCustomDrawHK'.static.GetDrawStringFloatBox(C, strModeHelp1[SelectHelp], 0, 9.0, 19.0 * ratioX, 380.0 * ratioY, 232.0 * ratioX, 395.0 * ratioY, kShadowColor);
+    // End:0x15de
+    if(float(213) * ratioX < fb.X2 - fb.X1)
+    {
+        StrLenPerOneLine = int(float(213) * ratioX / fb.X2 - fb.X1 / float(Len(strModeHelp1[SelectHelp])));
+        tmpStrTip = Left(strModeHelp1[SelectHelp], StrLenPerOneLine);
+        class'BTCustomDrawHK'.static.DrawString(C, tmpStrTip, 0, 9.0, 19.0 * ratioX, 380.0 * ratioY, 232.0 * ratioX, 395.0 * ratioY, kShadowColor, 0, false);
+        tmpStrTip = Mid(strModeHelp1[SelectHelp], StrLenPerOneLine, Len(strModeHelp1[SelectHelp]));
+        class'BTCustomDrawHK'.static.DrawString(C, tmpStrTip, 0, 9.0, 19.0 * ratioX, 396.0 * ratioY, 232.0 * ratioX, 411.0 * ratioY, kShadowColor, 0, false);
+    }
+    // End:0x163b
+    else
+    {
+        class'BTCustomDrawHK'.static.DrawString(C, strModeHelp1[SelectHelp], 0, 9.0, 19.0 * ratioX, 380.0 * ratioY, 232.0 * ratioX, 395.0 * ratioY, kShadowColor, 0, false);
+    }
+    SupplyAddCount = 0;
+    i = 0;
+    J0x1649:
+    // End:0x167b [While If]
+    if(i < 3)
+    {
+        // End:0x1671
+        if(SupplyImgNum[i] != -1)
+        {
+            ++ SupplyAddCount;
+        }
+        ++ i;
+        // This is an implied JumpToken; Continue!
+        goto J0x1649;
+    }
+    // End:0x1737
+    if(SupplyAddCount == 0)
+    {
+        class'BTCustomDrawHK'.static.DrawString(C, CantUseSupplyLineText1, 4, 10.0, 13.0 * ratioX, 195.0 * ratioY, 226.0 * ratioX, 210.0 * ratioY, kShadowColor, 0, false);
+        class'BTCustomDrawHK'.static.DrawString(C, CantUseSupplyLineText2, 4, 10.0, 13.0 * ratioX, 211.0 * ratioY, 226.0 * ratioX, 226.0 * ratioY, kShadowColor, 0, false);
+    }
+    // End:0x1976
+    else
+    {
+        i = 0;
+        J0x173e:
+        // End:0x1976 [While If]
+        if(i < SupplyAddCount)
+        {
+            img = class'BTCustomDrawHK'.static.MakeImage(68, 90, 28, Mat_img_SupplyIcon[SupplyImgNum[i]]);
+            fb = class'BTCustomDrawHK'.static.MakeFloatBox(fbSupplyIcon[SupplyAddCount - 1].X1 + float(i * 71) * ratioX, fbSupplyIcon[SupplyAddCount - 1].Y1 * ratioY, fbSupplyIcon[SupplyAddCount - 1].X2 + float(i * 71) * ratioX, fbSupplyIcon[SupplyAddCount - 1].Y2 * ratioY);
+            class'BTCustomDrawHK'.static.DrawImageWithClipArea(C, img, fb.X1, fb.Y1, fb.X1 + img.width * ratioX, fb.Y1 + img.Height * ratioY, img.X, img.Y, img.X + img.width, img.Y + img.Height);
+            class'BTCustomDrawHK'.static.DrawString(C, strSupplyIcon[SupplyImgNum[i]], 4, 10.0, fbSupplyStr[SupplyAddCount - 1].X1 + float(i * 71) * ratioX, fbSupplyStr[SupplyAddCount - 1].Y1 * ratioY, fbSupplyStr[SupplyAddCount - 1].X2 + float(i * 71) * ratioX, fbSupplyStr[SupplyAddCount - 1].Y2 * ratioY, kShadowColor, 0, false);
+            ++ i;
+            // This is an implied JumpToken; Continue!
+            goto J0x173e;
+        }
+    }
+    C.DrawColor = class'Canvas'.static.MakeColor(byte(255), 204, 0, byte(255));
+    class'BTCustomDrawHK'.static.DrawString(C, szMapInfo[3], 3, 9.0, 28.0 * ratioX, 137.0 * ratioY, 222.0 * ratioX, 152.0 * ratioY, kShadowColor, 0, false);
+    C.DrawColor = class'Canvas'.static.MakeColor(byte(255), 198, 0, byte(255));
+    class'BTCustomDrawHK'.static.DrawString(C, szTipText[iTipIndex], 0, 12.0, 37.0 * ratioX, 708.0 * ratioY, 760.0 * ratioX, 768.0 * ratioY, kShadowColor, 0, false);
+}
+
+defaultproperties
+{
+    strSupplyIcon[0]="Helicopter"
+    strSupplyIcon[1]="Artillery"
+    strSupplyIcon[2]="UAV"
+    strModeHelp1[0]="Hold right click to aim down sight."
+    strModeHelp1[1]="Press 'Shift' to sprint."
+    strModeHelp1[2]="Request helicopter support with the helicopter pack."
+    strModeHelp1[3]="Request artillery support with the artillery pack."
+    strModeHelp1[4]="Request UAV support with the UAV pack."
+    strModeHelp1[5]="Recover lost health with the health pack."
+    strModeHelp1[6]="Use the AT-4 rocket launcher located in certain locations on maps."
+    strModeHelp1[7]="Use the flame thrower located in certain locations on maps."
+    strModeHelp1[8]="Use the mounted machine gun located in certain locations on maps."
+    strModeHelp1[9]="Use the sniper rifle scope to see far distance enemies."
+    strModeHelp1[10]="Press 'E' for melee attack."
+    szTipText[0]="Push shift to sprint."
+    szTipText[1]="Use Ctrl to toggle between standing, crouching, and laying prone."
+    szTipText[2]="Press spacebar to jump."
+    szTipText[3]="Right-click the mouse to aim your weapon for better accuracy."
+    szTipText[4]="Press E to melee a nearby enemy."
+    szMapInfo[0]="Respawn Type: "
+    szMapInfo[1]="Level: "
+    szMapInfo[2]="Tips"
+    szMapInfo[3]="Supply pack"
+    CantUseSupplyLineText1="Supply packs are not"
+    CantUseSupplyLineText2="given in this map."
+    fbSupplyIcon[0]=(X1=85.0,Y1=165.0,X2=153.0,Y2=255.0)
+    fbSupplyIcon[1]=(X1=48.0,Y1=165.0,X2=116.0,Y2=255.0)
+    fbSupplyIcon[2]=(X1=14.0,Y1=165.0,X2=82.0,Y2=255.0)
+    fbSupplyStr[0]=(X1=86.0,Y1=235.0,X2=152.0,Y2=250.0)
+    fbSupplyStr[1]=(X1=49.0,Y1=235.0,X2=115.0,Y2=250.0)
+    fbSupplyStr[2]=(X1=15.0,Y1=235.0,X2=81.0,Y2=250.0)
+}

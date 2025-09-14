@@ -1,0 +1,1 @@
+class ShieldEffect3rdRed extends ShieldEffect3rd;

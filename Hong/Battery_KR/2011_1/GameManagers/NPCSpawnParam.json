@@ -1,0 +1,128 @@
+[
+  {
+    "Grade": 1,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 1
+  },
+  {
+    "Grade": 1,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 2
+  },
+  {
+    "Grade": 1,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1001
+  },
+  {
+    "Grade": 1,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1002
+  },
+  {
+    "Grade": 2,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 21
+  },
+  {
+    "Grade": 2,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 22
+  },
+  {
+    "Grade": 2,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1021
+  },
+  {
+    "Grade": 2,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1022
+  },
+  {
+    "Grade": 3,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 41
+  },
+  {
+    "Grade": 3,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 42
+  },
+  {
+    "Grade": 3,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1041
+  },
+  {
+    "Grade": 3,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1042
+  },
+  {
+    "Grade": 4,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 61
+  },
+  {
+    "Grade": 4,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 62
+  },
+  {
+    "Grade": 4,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1061
+  },
+  {
+    "Grade": 4,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1062
+  },
+  {
+    "Grade": 5,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 81
+  },
+  {
+    "Grade": 5,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 82
+  },
+  {
+    "Grade": 5,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1081
+  },
+  {
+    "Grade": 5,
+    "Type_Type": 1,
+    "Type": "SMG",
+    "NPCID": 1082
+  },
+  {
+    "Grade": 100,
+    "Type_Type": 1,
+    "Type": "AR",
+    "NPCID": 991
+  }
+]

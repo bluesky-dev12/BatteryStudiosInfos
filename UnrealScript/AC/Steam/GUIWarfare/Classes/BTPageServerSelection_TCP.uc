@@ -1,0 +1,524 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path GUIWarfare\Classes\BTPageServerSelection_TCP.uc
+ * Package Imports:
+ *	GUIWarfare
+ *	BatteryNet
+ *	Core
+ *
+ * Stats:
+ *	Properties:1
+ *	Functions:101
+ *
+ *******************************************************************************/
+class BTPageServerSelection_TCP extends BTTcpLink_Channel;
+
+var export editinline BTPageServerSelection Owner;
+
+function bool rfAckEnterChannel(int id, int UID, string UserID, int Level, string ClanName, int ClanMarkPattern, int ClanMarkBG, int ClanMarkBL, int ClanGrade, int ClanWin, int ClanLose, byte IsLookFor, int Result, string ErrMsg, int ClanLevel, int LevelMarkID, int TitleMarkID, int Reserved1, int Reserved2, int Reserved3)
+{
+    return Owner.rfAckEnterChannel(id, UID, UserID, Level, ClanName, ClanMarkPattern, ClanMarkBG, ClanMarkBL, ClanGrade, ClanWin, ClanLose, IsLookFor, Result, ErrMsg, ClanLevel, LevelMarkID, TitleMarkID, Reserved1, Reserved2, Reserved3);
+}
+
+function bool rfAckLeaveChannel(int Result, string UserID, int UID)
+{
+    return Owner.rfAckLeaveChannel(Result, UserID, UID);
+}
+
+function bool rfAckLogin2(int Result, string ErrMsg, int UserID, string CharName, BtrDouble CurServerTime, int CharDBID, byte IsGM)
+{
+    return Owner.rfAckLogin2(Result, ErrMsg, UserID, CharName, CurServerTime, CharDBID, IsGM);
+}
+
+function bool rfAckItemListStart(int Count, int Result, string ErrMsg)
+{
+    return Owner.rfAckItemListStart(Count, Result, ErrMsg);
+}
+
+function bool rfAckItemList(array<BtrDouble> UniqueID, array<int> ItemID, array<int> ItemType, array<int> Durability, array<BtrDouble> UntilTime, array<int> SlotPosition, array<int> AddPartsID, array<int> DamageDegree, array<byte> ItemState, array<int> StackCount, array<int> PaintID, array<int> TradeCount)
+{
+    return Owner.rfAckItemList(UniqueID, ItemID, ItemType, Durability, UntilTime, SlotPosition, AddPartsID, DamageDegree, ItemState, StackCount, PaintID, TradeCount);
+}
+
+function bool rfAckItemListEnd()
+{
+    return Owner.rfAckItemListEnd();
+}
+
+function bool rfAckUserSkillListStart(int Count, int Result, string ErrMsg)
+{
+    return Owner.rfAckUserSkillListStart(Count, Result, ErrMsg);
+}
+
+function bool rfAckUserSkillList(array<int> UniqueSkillID, array<int> SkillID, array<BtrDouble> UntilTime, array<byte> SlotPosition)
+{
+    return Owner.rfAckUserSkillList(UniqueSkillID, SkillID, UntilTime, SlotPosition);
+}
+
+function bool rfAckUserSkillListEnd()
+{
+    return Owner.rfAckUserSkillListEnd();
+}
+
+function bool rfAckQSlotList(int Result, string ErrMsg, array<int> QSlotID, array<string> QSlotName, array<byte> QSlotDispOrder, array<BtrDouble> MWItemID, array<BtrDouble> PistolItemID, array<BtrDouble> TWItemID1, array<BtrDouble> TWItemID2, array<int> Skill1, array<int> Skill2, array<int> Skill3, array<int> Skill4)
+{
+    return Owner.rfAckQSlotList(Result, ErrMsg, QSlotID, QSlotName, QSlotDispOrder, MWItemID, PistolItemID, TWItemID1, TWItemID2, Skill1, Skill2, Skill3, Skill4);
+}
+
+function bool rfAckServerTime(int Time)
+{
+    return Owner.rfAckServerTime(Time);
+}
+
+function bool rfAckHash(int Result, string Error)
+{
+    return Owner.rfAckHash(Result, Error);
+}
+
+function bool rfReqNotifyRelayServerAddr(string RelayIP, int RelayPort)
+{
+    return Owner.rfReqNotifyRelayServerAddr(RelayIP, RelayPort);
+}
+
+function bool rfAckNotifyExpiredItemIDs(int UserID, array<BtrDouble> ExpiredItemUniqueIDs, array<int> ExpiredItemIDs, array<int> ExpiredItemPartIDs, array<byte> ExpiredItemSlotPos, int Result, string ErrMsg)
+{
+    return Owner.rfAckNotifyExpiredItemIDs(UserID, ExpiredItemUniqueIDs, ExpiredItemIDs, ExpiredItemPartIDs, ExpiredItemSlotPos, Result, ErrMsg);
+}
+
+function bool rfAckNotifyExpiredSkillIDs(int UserID, array<BtrDouble> ExpiredSkillUniqueIDs, array<int> ExpiredSkillIDs, int Result, string ErrMsg, array<byte> ExpiredSkillSlotPositions)
+{
+    return Owner.rfAckNotifyExpiredSkillIDs(UserID, ExpiredSkillUniqueIDs, ExpiredSkillIDs, Result, ErrMsg, ExpiredSkillSlotPositions);
+}
+
+function bool rfReqNotifyDurabilityZeroItem(int Result, string ErrMsg, int UserID, array<BtrDouble> ItemUniqueIDs, array<int> ItemIDs, array<int> ItemPartIDs, array<byte> ItemSlotPos)
+{
+    return Owner.rfReqNotifyDurabilityZeroItem(Result, ErrMsg, UserID, ItemUniqueIDs, ItemIDs, ItemPartIDs, ItemSlotPos);
+}
+
+function bool rfAckRepairCost(int Result, string ErrMsg, array<BtrDouble> UniqueItemID, array<int> RepairCost)
+{
+    return Owner.rfAckRepairCost(Result, ErrMsg, UniqueItemID, RepairCost);
+}
+
+function bool rfAckRepairItem(int Result, string ErrMsg, array<BtrDouble> UniqueItemID, int RepairCost, array<int> DamageDegree)
+{
+    return Owner.rfAckRepairItem(Result, ErrMsg, UniqueItemID, RepairCost, DamageDegree);
+}
+
+function bool rfAckUpdateQSlot(int Result, string ErrMsg)
+{
+    return Owner.rfAckUpdateQSlot(Result, ErrMsg);
+}
+
+function bool rfReqRecvNotice_FromGM(int Result, string ErrMsg, array<string> NoticeMsg, byte IsFromDB)
+{
+    return Owner.rfReqRecvNotice_FromGM(Result, ErrMsg, NoticeMsg, IsFromDB);
+}
+
+function bool rfReqRecvForceDisconnected_FromGM(int Result, string ErrMsg)
+{
+    return Owner.rfReqRecvForceDisconnected_FromGM(Result, ErrMsg);
+}
+
+function bool rfAckBuyShopItem(int ItemCount, array<int> Result, array<int> BoughtItemTypeID, array<BtrDouble> BoughtItemUniqueID, array<int> BoughtPartID, array<BtrDouble> BoughtUntilTIme, array<int> BoughtStackCnt, int PointRemain, int CashRemain)
+{
+    return Owner.rfAckBuyShopItem(ItemCount, Result, BoughtItemTypeID, BoughtItemUniqueID, BoughtPartID, BoughtUntilTIme, BoughtStackCnt, PointRemain, CashRemain);
+}
+
+function bool rfAckExceedMaxUser()
+{
+    return Owner.rfAckExceedMaxUser();
+}
+
+function bool rfAckGetServerTime(BtrDouble ServerTime, string ClientIP)
+{
+    return Owner.rfAckGetServerTime(ServerTime, ClientIP);
+}
+
+function bool rfAckItemListInItemBox(int Result, string ErrMsg, BtrDouble ItemUniqueID, int BoxItemID, array<int> ItemID, array<int> PartID)
+{
+    return Owner.rfAckItemListInItemBox(Result, ErrMsg, ItemUniqueID, BoxItemID, ItemID, PartID);
+}
+
+function bool rfAckInviteGameRoom(int Result, byte Answer, string GuestCharName)
+{
+    return Owner.rfAckInviteGameRoom(Result, Answer, GuestCharName);
+}
+
+function bool rfReqRecvInviteGameRoom(string InviteUserServerName, int InviteUserServerID, int InviteUserChannelNumber, string RoomUniqueID, int RoomNumber, string RoomName, byte RoomState, string MapName, string OwnerName, byte GameMode, byte WeaponLimit, byte IsTeamBalance, string Password, string InviteCharName)
+{
+    return Owner.rfReqRecvInviteGameRoom(InviteUserServerName, InviteUserServerID, InviteUserChannelNumber, RoomUniqueID, RoomNumber, RoomName, RoomState, MapName, OwnerName, GameMode, WeaponLimit, IsTeamBalance, Password, InviteCharName);
+}
+
+function bool rfAckRecvInviteGameRoomResult(int Result)
+{
+    return Owner.rfAckRecvInviteGameRoomResult(Result);
+}
+
+function bool rfAckQuestListStart(int Result, string ErrMsg)
+{
+    return Owner.rfAckQuestListStart(Result, ErrMsg);
+}
+
+function bool rfAckQuestList(array<int> QuestID, array<int> CountPrograss, array<byte> IsDailyQuest)
+{
+    return Owner.rfAckQuestList(QuestID, CountPrograss, IsDailyQuest);
+}
+
+function bool rfAckQuestListEnd()
+{
+    return Owner.rfAckQuestListEnd();
+}
+
+function bool rfAckQuestUpdate(int Result, string ErrMsg)
+{
+    return Owner.rfAckQuestUpdate(Result, ErrMsg);
+}
+
+function bool rfReqQuestNewAvailable(array<int> AchivedQuestID, array<int> NewQuestID, array<byte> IsDailyQuest, array<int> ExpiredQuest)
+{
+    return Owner.rfReqQuestNewAvailable(AchivedQuestID, NewQuestID, IsDailyQuest, ExpiredQuest);
+}
+
+function bool rfReqDailyQuestNewAvailable(array<int> ExpiredQuestID, array<int> NewQuestID)
+{
+    return Owner.rfReqDailyQuestNewAvailable(ExpiredQuestID, NewQuestID);
+}
+
+function bool rfAckLimitedListInChannel(int Result, array<int> LimitedMapID, array<int> LimitedModeID)
+{
+    return Owner.rfAckLimitedListInChannel(Result, LimitedMapID, LimitedModeID);
+}
+
+function bool rfAckClanMatch_InviteCrew(int Result, string ErrMsg)
+{
+    return Owner.rfAckClanMatch_InviteCrew(Result, ErrMsg);
+}
+
+function bool rfReqClanMatch_RecvInviteCrew(string Inviter, string ServerIP, int Port, int WaittingID, string Msg, int MapNum, int InviteUserChannelNum, string LeaderName, string RoomName)
+{
+    return Owner.rfReqClanMatch_RecvInviteCrew(Inviter, ServerIP, Port, WaittingID, Msg, MapNum, InviteUserChannelNum, LeaderName, RoomName);
+}
+
+function bool rfReqClanMatch_InviteCrewResult(string Invitee, int Result)
+{
+    return Owner.rfReqClanMatch_InviteCrewResult(Invitee, Result);
+}
+
+function bool rfAckWebzenCash(int Result, string ErrMsg, BtrDouble PCoinCash, BtrDouble CCoinCash)
+{
+    return Owner.rfAckWebzenCash(Result, ErrMsg, PCoinCash, CCoinCash);
+}
+
+function bool rfAckMyMoney(int Result, string ErrMsg, int Point, int Cash)
+{
+    return Owner.rfAckMyMoney(Result, ErrMsg, Point, Cash);
+}
+
+function bool rfAckWebzenShopScriptVersion(int Year, int YearId, int SalesZoneCode)
+{
+    return Owner.rfAckWebzenShopScriptVersion(Year, YearId, SalesZoneCode);
+}
+
+function bool rfAckRegisteredPCBangInfo(int Result, string ErrMsg, byte IsRegisteredPCBang, byte IsMainPCBang, string PCBangName)
+{
+    return Owner.rfAckRegisteredPCBangInfo(Result, ErrMsg, IsRegisteredPCBang, IsMainPCBang, PCBangName);
+}
+
+function bool rfAckCharInfo(int Result, string ErrMsg, int UserID, string CharName, string ClanName, int CM_Pattern, int CM_BG, int CM_BL, CharInfo stCharInfo, byte InClanRank, int ClanLevel)
+{
+    return Owner.rfAckCharInfo(Result, ErrMsg, UserID, CharName, ClanName, CM_Pattern, CM_BG, CM_BL, stCharInfo, InClanRank, ClanLevel);
+}
+
+function bool rfAckClanInfo(ClanInfo stClanInfo)
+{
+    return Owner.rfAckClanInfo(stClanInfo);
+}
+
+function bool rfReqIsPaidWebzenPCBang(byte IsPaid)
+{
+    return Owner.rfReqIsPaidWebzenPCBang(IsPaid);
+}
+
+function bool rfAckRegisterMainPCBang(int Result, string ErrMsg)
+{
+    return Owner.rfAckRegisterMainPCBang(Result, ErrMsg);
+}
+
+function bool rfAckFriendListStart(int Result, int TotalCount)
+{
+    return Owner.rfAckFriendListStart(Result, TotalCount);
+}
+
+function bool rfAckFriendList(array<string> FriendName, array<byte> IsLogOn, array<string> ClanName, array<int> CM_Pattern, array<int> CM_BG, array<int> CM_BL, array<int> LevelMarkID, array<int> ClanLevel, array<int> Level, array<byte> IsLookForClan)
+{
+    return Owner.rfAckFriendList(FriendName, IsLogOn, ClanName, CM_Pattern, CM_BG, CM_BL, LevelMarkID, ClanLevel, Level, IsLookForClan);
+}
+
+function bool rfAckFriendListEnd()
+{
+    return Owner.rfAckFriendListEnd();
+}
+
+function bool rfAckBlockUserListStart(int Result, int TotalCount)
+{
+    return Owner.rfAckBlockUserListStart(Result, TotalCount);
+}
+
+function bool rfAckBlockUserListEnd()
+{
+    return Owner.rfAckBlockUserListEnd();
+}
+
+function bool rfAckBlockUserList(array<string> CharName)
+{
+    return Owner.rfAckBlockUserList(CharName);
+}
+
+function bool rfAckClanUserListStart(int Result, int TotalCount)
+{
+    return Owner.rfAckClanUserListStart(Result, TotalCount);
+}
+
+function bool rfAckClanUserListEnd()
+{
+    return Owner.rfAckClanUserListEnd();
+}
+
+function bool rfAckClanUserList(int Result, string ErrMsg, array<int> Level, array<string> CharName, array<byte> ClanGrade, array<int> ClanWinCnt, array<int> ClanLoseCnt, array<int> LevelMarkID, array<int> TitleMarkID, array<int> DudeId)
+{
+    return Owner.rfAckClanUserList(Result, ErrMsg, Level, CharName, ClanGrade, ClanWinCnt, ClanLoseCnt, LevelMarkID, TitleMarkID, DudeId);
+}
+
+function bool rfAckPCBangUserListStart(int Result, int TotalCount)
+{
+    return Owner.rfAckPCBangUserListStart(Result, TotalCount);
+}
+
+function bool rfAckPCBangUserList(array<string> FriendName, array<string> ClanName, array<int> CM_Pattern, array<int> CM_BG, array<int> CM_BL, array<int> Level, array<int> ClanGrade, array<int> ClanWin, array<int> ClanLose, array<byte> IsLookForClan, array<byte> IsCombat, array<int> ClanLevel, array<int> LevelMarkID, array<int> TitleMarkID, array<int> Reserved1, array<int> Reserved2, array<int> Reserved3)
+{
+    return Owner.rfAckPCBangUserList(FriendName, ClanName, CM_Pattern, CM_BG, CM_BL, Level, ClanGrade, ClanWin, ClanLose, IsLookForClan, IsCombat, ClanLevel, LevelMarkID, TitleMarkID, Reserved1, Reserved2, Reserved3);
+}
+
+function bool rfAckPCBangUserListEnd()
+{
+    return Owner.rfAckPCBangUserListEnd();
+}
+
+function bool rfAckAddBlockUserList(int Result, string ErrMsg)
+{
+    return Owner.rfAckAddBlockUserList(Result, ErrMsg);
+}
+
+function bool rfAckRemoveBlockUserList(int Result, string ErrMsg)
+{
+    return Owner.rfAckRemoveBlockUserList(Result, ErrMsg);
+}
+
+function bool rfAckRandomBox_Use(int Result, string ErrMsg, BtrDouble RandomBoxItemIdx, int RandomBxoItemCount, array<int> ItemIDChoose, array<int> PartIDChoose, array<int> PeriodOnChoosenItem, array<int> StackCountOnChoosenItem, array<byte> bHave, array<BtrDouble> ItemIdx, array<BtrDouble> UntilTime, array<int> StackCount)
+{
+    return Owner.rfAckRandomBox_Use(Result, ErrMsg, RandomBoxItemIdx, RandomBxoItemCount, ItemIDChoose, PartIDChoose, PeriodOnChoosenItem, StackCountOnChoosenItem, bHave, ItemIdx, UntilTime, StackCount);
+}
+
+function bool rfAckEquipItem(int ChangedNewItemID, BtrDouble ChangedNewUniqueID, int ChangedNewSlotPosition, int ChangedOldItemID, BtrDouble ChangedOldUniqueID, int ChangedOldSlotPosition, int Result, string ErrMsg)
+{
+    return Owner.rfAckEquipItem(ChangedNewItemID, ChangedNewUniqueID, ChangedNewSlotPosition, ChangedOldItemID, ChangedOldUniqueID, ChangedOldSlotPosition, Result, ErrMsg);
+}
+
+function bool rfAckEquipSkill(int ChangedNewSkillID, int ChangedNewSkillUniqueID, byte ChangedNewSlotPosition, int ChangedOldSkillID, int ChangedOldSkillUniqueID, byte ChangedOldSlotPosition, int Result, string ErrMsg)
+{
+    Log("[BTPageServerSelection_TCP::rfAckEquipSkill()]");
+    return Owner.rfAckEquipSkill(ChangedNewSkillID, ChangedNewSkillUniqueID, ChangedNewSlotPosition, ChangedOldSkillID, ChangedOldSkillUniqueID, ChangedOldSlotPosition, Result, ErrMsg);
+}
+
+function bool rfAckWebzenBillingStorageListStart(int Result, string ErrMsg, int TotalCount, int TotalPage, int CurPage)
+{
+    return Owner.rfAckWebzenBillingStorageListStart(Result, ErrMsg, TotalCount, TotalPage, CurPage);
+}
+
+function bool rfAckWebzenBillingStorageList(array<int> Seq, array<int> ItemSeq, array<int> GroupCode, array<int> ShareFlag, array<int> ProductSeq, array<string> CashName, array<BtrDouble> CashPoint, array<string> SendAccountID, array<string> SendMessage, array<byte> ItemType, array<byte> RelationType, array<int> ProductType, array<int> PriceSeq)
+{
+    return Owner.rfAckWebzenBillingStorageList(Seq, ItemSeq, GroupCode, ShareFlag, ProductSeq, CashName, CashPoint, SendAccountID, SendMessage, ItemType, RelationType, ProductType, PriceSeq);
+}
+
+function bool rfAckWebzenBillingStorageListEnd()
+{
+    return Owner.rfAckWebzenBillingStorageListEnd();
+}
+
+function bool rfAckWebzenBillingUseStorageItem(int Result, string ErrMsg, BtrDouble ItemIdx, int ItemID, BtrDouble ItemExtra)
+{
+    return Owner.rfAckWebzenBillingUseStorageItem(Result, ErrMsg, ItemIdx, ItemID, ItemExtra);
+}
+
+function bool rfAckPaidItem_EraseRecord(int Result, string ErrMsg, BtrDouble ItemIdx, int Command, int RemainCount)
+{
+    return Owner.rfAckPaidItem_EraseRecord(Result, ErrMsg, ItemIdx, Command, RemainCount);
+}
+
+function bool rfAckPaidItem_BroadCast(int Result, string ErrMsg, BtrDouble ItemIdx, int StackCount)
+{
+    return Owner.rfAckPaidItem_BroadCast(Result, ErrMsg, ItemIdx, StackCount);
+}
+
+function bool rfAckPaidItem_ClanMarkDupCheck(int Result, string ErrMsg)
+{
+    return Owner.rfAckPaidItem_ClanMarkDupCheck(Result, ErrMsg);
+}
+
+function bool rfAckPaidItem_ChangeClanMark(int Result, string ErrMsg, BtrDouble ItemIdx, int StackCount)
+{
+    return Owner.rfAckPaidItem_ChangeClanMark(Result, ErrMsg, ItemIdx, StackCount);
+}
+
+function bool rfAckPaidItem_NotifyChangeClanMark(string ClanName, int Pattern, int BG, int BL)
+{
+    return Owner.rfAckPaidItem_NotifyChangeClanMark(ClanName, Pattern, BG, BL);
+}
+
+function bool rfAckCharBlockInfo(int Result, BtrDouble ChatBlockStartTime, BtrDouble ChatBlockEndTime, array<BtrDouble> BlockedItemIdx)
+{
+    return Owner.rfAckCharBlockInfo(Result, ChatBlockStartTime, ChatBlockEndTime, BlockedItemIdx);
+}
+
+function bool rfAckChangeRoomTitle_GM(int Result, int RoomNumber, string NewRoomTitle)
+{
+    return Owner.rfAckChangeRoomTitle_GM(Result, RoomNumber, NewRoomTitle);
+}
+
+function bool rfAckNotice_GM(int Result, string ErrMsg, byte NoticeType, int ServerID, int ChannelNum, int GameRoomNum, string Msg)
+{
+    return Owner.rfAckNotice_GM(Result, ErrMsg, NoticeType, ServerID, ChannelNum, GameRoomNum, Msg);
+}
+
+function bool rfAckForceDisconnectUser_GM(int Result, string ErrMsg, string CharName)
+{
+    return Owner.rfAckForceDisconnectUser_GM(Result, ErrMsg, CharName);
+}
+
+function bool rfAckGMEnterRoom(int Result, int RoomNumber, int UserID)
+{
+    return Owner.rfAckGMEnterRoom(Result, RoomNumber, UserID);
+}
+
+function bool rfAckGMLeaveRoom(int Result, int RoomNumber, int UserID)
+{
+    return Owner.rfAckGMLeaveRoom(Result, RoomNumber, UserID);
+}
+
+function bool rfAckChatNormal(int id, string Sender, string Message, int Result)
+{
+    return Owner.rfAckChatNormal(id, Sender, Message, Result);
+}
+
+function bool rfAckChatClan(string CharName, string Message, int Result)
+{
+    return Owner.rfAckChatClan(CharName, Message, Result);
+}
+
+function bool rfReqRecvChatWispher(string CharnameFrom, string Message)
+{
+    return Owner.rfReqRecvChatWispher(CharnameFrom, Message);
+}
+
+function bool rfAckRecvSystemMsg(byte CommunityType, SystemMsgParam MsgInfo)
+{
+    return Owner.rfAckRecvSystemMsg(CommunityType, MsgInfo);
+}
+
+function bool rfAckPaidItem_RelayBroadcast(string CharName, string Msg)
+{
+    return Owner.rfAckPaidItem_RelayBroadcast(CharName, Msg);
+}
+
+function bool rfAckSetLookForClan(int Result, string ErrMsg, byte IsLookingFor)
+{
+    return Owner.rfAckSetLookForClan(Result, ErrMsg, IsLookingFor);
+}
+
+function bool rfAckGetMyMailBoxState(int Result, byte IsFull, int NewMailCount)
+{
+    return Owner.rfAckGetMyMailBoxState(Result, IsFull, NewMailCount);
+}
+
+function bool rfAckPaidItem_ChangeCharname(int Result, string ErrMsg, BtrDouble ItemIdx, int RemainCount, string NewCharname)
+{
+    return Owner.rfAckPaidItem_ChangeCharname(Result, ErrMsg, ItemIdx, RemainCount, NewCharname);
+}
+
+function bool rfAckPaidItem_ChangeClanname(int Result, string ErrMsg, BtrDouble ItemIdx, int RemainCount, string NewClanname)
+{
+    return Owner.rfAckPaidItem_ChangeClanname(Result, ErrMsg, ItemIdx, RemainCount, NewClanname);
+}
+
+function bool rfAckPaidItem_NotifyChangeClanname(string NewClanname)
+{
+    return Owner.rfAckPaidItem_NotifyChangeClanname(NewClanname);
+}
+
+function bool rfAckServerType(byte Type)
+{
+    return Owner.rfAckServerType(Type);
+}
+
+function bool rfAckLogOut(byte Result, byte Reason)
+{
+    return Owner.rfAckLogOut(Result, Reason);
+}
+
+function bool rfUpdateWebzenShopScriptVersion(int Year, int YearId, int SalesZoneCode)
+{
+    return Owner.rfUpdateWebzenShopScriptVersion(Year, YearId, SalesZoneCode);
+}
+
+function bool rfAckPopUpMessage(int MessageType)
+{
+    return Owner.rfAckPopUpMessage(MessageType);
+}
+
+function bool rfAckMoveToLobby(byte MessageType)
+{
+    Log("[BTPageServerSelection_TCP::rfAckMoveToLobby()]");
+    return Owner.rfAckMoveToLobby(MessageType);
+}
+
+function bool rfAckTencent_StartTenProtect(int CharDBID)
+{
+    Log("[BTPageServerSelection_TCP::rfAckTencent_StartTenProtect()] CharDBID=" $ string(CharDBID));
+    return Owner.rfAckTencent_StartTenProtect(CharDBID);
+}
+
+function bool rfAckShopItemData()
+{
+    return Owner.rfAckShopItemData();
+}
+
+function bool rfReqNotifyShopItemData(array<int> ProductNo, array<string> ProductRowGuid, array<string> ServiceCode, array<string> ProductName, array<string> ProductCode, array<string> ProductType, array<byte> SaleType, array<string> ItemSaleType, array<byte> ISIncludeBonus, array<int> ProductCost, array<int> ProductHour, array<int> ProductQuantity, array<int> TotalQuantity, array<int> ReOrderTerms, array<int> ReorderCount, array<int> PurchaseAvailableQuantity, array<int> AvailableMinLevel, array<int> AvailableMaxLevel, array<byte> AvailableGender, array<int> InventoryKeepDays, array<int> SaleMasterFlag, array<int> SaleStatus, array<string> Description, array<string> Property0, array<string> Property1, array<string> Property2, array<string> Property3, array<string> Property4, array<int> IsGift)
+{
+    return Owner.rfReqNotifyShopItemData(ProductNo, ProductRowGuid, ServiceCode, ProductName, ProductCode, ProductType, SaleType, ItemSaleType, ISIncludeBonus, ProductCost, ProductHour, ProductQuantity, TotalQuantity, ReOrderTerms, ReorderCount, PurchaseAvailableQuantity, AvailableMinLevel, AvailableMaxLevel, AvailableGender, InventoryKeepDays, SaleMasterFlag, SaleStatus, Description, Property0, Property1, Property2, Property3, Property4, IsGift);
+}
+
+function bool rfReqNotifyShopItemDataEnd(int Ver)
+{
+    return Owner.rfReqNotifyShopItemDataEnd(Ver);
+}
+
+function bool rfReqRecvClanInvite(int InviterUserDBID, string InviterCharname, string ClanName, string InviteMsg)
+{
+    return Owner.rfReqRecvClanInvite(InviterUserDBID, InviterCharname, ClanName, InviteMsg);
+}
+
+function bool rfAckRecvClanInviteResult(int Result, string ErrMsg)
+{
+    return Owner.rfAckRecvClanInviteResult(Result, ErrMsg);
+}
+
+function bool rfNotifyCouponUseError(int Time)
+{
+    return Owner.rfNotifyCouponUseError(Time);
+}
+
+function bool rfAckBuyItemByWebzenCash(int Result, string ErrMsg)
+{
+    return Owner.rfAckBuyItemByWebzenCash(Result, ErrMsg);
+}

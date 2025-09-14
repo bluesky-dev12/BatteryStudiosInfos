@@ -1,0 +1,17 @@
+/*******************************************************************************
+ * Decompiled by UE Explorer, an application developed by Eliot van Uytfanghe!
+ * Path XEffects\Classes\BG_FX_silo_sub_roket_smoke.uc
+ * Package Imports:
+ *	XEffects
+ *	Engine
+ *	Core
+ *
+ * 
+ *******************************************************************************/
+class BG_FX_silo_sub_roket_smoke extends Emitter;
+
+defaultproperties
+{
+    Emitters=// Object reference not set to an instance of an object.
+    
+}

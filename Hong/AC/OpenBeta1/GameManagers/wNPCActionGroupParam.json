@@ -1,0 +1,192 @@
+[
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "Fire"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "Reload"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "Explore"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "IdleHands"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "ApproachAndMelee"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "MoveToEnemyInfluence"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "MoveToSeeTarget"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "LookAround"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "UseHelicopter"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "UseAirstrikeRealTime"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "UseUAV"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "MeleeNoTarget"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "ThrowGrenadeRealTime"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "SwitchWeapon"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "PickHealth"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "PickHelicopter"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "PickAirstrike"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "PickUAV"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "GotoFlag"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "CaptureFlag"
+  },
+  {
+    "ActionGroupID": 1,
+    "ActionID_Type": 1,
+    "ActionID": "FireHelicopter"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "Fire"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "Reload"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "Explore"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "IdleHands"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "ApproachAndMelee"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "MoveToEnemyInfluence"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "MoveToSeeTarget"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "LookAround"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "MeleeNoTarget"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "ThrowGrenadeRealTime"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "SwitchWeapon"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "PickHealth"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "GotoFlag"
+  },
+  {
+    "ActionGroupID": 2,
+    "ActionID_Type": 1,
+    "ActionID": "CaptureFlag"
+  },
+  {
+    "ActionGroupID": 3,
+    "ActionID_Type": 1,
+    "ActionID": "LookAround"
+  },
+  {
+    "ActionGroupID": 3,
+    "ActionID_Type": 1,
+    "ActionID": "MoveToEnemyInfluence"
+  },
+  {
+    "ActionGroupID": 5,
+    "ActionID_Type": 1,
+    "ActionID": "GotoFlag"
+  }
+]

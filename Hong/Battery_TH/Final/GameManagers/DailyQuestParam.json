@@ -1,0 +1,687 @@
+[
+  {
+    "DailyQuestType": 0,
+    "Step": 0,
+    "QuestID": -1
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 1,
+    "QuestID": 3001
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 2,
+    "QuestID": 3002
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 2,
+    "QuestID": 3003
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 2,
+    "QuestID": 3004
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 2,
+    "QuestID": 3005
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 2,
+    "QuestID": 3006
+  },
+  {
+    "DailyQuestType": 0,
+    "Step": 3,
+    "QuestID": 3007
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 1,
+    "QuestID": 3021
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 1,
+    "QuestID": 3022
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 1,
+    "QuestID": 3023
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3024
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3025
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3026
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3027
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3028
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 2,
+    "QuestID": 3029
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 3,
+    "QuestID": 3030
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 3,
+    "QuestID": 3031
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 3,
+    "QuestID": 3032
+  },
+  {
+    "DailyQuestType": 1,
+    "Step": 3,
+    "QuestID": 3033
+  },
+  {
+    "DailyQuestType": 11,
+    "Step": 1,
+    "QuestID": 3051
+  },
+  {
+    "DailyQuestType": 11,
+    "Step": 2,
+    "QuestID": 3052
+  },
+  {
+    "DailyQuestType": 11,
+    "Step": 3,
+    "QuestID": 3053
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 1,
+    "QuestID": 3061
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 1,
+    "QuestID": 3062
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 1,
+    "QuestID": 3063
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 1,
+    "QuestID": 3064
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3065
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3066
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3067
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3068
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3069
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3070
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3071
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3072
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3073
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3074
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 2,
+    "QuestID": 3075
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3076
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3077
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3078
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3079
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3080
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3081
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3082
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3083
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3084
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3085
+  },
+  {
+    "DailyQuestType": 12,
+    "Step": 3,
+    "QuestID": 3086
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3100
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3200
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3201
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3202
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3203
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3204
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3205
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3206
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3207
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3208
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3209
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3210
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3211
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3212
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3213
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3214
+  },
+  {
+    "DailyQuestType": 2,
+    "Step": 1,
+    "QuestID": 3215
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3314
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3315
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3101
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3300
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3301
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3302
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3303
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3304
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3305
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3306
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3307
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3308
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3309
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3310
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3311
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3312
+  },
+  {
+    "DailyQuestType": 3,
+    "Step": 1,
+    "QuestID": 3313
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3408
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3409
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3410
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3411
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3412
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3413
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3414
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3415
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3102
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3400
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3401
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3402
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3403
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3404
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3405
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3406
+  },
+  {
+    "DailyQuestType": 4,
+    "Step": 1,
+    "QuestID": 3407
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3507
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3508
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3509
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3510
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3511
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3512
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3513
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3514
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3515
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3103
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3500
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3501
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3502
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3503
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3504
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3505
+  },
+  {
+    "DailyQuestType": 5,
+    "Step": 1,
+    "QuestID": 3506
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8000
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8001
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8002
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8003
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8004
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8005
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8006
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8007
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8008
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8009
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8010
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8011
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8012
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8013
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8014
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8015
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8016
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8017
+  },
+  {
+    "DailyQuestType": 7,
+    "Step": 1,
+    "QuestID": 8018
+  }
+]

@@ -1,0 +1,29 @@
+class BTLabelLocationHK extends BTOwnerDrawTextArrayHK
+    editinlinenew
+    instanced;
+
+var localized string strRadioLocation[14];
+
+function SetLocationID(int id)
+{
+    SetData(strRadioLocation[id]);
+    //return;    
+}
+
+defaultproperties
+{
+    strRadioLocation[0]="??"
+    strRadioLocation[1]="??"
+    strRadioLocation[2]="??"
+    strRadioLocation[3]="??"
+    strRadioLocation[4]="??"
+    strRadioLocation[5]="??"
+    strRadioLocation[6]="??"
+    strRadioLocation[7]="??"
+    strRadioLocation[8]="??"
+    strRadioLocation[9]="??"
+    strRadioLocation[10]="??"
+    strRadioLocation[11]="??"
+    strRadioLocation[12]="??"
+    strRadioLocation[13]="??"
+}

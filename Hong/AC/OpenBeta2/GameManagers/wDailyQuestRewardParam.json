@@ -1,0 +1,1586 @@
+[
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17701,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17701,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17701,
+    "RewardNum": 2
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17054,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17054,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17054,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17701,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17701,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17947,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 1,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 2,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 3,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 4,
+    "RewardID": 17055,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 5,
+    "RewardID": 17700,
+    "RewardNum": 4
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 6,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 7,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 8,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 9,
+    "RewardID": 17050,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 10,
+    "RewardID": 17700,
+    "RewardNum": 5
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 11,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 12,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 13,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 14,
+    "RewardID": 17051,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 15,
+    "RewardID": 17700,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 16,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 17,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 18,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 19,
+    "RewardID": 17033,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 0,
+    "CheckValue": 20,
+    "RewardID": 17936,
+    "RewardNum": 1
+  },
+  {
+    "rewardType": 1,
+    "CheckValue": 1,
+    "RewardID": 17934,
+    "RewardNum": 10
+  },
+  {
+    "rewardType": 99999,
+    "CheckValue": 1,
+    "RewardID": 17935,
+    "RewardNum": 1
+  }
+]

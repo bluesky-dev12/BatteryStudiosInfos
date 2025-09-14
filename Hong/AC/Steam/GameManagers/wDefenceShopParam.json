@@ -1,0 +1,146 @@
+[
+  {
+    "nBuyItemID": 90106,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 1,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 5020,
+    "nBuyItemPrice": 200,
+    "nBuyItemIndex": 2,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 6005,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 3,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 7003,
+    "nBuyItemPrice": 400,
+    "nBuyItemIndex": 4,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 8000,
+    "nBuyItemPrice": 500,
+    "nBuyItemIndex": 5,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 450061,
+    "nBuyItemPrice": 1500,
+    "nBuyItemIndex": 6,
+    "nBuyEnableLevel": 1
+  },
+  {
+    "nBuyItemID": 90106,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 1,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 5020,
+    "nBuyItemPrice": 200,
+    "nBuyItemIndex": 2,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 6005,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 3,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 7003,
+    "nBuyItemPrice": 400,
+    "nBuyItemIndex": 4,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 8000,
+    "nBuyItemPrice": 500,
+    "nBuyItemIndex": 5,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 450061,
+    "nBuyItemPrice": 1500,
+    "nBuyItemIndex": 6,
+    "nBuyEnableLevel": 2
+  },
+  {
+    "nBuyItemID": 90106,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 1,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 5020,
+    "nBuyItemPrice": 200,
+    "nBuyItemIndex": 2,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 6005,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 3,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 7003,
+    "nBuyItemPrice": 400,
+    "nBuyItemIndex": 4,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 8000,
+    "nBuyItemPrice": 500,
+    "nBuyItemIndex": 5,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 450061,
+    "nBuyItemPrice": 1500,
+    "nBuyItemIndex": 6,
+    "nBuyEnableLevel": 3
+  },
+  {
+    "nBuyItemID": 90106,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 1,
+    "nBuyEnableLevel": 4
+  },
+  {
+    "nBuyItemID": 5020,
+    "nBuyItemPrice": 200,
+    "nBuyItemIndex": 2,
+    "nBuyEnableLevel": 4
+  },
+  {
+    "nBuyItemID": 6005,
+    "nBuyItemPrice": 300,
+    "nBuyItemIndex": 3,
+    "nBuyEnableLevel": 4
+  },
+  {
+    "nBuyItemID": 7003,
+    "nBuyItemPrice": 400,
+    "nBuyItemIndex": 4,
+    "nBuyEnableLevel": 4
+  },
+  {
+    "nBuyItemID": 8000,
+    "nBuyItemPrice": 500,
+    "nBuyItemIndex": 5,
+    "nBuyEnableLevel": 4
+  },
+  {
+    "nBuyItemID": 450061,
+    "nBuyItemPrice": 1500,
+    "nBuyItemIndex": 6,
+    "nBuyEnableLevel": 4
+  }
+]

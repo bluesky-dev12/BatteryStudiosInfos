@@ -1,0 +1,11 @@
+class wWeaponRes_Knife extends wWeaponRes_Base;
+
+defaultproperties
+{
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_ETC_Ka1281"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=256,Y=376,W=128,H=32)
+    sound_Melee_Ok=SoundGroup'Warfare_Sound_Weapon.Knife.weapon_melee_knife_attack'
+    sound_Melee_Miss=SoundGroup'Warfare_Sound_Weapon.Knife.weapon_melee_knife_miss'
+    rad_Fire=80.0000000
+}

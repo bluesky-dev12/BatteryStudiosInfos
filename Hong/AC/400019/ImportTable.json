@@ -1,0 +1,29 @@
+[
+  {
+    "ClassPackageIndex": 1,
+    "ClassPackageName": "Core",
+    "ClassNameIndex": 3,
+    "ClassName": "Package",
+    "Flag": "0x00000000",
+    "ObjectNameIndex": 2,
+    "ObjectName": "Engine"
+  },
+  {
+    "ClassPackageIndex": 1,
+    "ClassPackageName": "Core",
+    "ClassNameIndex": 4,
+    "ClassName": "Class",
+    "Flag": "0xFFFFFFFF",
+    "ObjectNameIndex": 6,
+    "ObjectName": "GMFile"
+  },
+  {
+    "ClassPackageIndex": 1,
+    "ClassPackageName": "Core",
+    "ClassNameIndex": 4,
+    "ClassName": "Class",
+    "Flag": "0xFFFFFFFF",
+    "ObjectNameIndex": 5,
+    "ObjectName": "WMFile"
+  }
+]

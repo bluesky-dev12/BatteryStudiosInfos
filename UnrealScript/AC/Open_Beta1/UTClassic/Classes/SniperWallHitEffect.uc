@@ -1,0 +1,1 @@
+class SniperWallHitEffect extends Effects;

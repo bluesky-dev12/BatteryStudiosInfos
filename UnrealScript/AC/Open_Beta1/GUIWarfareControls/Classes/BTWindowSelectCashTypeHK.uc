@@ -1,0 +1,87 @@
+class BTWindowSelectCashTypeHK extends BTWindowSelectHK
+    editinlinenew
+    instanced;
+
+var() automated BTOwnerDrawCaptionButtonHK ButtonPCash;
+var FloatBox fbButtonPCash;
+var localized string strCaption;
+var localized string strCCoin;
+var localized string strPCoin;
+var BTROItemBoxHK ROItemBox;
+var int selectBuyType;
+var byte selectCashType;
+//var delegate<OnPCoin> __OnPCoin__Delegate;
+
+delegate bool OnPCoin(GUIComponent Sender)
+{
+    FadeOut(false, true);
+    return true;
+    //return;    
+}
+
+function InitComponent(GUIController MyController, GUIComponent myOwner)
+{
+    ButtonPCash = new Class'GUIWarfareControls_Decompressed.BTOwnerDrawCaptionButtonHK';
+    ButtonPCash.bUseAWinPos = true;
+    ButtonPCash.SetDefaultButtonImage();
+    ButtonPCash.SetDefaultFontColor();
+    ButtonPCash.SetFontSizeAll(11);
+    ButtonPCash.CaptionDrawType = 4;
+    ButtonPCash.Caption = strPCoin;
+    ButtonPCash.__OnClick__Delegate = ButtonPCoin_OnClick;
+    ButtonPCash.OnClickSound = 0;
+    ButtonPCash.InitComponent(MyController, self);
+    AppendComponent(ButtonPCash);
+    super.InitComponent(MyController, myOwner);
+    //return;    
+}
+
+function SetDataCash(BTROItemBoxHK ro, bool EnablePCoin, bool EnableCCoin)
+{
+    ROItemBox = ro;
+    ButtonPCash.SetEnabled(EnablePCoin);
+    ButtonOK.SetEnabled(EnableCCoin);
+    SetData(strTitle, 5, strCaption, strCCoin, strCancel);
+    //return;    
+}
+
+static function ShowWindowSelectCashType(GUIController con, BTROItemBoxHK ro, bool EnablePCoin, bool EnableCCoin)
+{
+    con.OpenMenu("GUIWarfareControls.BTWindowSelectCashTypeHK");
+    BTWindowSelectCashTypeHK(con.TopPage()).SetDataCash(ro, EnablePCoin, EnableCCoin);
+    //return;    
+}
+
+function UpdateDefaultWindow()
+{
+    ButtonPCash.AWinPos = fbButtonPCash;
+    ButtonPCash.ApplyAWinPos();
+    ButtonPCash.Caption = strPCoin;
+    super(BTWindowHK).UpdateDefaultWindow();
+    //return;    
+}
+
+function bool ButtonPCoin_OnClick(GUIComponent Sender)
+{
+    selectCashType = Class'Engine.wItemBoxCashHK'.static.PCoinType();
+    return OnPCoin(Sender);
+    //return;    
+}
+
+function bool ButtonOK_OnClick(GUIComponent Sender)
+{
+    selectCashType = Class'Engine.wItemBoxCashHK'.static.CCoinType();
+    return OnOK(Sender);
+    //return;    
+}
+
+defaultproperties
+{
+    fbButtonPCash=(X1=450.0000000,Y1=407.0000000,X2=574.0000000,Y2=438.0000000)
+    strCaption="Would you like to purchase?"
+    strCCoin="W coin(C)"
+    strPCoin="W coin(P)"
+    fbButtonOK=(X1=324.0000000,Y1=407.0000000,X2=448.0000000,Y2=438.0000000)
+    fbButtonCancel=(X1=576.0000000,Y1=407.0000000,X2=700.0000000,Y2=438.0000000)
+    strTitle="Select"
+}

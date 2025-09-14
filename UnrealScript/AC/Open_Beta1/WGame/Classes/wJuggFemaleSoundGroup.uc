@@ -1,0 +1,1 @@
+class wJuggFemaleSoundGroup extends wPawnSoundGroup;

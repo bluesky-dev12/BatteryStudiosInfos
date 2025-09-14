@@ -1,0 +1,31 @@
+class OffensiveEffect extends wEmitter;
+
+defaultproperties
+{
+    mParticleType=4
+    mStartParticles=0
+    mMaxParticles=10
+    mLifeRange[0]=1.0000000
+    mLifeRange[1]=1.0000000
+    mRegenRange[0]=3.0000000
+    mRegenRange[1]=3.0000000
+    mPosDev=(X=10.0000000,Y=10.0000000,Z=10.0000000)
+    mSpeedRange[0]=0.0000000
+    mSpeedRange[1]=0.0000000
+    mPosRelative=true
+    mAirResistance=0.0000000
+    mRandOrient=true
+    mSizeRange[0]=0.7000000
+    mSizeRange[1]=1.1000000
+    mColorRange[0]=(R=250,G=150,B=150,A=255)
+    mColorRange[1]=(R=250,G=150,B=150,A=255)
+    mAttenKa=0.5000000
+    mAttenFunc=1
+    bTrailerSameRotation=true
+    bNetTemporary=false
+    bReplicateMovement=false
+    Physics=10
+    RemoteRole=2
+    LifeSpan=60.0000000
+    Style=6
+}

@@ -1,0 +1,1 @@
+class wMonitorA extends wMonitor;

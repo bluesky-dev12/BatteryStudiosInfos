@@ -1,0 +1,122 @@
+[
+  {
+    "SkinID": 0,
+    "bIsAlienType": false,
+    "ShopID": 0,
+    "fKnockRatio": 1.0,
+    "charID": [
+      90204,
+      90204,
+      90204
+    ],
+    "add_HP": [
+      0,
+      0,
+      0
+    ],
+    "F_DiagmoveRatio": 0.9,
+    "SideMoveRatio": 0.8,
+    "B_DiagmoveRatio": 0.7,
+    "BackMoveRatio": 0.7,
+    "AccelRate": 2048.0,
+    "JumpMaxAcc": 530.0,
+    "JumpMinAcc": 260.0,
+    "JumpReduceRate": 80.0,
+    "JumpRecoverRate": 200.0,
+    "Land_Dropspeed_Rate": 1.0,
+    "ProneCam_MaxPicth": 10000.0,
+    "ProneCam_MaxYaw": 43.0,
+    "ProneCam_RotSpeed": 10.0,
+    "add_MainWeaponID": 90303,
+    "add_SubWeaponID": [
+      90302,
+      90304
+    ],
+    "add_SkillID": [
+      0,
+      0
+    ],
+    "CollisionHeight": 74.0,
+    "CollisionRadius": 38.0
+  },
+  {
+    "SkinID": 1,
+    "bIsAlienType": true,
+    "ShopID": 0,
+    "fKnockRatio": 1.0,
+    "charID": [
+      90201,
+      90202,
+      90203
+    ],
+    "add_HP": [
+      0,
+      0,
+      0
+    ],
+    "F_DiagmoveRatio": 0.98,
+    "SideMoveRatio": 0.8,
+    "B_DiagmoveRatio": 0.8,
+    "BackMoveRatio": 0.7,
+    "AccelRate": 1500.0,
+    "JumpMaxAcc": 740.0,
+    "JumpMinAcc": 640.0,
+    "JumpReduceRate": 300.0,
+    "JumpRecoverRate": 100.0,
+    "Land_Dropspeed_Rate": 1.0,
+    "ProneCam_MaxPicth": 10000.0,
+    "ProneCam_MaxYaw": 9.0,
+    "ProneCam_RotSpeed": 10.0,
+    "add_MainWeaponID": 90301,
+    "add_SubWeaponID": [
+      0,
+      0
+    ],
+    "add_SkillID": [
+      50024,
+      0
+    ],
+    "CollisionHeight": 80.0,
+    "CollisionRadius": 38.0
+  },
+  {
+    "SkinID": 2,
+    "bIsAlienType": true,
+    "ShopID": 92001,
+    "fKnockRatio": 1.0,
+    "charID": [
+      90205,
+      90206,
+      90207
+    ],
+    "add_HP": [
+      1000,
+      1000,
+      1000
+    ],
+    "F_DiagmoveRatio": 0.98,
+    "SideMoveRatio": 0.8,
+    "B_DiagmoveRatio": 0.8,
+    "BackMoveRatio": 0.7,
+    "AccelRate": 1500.0,
+    "JumpMaxAcc": 740.0,
+    "JumpMinAcc": 640.0,
+    "JumpReduceRate": 300.0,
+    "JumpRecoverRate": 100.0,
+    "Land_Dropspeed_Rate": 1.0,
+    "ProneCam_MaxPicth": 10000.0,
+    "ProneCam_MaxYaw": 902.0,
+    "ProneCam_RotSpeed": 10.0,
+    "add_MainWeaponID": 90306,
+    "add_SubWeaponID": [
+      0,
+      0
+    ],
+    "add_SkillID": [
+      50024,
+      92004
+    ],
+    "CollisionHeight": 85.0,
+    "CollisionRadius": 38.0
+  }
+]

@@ -1,0 +1,608 @@
+[
+  {
+    "Level": 0,
+    "LevelName_Type": 0,
+    "LevelName": "",
+    "AccumExp": 0
+  },
+  {
+    "Level": 1,
+    "LevelName_Type": 2,
+    "LevelName": "ทหารฝึกหัด",
+    "AccumExp": 670
+  },
+  {
+    "Level": 2,
+    "LevelName_Type": 2,
+    "LevelName": "ทหารฝึกหัด2",
+    "AccumExp": 1474
+  },
+  {
+    "Level": 3,
+    "LevelName_Type": 2,
+    "LevelName": "พลทหาร",
+    "AccumExp": 2479
+  },
+  {
+    "Level": 4,
+    "LevelName_Type": 2,
+    "LevelName": "สิบตรี",
+    "AccumExp": 3886
+  },
+  {
+    "Level": 5,
+    "LevelName_Type": 2,
+    "LevelName": "สิบโท",
+    "AccumExp": 5695
+  },
+  {
+    "Level": 6,
+    "LevelName_Type": 2,
+    "LevelName": "สิบเอก1",
+    "AccumExp": 7906
+  },
+  {
+    "Level": 7,
+    "LevelName_Type": 2,
+    "LevelName": "สิบเอก2",
+    "AccumExp": 10720
+  },
+  {
+    "Level": 8,
+    "LevelName_Type": 2,
+    "LevelName": "สิบเอก3",
+    "AccumExp": 14137
+  },
+  {
+    "Level": 9,
+    "LevelName_Type": 2,
+    "LevelName": "สิบเอก4",
+    "AccumExp": 18278
+  },
+  {
+    "Level": 10,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 1",
+    "AccumExp": 23243
+  },
+  {
+    "Level": 11,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 2",
+    "AccumExp": 29152
+  },
+  {
+    "Level": 12,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 3",
+    "AccumExp": 36127
+  },
+  {
+    "Level": 13,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 4",
+    "AccumExp": 44288
+  },
+  {
+    "Level": 14,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 5",
+    "AccumExp": 53755
+  },
+  {
+    "Level": 15,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบตรีขั้น 6",
+    "AccumExp": 64649
+  },
+  {
+    "Level": 16,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 1",
+    "AccumExp": 77071
+  },
+  {
+    "Level": 17,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 2",
+    "AccumExp": 91101
+  },
+  {
+    "Level": 18,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 3",
+    "AccumExp": 106819
+  },
+  {
+    "Level": 19,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 4",
+    "AccumExp": 124266
+  },
+  {
+    "Level": 20,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 5",
+    "AccumExp": 143462
+  },
+  {
+    "Level": 21,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบโทขั้น 6",
+    "AccumExp": 164587
+  },
+  {
+    "Level": 22,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 1",
+    "AccumExp": 187823
+  },
+  {
+    "Level": 23,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 2",
+    "AccumExp": 213390
+  },
+  {
+    "Level": 24,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 3",
+    "AccumExp": 241510
+  },
+  {
+    "Level": 25,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 4",
+    "AccumExp": 272444
+  },
+  {
+    "Level": 26,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 5",
+    "AccumExp": 306473
+  },
+  {
+    "Level": 27,
+    "LevelName_Type": 2,
+    "LevelName": "จ่าสิบเอกขั้น 6",
+    "AccumExp": 343638
+  },
+  {
+    "Level": 28,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 1",
+    "AccumExp": 384140
+  },
+  {
+    "Level": 29,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 2",
+    "AccumExp": 428199
+  },
+  {
+    "Level": 30,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 3",
+    "AccumExp": 476057
+  },
+  {
+    "Level": 31,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 4",
+    "AccumExp": 527935
+  },
+  {
+    "Level": 32,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 5",
+    "AccumExp": 584074
+  },
+  {
+    "Level": 33,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 6",
+    "AccumExp": 644696
+  },
+  {
+    "Level": 34,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 7",
+    "AccumExp": 710041
+  },
+  {
+    "Level": 35,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยตรีขั้น 8",
+    "AccumExp": 780351
+  },
+  {
+    "Level": 36,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 1",
+    "AccumExp": 855867
+  },
+  {
+    "Level": 37,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 2",
+    "AccumExp": 936830
+  },
+  {
+    "Level": 38,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 3",
+    "AccumExp": 1023461
+  },
+  {
+    "Level": 39,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 4",
+    "AccumExp": 1115981
+  },
+  {
+    "Level": 40,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 5",
+    "AccumExp": 1214612
+  },
+  {
+    "Level": 41,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 6",
+    "AccumExp": 1319554
+  },
+  {
+    "Level": 42,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 7",
+    "AccumExp": 1431009
+  },
+  {
+    "Level": 43,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยโทขั้น 8",
+    "AccumExp": 1549157
+  },
+  {
+    "Level": 44,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 1",
+    "AccumExp": 1674159
+  },
+  {
+    "Level": 45,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 2",
+    "AccumExp": 1806156
+  },
+  {
+    "Level": 46,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 3",
+    "AccumExp": 1945288
+  },
+  {
+    "Level": 47,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 4",
+    "AccumExp": 2091656
+  },
+  {
+    "Level": 48,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 5",
+    "AccumExp": 2245341
+  },
+  {
+    "Level": 49,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 6",
+    "AccumExp": 2406402
+  },
+  {
+    "Level": 50,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 7",
+    "AccumExp": 2574880
+  },
+  {
+    "Level": 51,
+    "LevelName_Type": 2,
+    "LevelName": "ร้อยเอกขั้น 8",
+    "AccumExp": 2750936
+  },
+  {
+    "Level": 52,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 1",
+    "AccumExp": 2934911
+  },
+  {
+    "Level": 53,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 2",
+    "AccumExp": 3127168
+  },
+  {
+    "Level": 54,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 3",
+    "AccumExp": 3328068
+  },
+  {
+    "Level": 55,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 4",
+    "AccumExp": 3538013
+  },
+  {
+    "Level": 56,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 5",
+    "AccumExp": 3757405
+  },
+  {
+    "Level": 57,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 6",
+    "AccumExp": 3986666
+  },
+  {
+    "Level": 58,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 7",
+    "AccumExp": 4226238
+  },
+  {
+    "Level": 59,
+    "LevelName_Type": 2,
+    "LevelName": "พันตรีขั้น 8",
+    "AccumExp": 4476584
+  },
+  {
+    "Level": 60,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 1",
+    "AccumExp": 4738186
+  },
+  {
+    "Level": 61,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 2",
+    "AccumExp": 5011566
+  },
+  {
+    "Level": 62,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 3",
+    "AccumExp": 5297247
+  },
+  {
+    "Level": 63,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 4",
+    "AccumExp": 5595792
+  },
+  {
+    "Level": 64,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 5",
+    "AccumExp": 5907764
+  },
+  {
+    "Level": 65,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 6",
+    "AccumExp": 6233766
+  },
+  {
+    "Level": 66,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 7",
+    "AccumExp": 6574441
+  },
+  {
+    "Level": 67,
+    "LevelName_Type": 2,
+    "LevelName": "พันโทขั้น 8",
+    "AccumExp": 6930452
+  },
+  {
+    "Level": 68,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 1",
+    "AccumExp": 7302483
+  },
+  {
+    "Level": 69,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 2",
+    "AccumExp": 7691257
+  },
+  {
+    "Level": 70,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 3",
+    "AccumExp": 8097518
+  },
+  {
+    "Level": 71,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 4",
+    "AccumExp": 8522070
+  },
+  {
+    "Level": 72,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 5",
+    "AccumExp": 8965717
+  },
+  {
+    "Level": 73,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 6",
+    "AccumExp": 9429324
+  },
+  {
+    "Level": 74,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 7",
+    "AccumExp": 9913794
+  },
+  {
+    "Level": 75,
+    "LevelName_Type": 2,
+    "LevelName": "พันเอกขั้น 8",
+    "AccumExp": 10420073
+  },
+  {
+    "Level": 76,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 1",
+    "AccumExp": 10949125
+  },
+  {
+    "Level": 77,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 2",
+    "AccumExp": 11501976
+  },
+  {
+    "Level": 78,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 3",
+    "AccumExp": 12079710
+  },
+  {
+    "Level": 79,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 4",
+    "AccumExp": 12683434
+  },
+  {
+    "Level": 80,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 5",
+    "AccumExp": 13314333
+  },
+  {
+    "Level": 81,
+    "LevelName_Type": 2,
+    "LevelName": "พลจัตวาขั้น 6",
+    "AccumExp": 13972990
+  },
+  {
+    "Level": 82,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 1",
+    "AccumExp": 14660631
+  },
+  {
+    "Level": 83,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 2",
+    "AccumExp": 15378523
+  },
+  {
+    "Level": 84,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 3",
+    "AccumExp": 16128012
+  },
+  {
+    "Level": 85,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 4",
+    "AccumExp": 16910485
+  },
+  {
+    "Level": 86,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 5",
+    "AccumExp": 17727389
+  },
+  {
+    "Level": 87,
+    "LevelName_Type": 2,
+    "LevelName": "พลตรีขั้น 6",
+    "AccumExp": 18580232
+  },
+  {
+    "Level": 88,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 1",
+    "AccumExp": 19470602
+  },
+  {
+    "Level": 89,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 2",
+    "AccumExp": 20400147
+  },
+  {
+    "Level": 90,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 3",
+    "AccumExp": 21370595
+  },
+  {
+    "Level": 91,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 4",
+    "AccumExp": 22383736
+  },
+  {
+    "Level": 92,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 5",
+    "AccumExp": 23441458
+  },
+  {
+    "Level": 93,
+    "LevelName_Type": 2,
+    "LevelName": "พลโทขั้น 6",
+    "AccumExp": 24545712
+  },
+  {
+    "Level": 94,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 1",
+    "AccumExp": 25698548
+  },
+  {
+    "Level": 95,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 2",
+    "AccumExp": 26902116
+  },
+  {
+    "Level": 96,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 3",
+    "AccumExp": 28158647
+  },
+  {
+    "Level": 97,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 4",
+    "AccumExp": 29470474
+  },
+  {
+    "Level": 98,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 5",
+    "AccumExp": 30840028
+  },
+  {
+    "Level": 99,
+    "LevelName_Type": 2,
+    "LevelName": "พลเอกขั้น 6",
+    "AccumExp": 32269842
+  },
+  {
+    "Level": 100,
+    "LevelName_Type": 2,
+    "LevelName": "จอมพล",
+    "AccumExp": 99999999
+  }
+]

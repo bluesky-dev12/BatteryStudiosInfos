@@ -1,0 +1,130 @@
+#pragma once
+
+// Artic Combat (3369) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x4)
+#endif
+
+namespace Classes
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// Class Fire.FractalTexture
+// 0x0018 (0x0104 - 0x00EC)
+class UFractalTexture : public UTexture
+{
+public:
+	byte                                               Padding00[0x18];                                          // 0x00EC(0x0018) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.FractalTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.IceTexture
+// 0x0044 (0x0148 - 0x0104)
+class UIceTexture : public UFractalTexture
+{
+public:
+	byte                                               Padding00[0x44];                                          // 0x0104(0x0044) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.IceTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.WaterTexture
+// 0x1220 (0x1324 - 0x0104)
+class UWaterTexture : public UFractalTexture
+{
+public:
+	byte                                               Padding00[0x1220];                                        // 0x0104(0x1220) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.WaterTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.WetTexture
+// 0x000C (0x1330 - 0x1324)
+class UWetTexture : public UWaterTexture
+{
+public:
+	byte                                               Padding00[0xC];                                           // 0x1324(0x000C) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.WetTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.FluidTexture
+// 0x0000 (0x1324 - 0x1324)
+class UFluidTexture : public UWaterTexture
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.FluidTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.WaveTexture
+// 0x0004 (0x1328 - 0x1324)
+class UWaveTexture : public UWaterTexture
+{
+public:
+	byte                                               Padding00[0x4];                                           // 0x1324(0x0004) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.WaveTexture");
+		return ptr;
+	}
+
+};
+
+
+// Class Fire.FireTexture
+// 0x0434 (0x0538 - 0x0104)
+class UFireTexture : public UFractalTexture
+{
+public:
+	byte                                               Padding00[0x434];                                         // 0x0104(0x0434) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindClass("Class Fire.FireTexture");
+		return ptr;
+	}
+
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

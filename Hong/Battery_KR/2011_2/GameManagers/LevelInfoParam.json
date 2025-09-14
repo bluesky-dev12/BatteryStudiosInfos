@@ -1,0 +1,458 @@
+[
+  {
+    "Level": 0,
+    "LevelName_Type": 0,
+    "LevelName": "",
+    "AccumExp": 0
+  },
+  {
+    "Level": 1,
+    "LevelName_Type": 2,
+    "LevelName": "훈련병",
+    "AccumExp": 670
+  },
+  {
+    "Level": 2,
+    "LevelName_Type": 2,
+    "LevelName": "이병",
+    "AccumExp": 1876
+  },
+  {
+    "Level": 3,
+    "LevelName_Type": 2,
+    "LevelName": "일병",
+    "AccumExp": 3484
+  },
+  {
+    "Level": 4,
+    "LevelName_Type": 2,
+    "LevelName": "상병",
+    "AccumExp": 5595
+  },
+  {
+    "Level": 5,
+    "LevelName_Type": 2,
+    "LevelName": "병장",
+    "AccumExp": 8208
+  },
+  {
+    "Level": 6,
+    "LevelName_Type": 2,
+    "LevelName": "하사 1호봉",
+    "AccumExp": 11324
+  },
+  {
+    "Level": 7,
+    "LevelName_Type": 2,
+    "LevelName": "하사 2호봉",
+    "AccumExp": 14942
+  },
+  {
+    "Level": 8,
+    "LevelName_Type": 2,
+    "LevelName": "하사 3호봉",
+    "AccumExp": 19063
+  },
+  {
+    "Level": 9,
+    "LevelName_Type": 2,
+    "LevelName": "중사 1호봉",
+    "AccumExp": 23766
+  },
+  {
+    "Level": 10,
+    "LevelName_Type": 2,
+    "LevelName": "중사 2호봉",
+    "AccumExp": 29133
+  },
+  {
+    "Level": 11,
+    "LevelName_Type": 2,
+    "LevelName": "중사 3호봉",
+    "AccumExp": 35243
+  },
+  {
+    "Level": 12,
+    "LevelName_Type": 2,
+    "LevelName": "상사 1호봉",
+    "AccumExp": 42157
+  },
+  {
+    "Level": 13,
+    "LevelName_Type": 2,
+    "LevelName": "상사 2호봉",
+    "AccumExp": 49976
+  },
+  {
+    "Level": 14,
+    "LevelName_Type": 2,
+    "LevelName": "상사 3호봉",
+    "AccumExp": 58820
+  },
+  {
+    "Level": 15,
+    "LevelName_Type": 2,
+    "LevelName": "상사 4호봉",
+    "AccumExp": 68729
+  },
+  {
+    "Level": 16,
+    "LevelName_Type": 2,
+    "LevelName": "소위 1호봉",
+    "AccumExp": 79824
+  },
+  {
+    "Level": 17,
+    "LevelName_Type": 2,
+    "LevelName": "소위 2호봉",
+    "AccumExp": 92145
+  },
+  {
+    "Level": 18,
+    "LevelName_Type": 2,
+    "LevelName": "소위 3호봉",
+    "AccumExp": 105813
+  },
+  {
+    "Level": 19,
+    "LevelName_Type": 2,
+    "LevelName": "소위 4호봉",
+    "AccumExp": 120989
+  },
+  {
+    "Level": 20,
+    "LevelName_Type": 2,
+    "LevelName": "소위 5호봉",
+    "AccumExp": 137692
+  },
+  {
+    "Level": 21,
+    "LevelName_Type": 2,
+    "LevelName": "중위 1호봉",
+    "AccumExp": 156063
+  },
+  {
+    "Level": 22,
+    "LevelName_Type": 2,
+    "LevelName": "중위 2호봉",
+    "AccumExp": 176083
+  },
+  {
+    "Level": 23,
+    "LevelName_Type": 2,
+    "LevelName": "중위 3호봉",
+    "AccumExp": 197912
+  },
+  {
+    "Level": 24,
+    "LevelName_Type": 2,
+    "LevelName": "중위 4호봉",
+    "AccumExp": 221489
+  },
+  {
+    "Level": 25,
+    "LevelName_Type": 2,
+    "LevelName": "중위 5호봉",
+    "AccumExp": 246956
+  },
+  {
+    "Level": 26,
+    "LevelName_Type": 2,
+    "LevelName": "중위 6호봉",
+    "AccumExp": 274212
+  },
+  {
+    "Level": 27,
+    "LevelName_Type": 2,
+    "LevelName": "대위 1호봉",
+    "AccumExp": 303377
+  },
+  {
+    "Level": 28,
+    "LevelName_Type": 2,
+    "LevelName": "대위 2호봉",
+    "AccumExp": 334592
+  },
+  {
+    "Level": 29,
+    "LevelName_Type": 2,
+    "LevelName": "대위 3호봉",
+    "AccumExp": 367998
+  },
+  {
+    "Level": 30,
+    "LevelName_Type": 2,
+    "LevelName": "대위 4호봉",
+    "AccumExp": 403736
+  },
+  {
+    "Level": 31,
+    "LevelName_Type": 2,
+    "LevelName": "대위 5호봉",
+    "AccumExp": 441966
+  },
+  {
+    "Level": 32,
+    "LevelName_Type": 2,
+    "LevelName": "대위 6호봉",
+    "AccumExp": 483251
+  },
+  {
+    "Level": 33,
+    "LevelName_Type": 2,
+    "LevelName": "소령 1호봉",
+    "AccumExp": 527833
+  },
+  {
+    "Level": 34,
+    "LevelName_Type": 2,
+    "LevelName": "소령 2호봉",
+    "AccumExp": 575973
+  },
+  {
+    "Level": 35,
+    "LevelName_Type": 2,
+    "LevelName": "소령 3호봉",
+    "AccumExp": 627972
+  },
+  {
+    "Level": 36,
+    "LevelName_Type": 2,
+    "LevelName": "소령 4호봉",
+    "AccumExp": 684131
+  },
+  {
+    "Level": 37,
+    "LevelName_Type": 2,
+    "LevelName": "소령 5호봉",
+    "AccumExp": 744793
+  },
+  {
+    "Level": 38,
+    "LevelName_Type": 2,
+    "LevelName": "소령 6호봉",
+    "AccumExp": 810922
+  },
+  {
+    "Level": 39,
+    "LevelName_Type": 2,
+    "LevelName": "중령 1호봉",
+    "AccumExp": 883001
+  },
+  {
+    "Level": 40,
+    "LevelName_Type": 2,
+    "LevelName": "중령 2호봉",
+    "AccumExp": 961572
+  },
+  {
+    "Level": 41,
+    "LevelName_Type": 2,
+    "LevelName": "중령 3호봉",
+    "AccumExp": 1047218
+  },
+  {
+    "Level": 42,
+    "LevelName_Type": 2,
+    "LevelName": "중령 4호봉",
+    "AccumExp": 1140562
+  },
+  {
+    "Level": 43,
+    "LevelName_Type": 2,
+    "LevelName": "중령 5호봉",
+    "AccumExp": 1242308
+  },
+  {
+    "Level": 44,
+    "LevelName_Type": 2,
+    "LevelName": "중령 6호봉",
+    "AccumExp": 1354225
+  },
+  {
+    "Level": 45,
+    "LevelName_Type": 2,
+    "LevelName": "대령 1호봉",
+    "AccumExp": 1477338
+  },
+  {
+    "Level": 46,
+    "LevelName_Type": 2,
+    "LevelName": "대령 2호봉",
+    "AccumExp": 1612772
+  },
+  {
+    "Level": 47,
+    "LevelName_Type": 2,
+    "LevelName": "대령 3호봉",
+    "AccumExp": 1761753
+  },
+  {
+    "Level": 48,
+    "LevelName_Type": 2,
+    "LevelName": "대령 4호봉",
+    "AccumExp": 1925628
+  },
+  {
+    "Level": 49,
+    "LevelName_Type": 2,
+    "LevelName": "대령 5호봉",
+    "AccumExp": 2105885
+  },
+  {
+    "Level": 50,
+    "LevelName_Type": 2,
+    "LevelName": "대령 6호봉",
+    "AccumExp": 2304172
+  },
+  {
+    "Level": 51,
+    "LevelName_Type": 2,
+    "LevelName": "준장 1호봉",
+    "AccumExp": 2522297
+  },
+  {
+    "Level": 52,
+    "LevelName_Type": 2,
+    "LevelName": "준장 2호봉",
+    "AccumExp": 2762231
+  },
+  {
+    "Level": 53,
+    "LevelName_Type": 2,
+    "LevelName": "준장 3호봉",
+    "AccumExp": 3026164
+  },
+  {
+    "Level": 54,
+    "LevelName_Type": 2,
+    "LevelName": "준장 4호봉",
+    "AccumExp": 3316488
+  },
+  {
+    "Level": 55,
+    "LevelName_Type": 2,
+    "LevelName": "준장 5호봉",
+    "AccumExp": 3635837
+  },
+  {
+    "Level": 56,
+    "LevelName_Type": 2,
+    "LevelName": "준장 6호봉",
+    "AccumExp": 3987125
+  },
+  {
+    "Level": 57,
+    "LevelName_Type": 2,
+    "LevelName": "소장 1호봉",
+    "AccumExp": 4373548
+  },
+  {
+    "Level": 58,
+    "LevelName_Type": 2,
+    "LevelName": "소장 2호봉",
+    "AccumExp": 4798623
+  },
+  {
+    "Level": 59,
+    "LevelName_Type": 2,
+    "LevelName": "소장 3호봉",
+    "AccumExp": 5266209
+  },
+  {
+    "Level": 60,
+    "LevelName_Type": 2,
+    "LevelName": "소장 4호봉",
+    "AccumExp": 5780548
+  },
+  {
+    "Level": 61,
+    "LevelName_Type": 2,
+    "LevelName": "소장 5호봉",
+    "AccumExp": 6346323
+  },
+  {
+    "Level": 62,
+    "LevelName_Type": 2,
+    "LevelName": "소장 6호봉",
+    "AccumExp": 6968679
+  },
+  {
+    "Level": 63,
+    "LevelName_Type": 2,
+    "LevelName": "중장 1호봉",
+    "AccumExp": 7653265
+  },
+  {
+    "Level": 64,
+    "LevelName_Type": 2,
+    "LevelName": "중장 2호봉",
+    "AccumExp": 8406312
+  },
+  {
+    "Level": 65,
+    "LevelName_Type": 2,
+    "LevelName": "중장 3호봉",
+    "AccumExp": 9234673
+  },
+  {
+    "Level": 66,
+    "LevelName_Type": 2,
+    "LevelName": "중장 4호봉",
+    "AccumExp": 10145866
+  },
+  {
+    "Level": 67,
+    "LevelName_Type": 2,
+    "LevelName": "중장 5호봉",
+    "AccumExp": 11148173
+  },
+  {
+    "Level": 68,
+    "LevelName_Type": 2,
+    "LevelName": "중장 6호봉",
+    "AccumExp": 12250718
+  },
+  {
+    "Level": 69,
+    "LevelName_Type": 2,
+    "LevelName": "대장 1호봉",
+    "AccumExp": 13463512
+  },
+  {
+    "Level": 70,
+    "LevelName_Type": 2,
+    "LevelName": "대장 2호봉",
+    "AccumExp": 14797589
+  },
+  {
+    "Level": 71,
+    "LevelName_Type": 2,
+    "LevelName": "대장 3호봉",
+    "AccumExp": 16265070
+  },
+  {
+    "Level": 72,
+    "LevelName_Type": 2,
+    "LevelName": "대장 4호봉",
+    "AccumExp": 17879301
+  },
+  {
+    "Level": 73,
+    "LevelName_Type": 2,
+    "LevelName": "대장 5호봉",
+    "AccumExp": 19654955
+  },
+  {
+    "Level": 74,
+    "LevelName_Type": 2,
+    "LevelName": "대장 6호봉",
+    "AccumExp": 21608173
+  },
+  {
+    "Level": 75,
+    "LevelName_Type": 2,
+    "LevelName": "원수",
+    "AccumExp": 999999999
+  }
+]

@@ -1,0 +1,53 @@
+class HitEffect_blood_spurt_Alien extends Effects;
+
+var Sound ImpactSound;
+
+simulated function PostNetBeginPlay()
+{
+    super(Actor).PostNetBeginPlay();
+    // End:0x29
+    if(int(Role) == int(ROLE_Authority))
+    {
+        // End:0x29
+        if(Instigator != none)
+        {
+            MakeNoise(0.3000000);
+        }
+    }
+    // End:0x48
+    if(int(Level.NetMode) != int(NM_DedicatedServer))
+    {
+        SpawnEffects();
+    }
+    //return;    
+}
+
+simulated function SpawnEffects()
+{
+    local PlayerController P;
+    local bool bViewed;
+
+    P = Level.GetLocalPlayerController();
+    // End:0xD7
+    if((((P != none) && P.ViewTarget != none) && VSize(P.ViewTarget.Location - Location) < (float(1600) * P.FOVBias)) && (Vector(P.Rotation) Dot (Location - P.ViewTarget.Location)) > float(0))
+    {
+        Spawn(Class'XEffects_Decompressed.HitEffect_Concrete_BulletHole', self,, Location, Rotator(float(-1) * Vector(Rotation)));
+        bViewed = true;
+    }
+    // End:0xEB
+    if(PhysicsVolume.bWaterVolume)
+    {
+        return;
+    }
+    Spawn(Class'XEffects_Decompressed.HitEffect_blood_spurt_hit_Alien');
+    //return;    
+}
+
+defaultproperties
+{
+    ImpactSound=SoundGroup'Warfare_Sound_Impact.char.impact_char_nomal'
+    DrawType=0
+    CullDistance=7000.0000000
+    LifeSpan=0.1000000
+    Style=6
+}

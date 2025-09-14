@@ -1,0 +1,1 @@
+class xBotGibGroup extends xPawnGibGroup;

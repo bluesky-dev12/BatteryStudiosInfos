@@ -1,0 +1,1 @@
+class wBotSoundGroup extends wPawnSoundGroup;

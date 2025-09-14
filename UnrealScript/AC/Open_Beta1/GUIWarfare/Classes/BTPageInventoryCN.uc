@@ -1,0 +1,11 @@
+class BTPageInventoryCN extends BTPageInventory
+    editinlinenew
+    instanced;
+
+defaultproperties
+{
+    fbLabelPoint=(X1=691.0000000,Y1=97.0000000,X2=826.0000000,Y2=110.0000000)
+    fbLabelCash=(X1=871.0000000,Y1=97.0000000,X2=1006.0000000,Y2=110.0000000)
+    fbLabelP=(X1=669.0000000,Y1=95.0000000,X2=686.0000000,Y2=112.0000000)
+    fbLabelC=(X1=849.0000000,Y1=95.0000000,X2=866.0000000,Y2=112.0000000)
+}

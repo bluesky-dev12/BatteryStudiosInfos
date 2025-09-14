@@ -1,0 +1,99 @@
+class BTNetQuestInfoPageHK extends BTNetGUIPageHK
+    editinlinenew
+    instanced;
+
+function InitComponent(GUIController MyController, GUIComponent myOwner)
+{
+    local int i;
+
+    super.InitComponent(MyController, myOwner);
+    TPTopMenu.Quest.__OnClick__Delegate = TPTopMenu_Quest_OnClick;
+    MM = Controller.ViewportOwner.Actor.Level.GetMatchMaker();
+    GameMgr = Controller.ViewportOwner.Actor.Level.GameMgr;
+    //return;    
+}
+
+function InternalOnReOpen()
+{
+    // End:0x3C
+    if(int(page_Main.rMM.kInterfaceGuideStep) == 4)
+    {
+        TPTopMenu.Quest.SetFlicker(true);        
+    }
+    else
+    {
+        TPTopMenu.Quest.SetFlicker(false);
+    }
+    // End:0x91
+    if(int(page_Main.rMM.kInterfaceGuideStep) == 3)
+    {
+        TPTopMenu.Inventory.SetFlicker(true);        
+    }
+    else
+    {
+        TPTopMenu.Inventory.SetFlicker(false);
+    }
+    //return;    
+}
+
+function InternalOnOpen()
+{
+    local BtrDouble CurrentTime;
+    local BtrTime tCurr;
+    local float fTimerInterval;
+
+    CurrentTime = GameMgr.GetClientTime(true);
+    BtrDoubleToBtrTime(CurrentTime, tCurr);
+    // End:0x8F
+    if(tCurr.Hour < 7)
+    {
+        fTimerInterval = (((6.0000000 - float(tCurr.Hour)) * float(3600)) + float((59 - tCurr.Minute) * 60)) + float(60 - tCurr.Second);
+        SetTimer(fTimerInterval, false, 'NotifyDailyQuestReset');
+    }
+    // End:0xCB
+    if(int(page_Main.rMM.kInterfaceGuideStep) == 4)
+    {
+        TPTopMenu.Quest.SetFlicker(true);        
+    }
+    else
+    {
+        TPTopMenu.Quest.SetFlicker(false);
+    }
+    // End:0x120
+    if(int(page_Main.rMM.kInterfaceGuideStep) == 3)
+    {
+        TPTopMenu.Inventory.SetFlicker(true);        
+    }
+    else
+    {
+        TPTopMenu.Inventory.SetFlicker(false);
+    }
+    //return;    
+}
+
+function NotifyDailyQuestReset()
+{
+    // End:0x4F
+    if(page_Main.IsGameReadyOrPlaying() && MM.InGamePlaying == false)
+    {
+        page_Main.AddChatLog(Class'GUIWarfareControls.BTWindowDefineInfoHK'.static.GetFormatString(142), 5, true);        
+    }
+    else
+    {
+        Class'GUIWarfareControls.BTWindowDefineARHK'.static.ShowInfo(Controller, 27);
+    }
+    //return;    
+}
+
+function bool TPTopMenu_Quest_OnClick(GUIComponent Sender)
+{
+    Controller.OpenMenu("GuiWarfareControls.BTWindowBTTPQuestInfoHK");
+    // End:0x8E
+    if(int(page_Main.rMM.kInterfaceGuideStep) == 4)
+    {
+        page_Main.rMM.kInterfaceGuideStep = 0;
+        TPTopMenu.Quest.SetFlicker(false);
+    }
+    return true;
+    //return;    
+}

@@ -1,0 +1,1 @@
+class RepKActor extends KActor;

@@ -1,0 +1,56 @@
+[
+  {
+    "nMapID": 1023410176,
+    "nDelayTime": 0,
+    "nGrade": -1996488704,
+    "nRound": 16777219,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  },
+  {
+    "nMapID": 1040187392,
+    "nDelayTime": 16777216,
+    "nGrade": -1996488704,
+    "nRound": 16777219,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  },
+  {
+    "nMapID": 1056964608,
+    "nDelayTime": 0,
+    "nGrade": -1979711488,
+    "nRound": 16777219,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  },
+  {
+    "nMapID": 1073741824,
+    "nDelayTime": 16777216,
+    "nGrade": -1979711488,
+    "nRound": 16777219,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  },
+  {
+    "nMapID": 1140850688,
+    "nDelayTime": 16777216,
+    "nGrade": -1929379840,
+    "nRound": 50331651,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  },
+  {
+    "nMapID": 1207959552,
+    "nDelayTime": 33554432,
+    "nGrade": -1962934272,
+    "nRound": 50331651,
+    "nRegenLoc": 0,
+    "nUnit": 704643072,
+    "nLevel": 100663296
+  }
+]

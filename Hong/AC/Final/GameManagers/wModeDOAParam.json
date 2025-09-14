@@ -1,0 +1,26 @@
+[
+  {
+    "GroupID": 0,
+    "WeaponID0": 704643072,
+    "WeaponID1": 100663296,
+    "WeaponID2": 1610612736,
+    "WeaponID3": 33554432,
+    "WeaponID4": -1962934272
+  },
+  {
+    "GroupID": 50331651,
+    "WeaponID0": 0,
+    "WeaponID1": 704643072,
+    "WeaponID2": 100663296,
+    "WeaponID3": 1677721600,
+    "WeaponID4": 16777216
+  },
+  {
+    "GroupID": -1862270976,
+    "WeaponID0": 50331651,
+    "WeaponID1": 0,
+    "WeaponID2": 704643072,
+    "WeaponID3": 100663296,
+    "WeaponID4": 1744830464
+  }
+]

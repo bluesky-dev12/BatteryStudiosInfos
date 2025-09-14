@@ -1,0 +1,8 @@
+class ManoEMano extends ChallengeGame;
+
+defaultproperties
+{
+    ChallengeName="? ? ?"
+    ChallengeDescription="??? ??? ? ? ? ??? ????."
+    ChallengeMenu="GUI2K4.UT2K4SP_CGManoEMano"
+}

@@ -1,0 +1,31 @@
+class wWeaponRes_DesertEagle_Summer extends wWeaponRes_Base;
+
+defaultproperties
+{
+    szClass_Shell="Xeffects.ShellSpewer_50AE"
+    szClass_Shell_3rd="Xeffects.ShellSpewer_50AE_3rd"
+    fTracerPop=1.0000000
+    szClass_Muzz_1st="Xeffects.AR_MuzFlash_01_1RD"
+    szClass_Muzz_3rd="Xeffects.Pistol_MuzFlash_01_3RD"
+    szClass_Smoke_1st="XEffects.AssaultMuzzleSmoke"
+    szClass_Smoke_3rd="Xeffects.Pistol_MuzFlash_smoke_3rd"
+    effect_Melee_Attack1=Class'XEffects.HitEffect_knife_Meleeattack'
+    effect_Melee_Attack2=Class'XEffects.HitEffect_knife_Meleeattack'
+    szIcon_HUD="Warfare_UI_Item.HUDIcon.Item_HUD_WP_PS_DesertEagle"
+    szIcon_Kill="Warfare_UI_Item.Item_killIcon"
+    ibIcon_Kill=(X=128,Y=514,W=128,H=32)
+    szType_DisplayAmmo="ammo50"
+    fsound_Fire="Warfare_Sound_Weapon/PS/DesertEagle/fire"
+    fsound_Fire_Stereo="Warfare_Sound_Weapon/PS/DesertEagle/fire_s"
+    fSound_Fire_Silencer="Warfare_Sound_Weapon/PS/DesertEagle/fire_silencer"
+    fsound_Fire_Silencer_Stereo="Warfare_Sound_Weapon/PS/DesertEagle/fire_silencer_s"
+    fsound_Fire_Shell="Warfare_Sound_Weapon/ETC/shell/shell_9mm"
+    fsound_Fire_Empty="Warfare_Sound_Weapon/ETC/dryfire/weapon_pistol_fire_nobullet"
+    fsound_Melee_Ok="Warfare_Sound_Weapon/ETC/knife/weapon_melee_knife_attack"
+    fsound_Melee_Miss="Warfare_Sound_Weapon/ETC/knife/weapon_melee_knife_miss"
+    fsound_Reload="Warfare_Sound_Weapon/PS/DesertEagle/reload"
+    fsound_ReloadEmpty="Warfare_Sound_Weapon/PS/DesertEagle/reload_empty"
+    fsound_Select="Warfare_Sound_Weapon/PS/DesertEagle/select"
+    fsound_Pickup="Warfare_Sound_Char/GetItem/char_getitem_weapon"
+    fsound_Select_New="Warfare_Sound_Weapon/PS/DesertEagle/select_n"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "nGainRewardMinScore": 10000,
+    "nGainRewardMaxScore": 20000,
+    "nRewardItemID": 17010,
+    "nRewardItemType": 1,
+    "nDifficulty": 1,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 20001,
+    "nGainRewardMaxScore": 30000,
+    "nRewardItemID": 17009,
+    "nRewardItemType": 1,
+    "nDifficulty": 1,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 30001,
+    "nGainRewardMaxScore": 999999,
+    "nRewardItemID": 17029,
+    "nRewardItemType": 1,
+    "nDifficulty": 1,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 50000,
+    "nGainRewardMaxScore": 70000,
+    "nRewardItemID": 17009,
+    "nRewardItemType": 1,
+    "nDifficulty": 2,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 70001,
+    "nGainRewardMaxScore": 100000,
+    "nRewardItemID": 17935,
+    "nRewardItemType": 1,
+    "nDifficulty": 2,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 100001,
+    "nGainRewardMaxScore": 999999,
+    "nRewardItemID": 17935,
+    "nRewardItemType": 1,
+    "nDifficulty": 2,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 2
+  },
+  {
+    "nGainRewardMinScore": 60000,
+    "nGainRewardMaxScore": 80000,
+    "nRewardItemID": 17935,
+    "nRewardItemType": 1,
+    "nDifficulty": 3,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 80001,
+    "nGainRewardMaxScore": 100000,
+    "nRewardItemID": 17935,
+    "nRewardItemType": 1,
+    "nDifficulty": 3,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 2
+  },
+  {
+    "nGainRewardMinScore": 100001,
+    "nGainRewardMaxScore": 999999,
+    "nRewardItemID": 17934,
+    "nRewardItemType": 1,
+    "nDifficulty": 3,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 2
+  },
+  {
+    "nGainRewardMinScore": 60000,
+    "nGainRewardMaxScore": 80000,
+    "nRewardItemID": 17935,
+    "nRewardItemType": 1,
+    "nDifficulty": 4,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 80001,
+    "nGainRewardMaxScore": 100000,
+    "nRewardItemID": 17934,
+    "nRewardItemType": 1,
+    "nDifficulty": 4,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 1
+  },
+  {
+    "nGainRewardMinScore": 100001,
+    "nGainRewardMaxScore": 999999,
+    "nRewardItemID": 17934,
+    "nRewardItemType": 1,
+    "nDifficulty": 4,
+    "nRewardGroup": 1,
+    "nRewardItemCount": 2
+  },
+  {
+    "nGainRewardMinScore": 0,
+    "nGainRewardMaxScore": 0,
+    "nRewardItemID": 17950,
+    "nRewardItemType": 1,
+    "nDifficulty": 1,
+    "nRewardGroup": 2,
+    "nRewardItemCount": 3
+  },
+  {
+    "nGainRewardMinScore": 0,
+    "nGainRewardMaxScore": 0,
+    "nRewardItemID": 17944,
+    "nRewardItemType": 1,
+    "nDifficulty": 2,
+    "nRewardGroup": 2,
+    "nRewardItemCount": 3
+  },
+  {
+    "nGainRewardMinScore": 0,
+    "nGainRewardMaxScore": 0,
+    "nRewardItemID": 17951,
+    "nRewardItemType": 1,
+    "nDifficulty": 3,
+    "nRewardGroup": 2,
+    "nRewardItemCount": 3
+  },
+  {
+    "nGainRewardMinScore": 0,
+    "nGainRewardMaxScore": 0,
+    "nRewardItemID": 202061,
+    "nRewardItemType": 1,
+    "nDifficulty": 4,
+    "nRewardGroup": 2,
+    "nRewardItemCount": 1
+  }
+]

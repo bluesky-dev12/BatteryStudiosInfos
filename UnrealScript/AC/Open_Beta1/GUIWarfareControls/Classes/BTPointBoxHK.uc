@@ -1,0 +1,41 @@
+class BTPointBoxHK extends FloatingImage
+    editinlinenew
+    instanced;
+
+var int imgW;
+var Text SavePoint;
+var localized string strPoint;
+
+function SetData(BtrDouble Point)
+{
+    local string strBDPoint;
+
+    strBDPoint = string(int(__NFUN_918__(Point)));
+    SavePoint = Class'Engine.BTCustomDrawHK'.static.MakeText(12, 3, (" " $ Class'Engine.BTCustomDrawHK'.static.ToWonString(strBDPoint)) $ strPoint);
+    SavePoint.DrawColor = Class'GUIWarfareControls_Decompressed.BTUIColorPoolHK'.static.Point();
+    imgW = int(Class'GUIWarfareControls_Decompressed.BTUIResourcePoolHK'.default.img_point_b.width);
+    //return;    
+}
+
+function Internal_OnRendered(Canvas C)
+{
+    local float W, HT, save_X;
+
+    // End:0x0E
+    if(bVisible == false)
+    {
+        return;
+    }
+    C.BtrTextSize(SavePoint.Text, SavePoint.FontSize, W, HT);
+    save_X = ((AWinPos.X2 - AWinPos.X1) - (float(imgW) + W)) / float(2);
+    Class'Engine.BTCustomDrawHK'.static.DrawImage(C, Class'GUIWarfareControls_Decompressed.BTUIResourcePoolHK'.default.panel_1, AWinPos.X1, AWinPos.Y1, AWinPos.X2, AWinPos.Y2);
+    Class'Engine.BTCustomDrawHK'.static.DrawImage(C, Class'GUIWarfareControls_Decompressed.BTUIResourcePoolHK'.default.img_point_b, AWinPos.X1 + save_X, AWinPos.Y1, AWinPos.X2, AWinPos.Y2);
+    Class'Engine.BTCustomDrawHK'.static.DrawText(C, SavePoint, (AWinPos.X1 + save_X) + float(imgW), AWinPos.Y1, AWinPos.X2, AWinPos.Y2);
+    //return;    
+}
+
+defaultproperties
+{
+    strPoint="Points"
+    OnRendered=BTPointBoxHK.Internal_OnRendered
+}

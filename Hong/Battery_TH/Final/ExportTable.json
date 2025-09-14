@@ -1,0 +1,28 @@
+[
+  {
+    "ClassIndex": -3,
+    "InstanceName": null,
+    "ClassName": "WMFile",
+    "SuperIndex": 0,
+    "Package": "0x0",
+    "ObjectNameIndex": 7,
+    "ObjectName": "weaponManager",
+    "Flag": "0xF0004",
+    "SerialSizeIndex": 401925,
+    "SerialOffsetIndex": 192,
+    "SerialOffsetIndexString": null
+  },
+  {
+    "ClassIndex": -2,
+    "InstanceName": null,
+    "ClassName": "GMFile",
+    "SuperIndex": 0,
+    "Package": "0x0",
+    "ObjectNameIndex": 9,
+    "ObjectName": "GameManager",
+    "Flag": "0xF0004",
+    "SerialSizeIndex": 1248121,
+    "SerialOffsetIndex": 402117,
+    "SerialOffsetIndexString": null
+  }
+]

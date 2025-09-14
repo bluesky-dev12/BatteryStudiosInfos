@@ -1,0 +1,1 @@
+class wNightFemaleSoundGroup extends wPawnSoundGroup;

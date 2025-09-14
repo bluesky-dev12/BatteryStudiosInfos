@@ -1,0 +1,1 @@
+class wHeliRPGAttachment_R extends wHeliRPGAttachment;

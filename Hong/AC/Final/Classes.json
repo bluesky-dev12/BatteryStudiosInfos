@@ -1,0 +1,52 @@
+[
+  {
+    "NameIndex": 0,
+    "ClassName": "None",
+    "Flags": "0x4070410"
+  },
+  {
+    "NameIndex": 1,
+    "ClassName": "Core",
+    "Flags": "0x4070010"
+  },
+  {
+    "NameIndex": 2,
+    "ClassName": "Engine",
+    "Flags": "0x4070010"
+  },
+  {
+    "NameIndex": 3,
+    "ClassName": "Package",
+    "Flags": "0x4070410"
+  },
+  {
+    "NameIndex": 4,
+    "ClassName": "Class",
+    "Flags": "0x4070410"
+  },
+  {
+    "NameIndex": 5,
+    "ClassName": "WMFile",
+    "Flags": "0x70010"
+  },
+  {
+    "NameIndex": 6,
+    "ClassName": "GMFile",
+    "Flags": "0x70010"
+  },
+  {
+    "NameIndex": 7,
+    "ClassName": "weaponManager",
+    "Flags": "0x70010"
+  },
+  {
+    "NameIndex": 8,
+    "ClassName": "params",
+    "Flags": "0x70010"
+  },
+  {
+    "NameIndex": 9,
+    "ClassName": "GameManager",
+    "Flags": "0x70010"
+  }
+]
